@@ -12,7 +12,7 @@ app.jinja_env.undefined = StrictUndefined
 def homepage():
     """View homepage."""
 
-    return render_template("homepage.html")
+    return render_template("index.html")
 
 
 # can define routes and add pass so that you can map out where everything will go
