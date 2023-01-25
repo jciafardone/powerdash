@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, flash, session, redirect
+from flask import Flask, render_template, request, flash, session, redirect, jsonify
 from model import connect_to_db, db, User, Client, ProfitLoss, Reservation, SalesOrder
 import crud
 
@@ -27,7 +27,6 @@ def homepage():
     new_students = crud.calc_new_students()
     retention = crud.calc_retention()
 
-
     return render_template(
         "index.html", 
         net_sales_per_class=net_sales_per_class, 
@@ -47,6 +46,12 @@ def homepage():
 
 # can define routes and add pass so that you can map out where everything will go
 
+@app.route('/date', methods=['POST'])
+def get_date_range():
+    start_date = request.json.get('startDate')
+    end_date = request.json.get('endDate')
+
+    return jsonify({'startDate': start_date,'endDate': end_date})
 
 
 

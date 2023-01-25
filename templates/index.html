@@ -3,8 +3,19 @@
 
 {% block body %}
 
+<div id="date-filter">
+    <form action="/date" method="POST">
+        <label for="start">Start date:</label>
+        <input type="date" id="start-date" name="start-date">
+        <label for="end">End date:</label>
+        <input type="date" id="end-date" name="end-date">
+        <input type="submit" value="Submit"></form>
+    </form>
+</div>
+   
 <div>
     <h1>KPIs</h1>
+    <h2 id="date-header"></h2>
     <table>
         <tr>
             <td>Net Sales per Class</td>
@@ -60,4 +71,5 @@
         </tr>
     </table>
 </div>
+
 {% endblock %}
