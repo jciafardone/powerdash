@@ -25,6 +25,21 @@ document.querySelector('#date-filter > form > input[type="submit"]')
 });
 
 
+// fetch('/authorize', {
+//   method: 'POST',
+//   headers: {
+//     'Authorization': 'Bearer <ACCESS_TOKEN>',
+//     'Content-Type': 'application/json',
+//   },
+//   body: JSON.stringify({
+//     query: 'query { user { id defaultEmail } }',
+//     variables: {}
+//   })
+// })
+// .then(r => r.json())
+// .then(data => console.log(data));
+
+
 function renderTable(responseJson) {
     document.querySelector('#net-sales').innerHTML = 
         responseJson.net_sales_per_class;
@@ -55,3 +70,5 @@ function renderTable(responseJson) {
     document.querySelector('#rev').innerHTML = 
         responseJson.class_count;
 }
+
+

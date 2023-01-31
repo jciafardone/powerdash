@@ -1,6 +1,5 @@
 from model import db, User, Client, ProfitLoss, Reservation, SalesOrder, connect_to_db
 from sqlalchemy.sql import func
-from server import get_start_date
 
 """Database seed functions."""
 
