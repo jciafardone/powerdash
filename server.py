@@ -35,6 +35,7 @@ wave = oauth.register(
 start_date = None
 end_date = None
 accounting_data = None
+crm_data = None
 
 
 @app.route("/")
@@ -152,8 +153,55 @@ def authorize():
         headers={
             'Authorization': f'Bearer {access_token}',
             })
+
+    print(accounting_data.json())
+
+
+@app.route('/crm_login')
+def get_crm_data():
+    #redirect to Square OAuth authorization; will automatically redirect to /crm_authorize route
+    return redirect(('https://connect.squareup.com/oauth2/authorize'
+        '?client_id=sq0idp-oFiVzZcWnbGU4Z0iPhvwNA'
+        '&scope=CUSTOMERS_WRITE+CUSTOMERS_READ'
+        '&session=False'
+        '&state=82201dd8d83d23cc8a48caf52b'
+        'redirect_uri=http://localhost:5000/crm_authorize'
+        ))
+
+
+@app.route('/crm_authorize')
+def crm_authorize():
+    #get OAuth authorization code
+    code = request.args['code']
+
+    #prepare POST request to exchange code for access token
+    #converted curl to python
+    headers = {
+    'Square-Version': '2023-01-19',
+    'Content-Type': 'application/json',
+     }
+
+    json_data = {
+        'client_id': 'sq0idp-oFiVzZcWnbGU4Z0iPhvwNA',
+        'client_secret': 'sq0csp-Eu05X81ztEMDh9-2k_rFG-ax_XHVagdWvA_YiJqCdb8',
+        'code': code,
+        'grant_type': 'authorization_code',
+    }
+
+    #send POST request and collect access token
+    response = requests.post('https://connect.squareup.com/oauth2/token', headers=headers, json=json_data)
+    response = response.json()
+    access_token = response['access_token']
+
+    #GET requests for API pulls
+    crm_data = requests.get('https://connect.squareup.com/v2/customers',
+        headers={
+            'Square-Version': '2023-01-19',
+            'Authorization': f'Bearer {access_token}',
+            'Content-Type': 'application/json'
+            })
     
-    return accounting_data.json()
+    return redirect('/')
 
 
 
