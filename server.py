@@ -115,6 +115,21 @@ def get_date_range():
         'class_count': class_count})
 
 
+@app.route('/accounting')
+def render_accounting():
+    return render_template('accounting.html')
+
+
+@app.route('/crm')
+def render_crm():
+    return render_template('crm.html')
+
+
+@app.route('/date-range')
+def render_date_range():
+    return render_template('date-range.html')
+
+
 @app.route('/wave_login')
 def get_wave_data():
     return redirect(('https://appcenter.intuit.com/connect/oauth2'
@@ -154,7 +169,7 @@ def authorize():
             'Authorization': f'Bearer {access_token}',
             })
 
-    print(accounting_data.json())
+    return render_template('crm.html')
 
 
 @app.route('/crm_login')
@@ -167,7 +182,6 @@ def get_crm_data():
         '&state=82201dd8d83d23cc8a48caf52b'
         'redirect_uri=http://localhost:5000/crm_authorize'
         ))
-
 
 @app.route('/crm_authorize')
 def crm_authorize():
@@ -201,7 +215,42 @@ def crm_authorize():
             'Content-Type': 'application/json'
             })
     
-    return redirect('/')
+    return redirect('/report')
+
+@app.route('/report')
+def render_report():
+    start_date = '2022-10-01 00:00:00'
+    end_date = '2022-10-31 00:00:00'
+
+    net_sales_per_class = crud.calc_net_sales_per_class(start_date, end_date)
+    expenses_per_class = crud.calc_expenses_per_class(start_date, end_date)
+    payroll_per_class = crud.calc_payroll_per_class(start_date, end_date)
+    discounts_percentage = crud.calc_total_discounts(start_date, end_date)
+    profit_per_class = crud.calc_profit_per_class(start_date, end_date)
+    profit_margin = crud.calc_profit_margin(start_date, end_date)
+    occupancy_rate = crud.calc_occupancy_rate(start_date, end_date)
+    average_bookings = crud.calc_average_bookings(start_date, end_date)
+    break_even_bookings = crud.calc_break_even_bookings(start_date, end_date)
+    MOM_sales_growth = crud.calc_MOM_net_sales(start_date, end_date)
+    MOM_expense_growth = crud.calc_MOM_expense_growth(start_date, end_date)
+    new_students = crud.calc_new_students(start_date, end_date)
+    retention = crud.calc_retention(start_date, end_date)
+
+    return render_template(
+        "date-range.html", 
+        net_sales_per_class=net_sales_per_class, 
+        expenses_per_class=expenses_per_class, 
+        payroll_per_class=payroll_per_class,
+        discounts_percentage=discounts_percentage,
+        profit_per_class=profit_per_class,
+        profit_margin=profit_margin,
+        occupancy_rate=occupancy_rate,
+        average_bookings=average_bookings,
+        break_even_bookings=break_even_bookings,
+        MOM_sales_growth=MOM_sales_growth,
+        MOM_expense_growth=MOM_expense_growth,
+        new_students=new_students,
+        retention=retention)
 
 
 
