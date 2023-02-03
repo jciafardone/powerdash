@@ -147,7 +147,7 @@ def get_date_range():
     profit_margins = []
 
     for date, margin in profit_margin_query:
-        profit_margins.append({'date':date,
+        profit_margins.append({'date': date,
                                 'profit_margin': margin})
     
     #Prepare revenue data for revenue and expense bar chart
@@ -155,8 +155,8 @@ def get_date_range():
 
     revenues = []
 
-    for date, revenue in profit_margin_query:
-        revenues.append({'date':date,
+    for date, revenue in revenue_chart_query:
+        revenues.append({'date': date,
                         'revenue': revenue})
 
     #Prepare expense data for revenue and expense bar chart
@@ -164,8 +164,8 @@ def get_date_range():
 
     expenses = []
 
-    for date, expense in profit_margin_query:
-        expenses.append({'date':date,
+    for date, expense in expense_chart_query:
+        expenses.append({'date': date,
                         'expense': expense})
 
 

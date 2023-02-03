@@ -19,55 +19,37 @@ document.querySelector('#date-filter > form > input[type="submit"]')
         .then((response)=>response.json())
         .then((responseJson)=>{
             const profitMarginChartData = responseJson.profit_margin_chart_data.map(profitMargin => ({
-                x: profitMargin.date, y: profitMargin.profit_margin,
+                x: profitMargin.date, y: profitMargin.profit_margin
               }));
 
             const revenueChartData = responseJson.revenue_chart_data.map(revenue => ({
-                x: revenue.date, y: revenue.revenue,
+                x: revenue.date, y: revenue.revenue
               }));
             
             const expenseChartData = responseJson.expense_chart_data.map(expenses => ({
-                x: expenses.date, y: expenses.expense,
+                x: expenses.date, y: expenses.expense
               }));
 
             new Chart(document.querySelector('#profit-margin-chart'), {
                 type: 'line',
                 data: {
-                datasets: [{
+                  datasets: [{
                     label: 'Profit Margin',
-                    profitMarginChartData,
-                }],
-                },
-            });
+                    data: profitMarginChartData,
+                  }],
+                }});
 
-              new Chart(document.querySelector('#revenue-expense-chart'), {
+            new Chart(document.querySelector('#revenue-expense-chart'), {
                 type: 'bar',
                 data: {
                   datasets: [
                     {
                       label: 'Revenue',
-                      revenueChartData,
+                      data: revenueChartData,
                     },
                     {
                       label: 'Expenses',
-                      expenseChartData,
-                    },
-                  ],
-                },
-              });
-
-              new Chart(document.querySelector('#expenses-chart'), {
-                type: 'doughnut',
-                data: {
-                  labels: ['Watermelon', 'Cantaloupe', 'Honeydew'],
-                  datasets: [
-                    {
-                      label: 'Today',
-                      data: [10, 36, 27],
-                    },
-                    {
-                      label: 'Yesterday',
-                      data: [5, 0, 7],
+                      data: expenseChartData,
                     },
                   ],
                 },
