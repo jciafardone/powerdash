@@ -29,6 +29,7 @@ class Client(db.Model):
     __tablename__ = "clients"
 
     client_id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    client_crm_id = db.Column(db.String)
     client_email = db.Column(db.String)
     client_fname = db.Column(db.String)
     client_lname = db.Column(db.String)

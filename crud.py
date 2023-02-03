@@ -1,5 +1,7 @@
 from model import db, User, Client, ProfitLoss, Reservation, SalesOrder, connect_to_db
 from sqlalchemy.sql import func
+import requests
+import datetime
 
 """Database seed functions."""
 
@@ -9,11 +11,12 @@ def create_user(fname, lname, email):
     return user
 
 
-def create_client(client_email, client_fname, client_lname, user_id):
+def create_client(client_email, client_fname, client_lname, client_crm_id, user_id):
     client = Client(
         client_email = client_email,
         client_fname = client_fname,
         client_lname = client_lname,
+        client_crm_id = client_crm_id,
         user_id = user_id
     )
 
@@ -116,6 +119,57 @@ def query_attended_slots(start_date, end_date):
         Reservation.class_date <= end_date).count()
 
 
+def query_for_profit_margins_chart():
+    """Queries and returns three lists of tuples that contain 
+        the period start date and the profit margin, revenue, or expense for that period."""
+
+    profit_margins = []
+
+    rows = ProfitLoss.query.all()
+
+    for row in rows:
+        total_revenue = row.total_revenue
+        total_expenses = row.total_expenses
+        start_date = row.period_start.isoformat()
+        profit_margin = (total_revenue - total_expenses) / total_revenue
+        profit_margin_chart_point = tuple([start_date, profit_margin])
+        profit_margins.append(profit_margin_chart_point)
+
+    return profit_margins
+
+
+def query_revenue_for_revexp_chart():
+    """Queries and returns three lists of tuples that contain 
+        the period start date and the profit margin, revenue, or expense for that period."""
+
+    revenues = []
+
+    rows = ProfitLoss.query.all()
+
+    for row in rows:
+        total_revenue = row.total_revenue
+        start_date = row.period_start.isoformat()
+        revenue_chart_point = tuple([start_date, total_revenue])
+        revenues.append(revenue_chart_point)
+
+    return revenues
+
+
+def query_expenses_for_revexp_chart():
+    """Queries and returns three lists of tuples that contain 
+        the period start date and the profit margin, revenue, or expense for that period."""
+
+    expenses = []
+
+    rows = ProfitLoss.query.all()
+
+    for row in rows:
+        total_expenses = row.total_expenses
+        start_date = row.period_start.isoformat()
+        expenses_chart_point = tuple([start_date, total_expenses])
+        expenses.append(expenses_chart_point)
+
+    return expenses
 
 
 """KPI Calculation Functions"""
@@ -250,6 +304,71 @@ def calc_retention(start_date, end_date):
     return f"{((clients_at_end_of_period - new_clients) / clients_at_start_of_period) * 100:.0f}%"
 
 
+"""API Functions"""
+def push_accounting_data(data):
+    try:
+        user_id, period_start, period_end, total_revenue, total_expenses, payroll_expenses = (
+            1,
+            data['Header']['StartPeriod'],
+            data['Header']['EndPeriod'],
+            data['Rows']['Row'][0]['Summary']['ColData'][1]['value'],
+            data['Rows']['Row'][3]['Summary']['ColData'][1]['value'],
+            data['Rows']['Row'][3]['Rows']['Row'][7]['ColData'][1]['value'])
+
+        profit_loss_record = create_profit_loss(
+            user_id, period_start, period_end, total_revenue, total_expenses, payroll_expenses)
+
+        db.session.add(profit_loss_record)
+        db.session.commit()
+    except:
+        pass
+
+
+def push_customer_data(data):
+    try: 
+        for customer in data['customers']:
+            client_fname, client_lname, client_email, client_crm_id, user_id = (
+                customer['given_name'],
+                customer['family_name'],
+                customer['email_address'],
+                customer['id'],
+                1)
+
+            customer_record = create_client(client_fname, client_lname, client_email, client_crm_id, user_id)
+            db.session.add(customer_record)
+            db.session.commit()
+    except:
+        pass
+
+
+def push_bookings_data(data, start_date, end_date):
+    for booking in data['bookings']:
+        if booking['start_at'] >= start_date and booking['start_at'] <= end_date:
+            client_id, class_date, class_name, class_instructor = (
+                booking["customer_id"],
+                booking["start_at"],
+                booking["appointment_segments"]["service_variation_id"],
+                booking["appointment_segments"]["team_member_id"],
+                )
+
+            booking_record = create_reservation(
+                client_id, class_date, class_name, class_instructor)
+
+            db.session.add(booking_record)
+            db.session.commit()
+
+
+
+if __name__ == "__main__":
+    """Copied from Hackbright Movie Ratings Lab."""
+
+    from server import app
+
+    # Call connect_to_db(app, echo=False) if your program output gets
+    # too annoying; this will tell SQLAlchemy not to print out every
+    # query it executes.
+
+    connect_to_db(app)
 
 
 

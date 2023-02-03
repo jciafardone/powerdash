@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% block title %}Powerdash Home{% endblock %}
+{% block head %}<script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>{% endblock %}
 
 {% block body %}
 <div id="date-filter">
@@ -18,7 +19,7 @@
     <table>
         <tr>
             <td>Net Sales per Class</td>
-            <td id="net-sales"></td>
+            <td id="net-sales">{{ net_sales_per_class }}</td>
         </tr>
         <tr>
             <td>Expenses per Class</td>
@@ -68,11 +69,19 @@
             <td>90 day retention rate</td>
             <td id="retention">{{ retention }} </td>
         </tr>
-        <tr>
-            <td>Rev</td>
-            <td id="rev"></td>
-        </tr>
     </table>
+</div>
+
+<div>
+    <canvas id="profit-margin-chart"></canvas>
+</div>
+
+<div>
+    <canvas id="revenue-expense-chart"></canvas>
+</div>
+
+<div>
+    <canvas id="expenses-chart"></canvas>
 </div>
 
 {% endblock %}

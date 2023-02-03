@@ -44,14 +44,15 @@ with open("csv_data/clients.csv", newline='') as csv_file:
     # Create clients, store them in list
     clients_in_db = []
     for client in csvreader:
-        client_email, client_fname, client_lname, user_id = (
+        client_email, client_fname, client_lname, client_crm_id, user_id = (
             client["client_email"],
             client["client_fname"],
             client["client_lname"],
+            client["client_crm_id"],
             client["user_id"]
         )
 
-        db_client = crud.create_client(client_fname, client_lname, client_email, user_id)
+        db_client = crud.create_client(client_fname, client_lname, client_email, client_crm_id, user_id)
         clients_in_db.append(db_client)
 
 model.db.session.add_all(clients_in_db)

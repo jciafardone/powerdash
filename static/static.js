@@ -18,26 +18,67 @@ document.querySelector('#date-filter > form > input[type="submit"]')
     })
         .then((response)=>response.json())
         .then((responseJson)=>{
+            const profitMarginChartData = responseJson.profit_margin_chart_data.map(profitMargin => ({
+                x: profitMargin.date, y: profitMargin.profit_margin,
+              }));
+
+            const revenueChartData = responseJson.revenue_chart_data.map(revenue => ({
+                x: revenue.date, y: revenue.revenue,
+              }));
+            
+            const expenseChartData = responseJson.expense_chart_data.map(expenses => ({
+                x: expenses.date, y: expenses.expense,
+              }));
+
+            new Chart(document.querySelector('#profit-margin-chart'), {
+                type: 'line',
+                data: {
+                datasets: [{
+                    label: 'Profit Margin',
+                    profitMarginChartData,
+                }],
+                },
+            });
+
+              new Chart(document.querySelector('#revenue-expense-chart'), {
+                type: 'bar',
+                data: {
+                  datasets: [
+                    {
+                      label: 'Revenue',
+                      revenueChartData,
+                    },
+                    {
+                      label: 'Expenses',
+                      expenseChartData,
+                    },
+                  ],
+                },
+              });
+
+              new Chart(document.querySelector('#expenses-chart'), {
+                type: 'doughnut',
+                data: {
+                  labels: ['Watermelon', 'Cantaloupe', 'Honeydew'],
+                  datasets: [
+                    {
+                      label: 'Today',
+                      data: [10, 36, 27],
+                    },
+                    {
+                      label: 'Yesterday',
+                      data: [5, 0, 7],
+                    },
+                  ],
+                },
+              });
+
             document.querySelector('#date-header').innerHTML = 
                 `For ${responseJson.startDate} to ${responseJson.endDate}`;
             renderTable(responseJson);
+
         });
 });
-
-
-// fetch('/authorize', {
-//   method: 'POST',
-//   headers: {
-//     'Authorization': 'Bearer <ACCESS_TOKEN>',
-//     'Content-Type': 'application/json',
-//   },
-//   body: JSON.stringify({
-//     query: 'query { user { id defaultEmail } }',
-//     variables: {}
-//   })
-// })
-// .then(r => r.json())
-// .then(data => console.log(data));
 
 
 function renderTable(responseJson) {
@@ -67,8 +108,6 @@ function renderTable(responseJson) {
         responseJson.new_students;
     document.querySelector('#retention').innerHTML = 
         responseJson.retention;
-    document.querySelector('#rev').innerHTML = 
-        responseJson.class_count;
 }
 
 
