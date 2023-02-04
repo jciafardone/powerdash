@@ -16,53 +16,53 @@ document.querySelector('#date-filter > form > input[type="submit"]')
             'Content-Type': 'application/json',
         },
     })
+
         .then((response)=>response.json())
         .then((responseJson)=>{
-            const profitMarginChartData = responseJson.profit_margin_chart_data.map(profitMargin => ({
-                x: profitMargin.date, y: profitMargin.profit_margin
-              }));
+          const profitMarginChartData = responseJson.profit_margin_chart_data.map(profitMargin => ({
+            x: profitMargin.date, y: profitMargin.profit_margin
+          }));
 
-            const revenueChartData = responseJson.revenue_chart_data.map(revenue => ({
-                x: revenue.date, y: revenue.revenue
-              }));
-            
-            const expenseChartData = responseJson.expense_chart_data.map(expenses => ({
-                x: expenses.date, y: expenses.expense
-              }));
+          const revenueChartData = responseJson.revenue_chart_data.map(revenue => ({
+              x: revenue.date, y: revenue.revenue
+            }));
+          
+          const expenseChartData = responseJson.expense_chart_data.map(expenses => ({
+              x: expenses.date, y: expenses.expense
+            }));
 
-            new Chart(document.querySelector('#profit-margin-chart'), {
-                type: 'line',
-                data: {
-                  datasets: [{
-                    label: 'Profit Margin',
-                    data: profitMarginChartData,
-                  }],
-                }});
+          new Chart(document.querySelector('#profit-margin-chart'), {
+              type: 'line',
+              data: {
+                datasets: [{
+                  label: 'Profit Margin',
+                  data: profitMarginChartData,
+                }],
+              }});
 
-            new Chart(document.querySelector('#revenue-expense-chart'), {
-                type: 'bar',
-                data: {
-                  datasets: [
-                    {
-                      label: 'Revenue',
-                      data: revenueChartData,
-                    },
-                    {
-                      label: 'Expenses',
-                      data: expenseChartData,
-                    },
-                  ],
-                },
-              });
+          new Chart(document.querySelector('#revenue-expense-chart'), {
+              type: 'bar',
+              data: {
+                datasets: [
+                  {
+                    label: 'Revenue',
+                    data: revenueChartData,
+                  },
+                  {
+                    label: 'Expenses',
+                    data: expenseChartData,
+                  },
+                ],
+              },
+            });
 
             document.querySelector('#date-header').innerHTML = 
                 `For ${responseJson.startDate} to ${responseJson.endDate}`;
             renderTable(responseJson);
-
         });
-});
+  });
 
-
+  
 function renderTable(responseJson) {
     document.querySelector('#net-sales').innerHTML = 
         responseJson.net_sales_per_class;
