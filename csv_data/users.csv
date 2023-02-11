@@ -1,2 +1,3 @@
-fname,lname,email
-Joshuah,Ciafardone,test@test.com
+email,password
+,
+test@test.com,hello

@@ -23,14 +23,13 @@ with open("csv_data/users.csv", newline='') as csv_file:
     # Create users, store them in list
     users_in_db = []
     for user in csvreader:
-        fname, lname, email = (
-            user["fname"],
-            user["lname"],
-            user["email"]
+        email,password = (
+            user["email"],
+            user["password"]
         )
         # release_date = datetime.strptime(movie["release_date"], "%Y-%m-%d")
 
-        db_user = crud.create_user(fname, lname, email)
+        db_user = crud.create_user(email,password)
         users_in_db.append(db_user)
 
 model.db.session.add_all(users_in_db)

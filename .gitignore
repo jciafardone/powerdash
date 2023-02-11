@@ -1,3 +1,5 @@
 env/
 secrets.sh
 test.py
+static/files
+csv_data/

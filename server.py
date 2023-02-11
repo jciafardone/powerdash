@@ -14,6 +14,12 @@ app = Flask(__name__)
 app.secret_key = "dev"
 app.jinja_env.undefined = StrictUndefined
 
+#CSV Upload folders
+ACCOUNTING_UPLOAD_FOLDER = 'static/files/accounting'
+CRM_UPLOAD_FOLDER = 'static/files/crm'
+app.config['ACCOUNTING_UPLOAD_FOLDER'] = ACCOUNTING_UPLOAD_FOLDER
+app.config['CRM_UPLOAD_FOLDER'] = CRM_UPLOAD_FOLDER
+
 #global variables
 start_date = None
 end_date = None
@@ -44,6 +50,54 @@ def render_accounting():
 def render_crm():
     """Render crm API login page"""
     return render_template('crm.html')
+
+
+@app.route('/csv')
+def render_csv():
+    return render_template('csv.html')
+
+
+@app.route("/users", methods=["POST"])
+def register_user():
+    """Create a new user"""
+    email = request.form.get("email")
+    password = request.form.get("password")
+
+    user = crud.get_user_by_email(email)
+    if user:
+        flash("Cannot create an account with that email. Try again.")
+    else:
+        user = crud.create_user(email, password)
+        db.session.add(user)
+        db.session.commit()
+        flash("Account created! Please log in.")
+
+    return redirect("/")
+
+
+@app.route("/login", methods=["POST"])
+def process_login():
+    """Process user login."""
+    email = request.form.get("email")
+    password = request.form.get("password")
+
+    user = crud.get_user_by_email(email)
+    if not user or user.password != password:
+        flash("The email or password you entered was incorrect.")
+    else:
+        # Log in user by storing the user's email in session
+        session["user_email"] = user.email
+        flash(f"Welcome back, {user.email}!")
+
+    return redirect("/")
+
+
+@app.route("/logout")
+def process_logout():
+    "Log user out"
+    session.pop('user_email', None)
+    flash("Successfully logged out")
+    return redirect('/')
 
 
 @app.route('/report')
@@ -90,6 +144,13 @@ def get_date_range():
     start_date = request.json.get('startDate')
     end_date = request.json.get('endDate')
 
+    #Get and store session information on the user
+    logged_in_email = session.get("user_email")
+    if logged_in_email is None:
+        user_id = 1
+    else:
+        user_id = crud.get_user_id_by_email(logged_in_email)
+
     #Accounting API GET request and push to database
     global accounting_data
     accounting_data = requests.get((f'https://sandbox-quickbooks.api.intuit.com/v3/company/{accounting_realm_id}/reports/ProfitAndLoss'
@@ -99,7 +160,7 @@ def get_date_range():
             })
 
     accounting_data = accounting_data.json()
-    crud.push_accounting_data(accounting_data)
+    crud.push_accounting_data(accounting_data, user_id)
 
     #CRM API GET request for customers and push to database
     global crm_customer_data
@@ -111,7 +172,7 @@ def get_date_range():
         })
     
     crm_customer_data = crm_customer_data.json()
-    crud.push_customer_data(crm_customer_data)
+    crud.push_customer_data(crm_customer_data, user_id)
 
     #CRM API GET request for bookings and push to database
     global crm_bookings_data
@@ -122,7 +183,7 @@ def get_date_range():
             'Content-Type': 'application/json',
         })
     crm_bookings_data = crm_bookings_data.json()
-    crud.push_bookings_data(crm_bookings_data, start_date, end_date)
+    crud.push_bookings_data(crm_bookings_data, start_date, end_date, user_id)
 
     #Update KPI table based on date range filter
     net_sales_per_class = crud.calc_net_sales_per_class(start_date, end_date)
@@ -276,6 +337,26 @@ def crm_authorize():
     global crm_access_token
     crm_access_token = response['access_token']
     
+    return redirect('/report')
+
+
+
+"""Routes for CSV uploads"""
+@app.route("/csv_accounting_upload", methods=['POST'])
+def get_csv_accounting_data():
+    uploaded_file = request.files['accounting_file']
+    file_path = os.path.join(app.config['ACCOUNTING_UPLOAD_FOLDER'],uploaded_file.filename)
+    uploaded_file.save(file_path)
+    crud.pull_pl_data_from_csv(file_path)
+    return redirect('/csv')
+
+
+@app.route("/csv_crm_upload", methods=['POST'])
+def get_csv_crm_data():
+    uploaded_file = request.files['crm_file']
+    file_path = os.path.join(app.config['CRM_UPLOAD_FOLDER'],uploaded_file.filename)
+    uploaded_file.save(file_path)
+    crud.pull_reservation_data_from_csv(file_path)
     return redirect('/report')
 
 

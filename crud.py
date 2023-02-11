@@ -1,12 +1,15 @@
-from model import db, User, Client, ProfitLoss, Reservation, SalesOrder, connect_to_db
+from model import db, User, Client, ProfitLoss, Reservation, SalesOrder, connect_to_db 
 from sqlalchemy.sql import func
+from flask_sqlalchemy import SQLAlchemy
 import requests
 import datetime
+import csv
+
 
 """Database seed functions."""
 
-def create_user(fname, lname, email):
-    user = User(fname=fname, lname=lname, email=email)
+def create_user(email, password):
+    user = User(email=email, password=password)
 
     return user
 
@@ -38,12 +41,13 @@ def create_profit_loss(
     return profit_loss
 
 
-def create_reservation(client_id, class_date, class_name, class_instructor):
+def create_reservation(client_id, class_date, class_name, class_instructor, user_id):
     reservation = Reservation(
         client_id = client_id,
         class_date = class_date,
         class_name = class_name,
-        class_instructor = class_instructor
+        class_instructor = class_instructor,
+        user_id = user_id
     )
 
     return reservation
@@ -67,6 +71,20 @@ def create_sales_order(
 
 
 """Query Functions"""
+
+def get_user_by_email(email):
+    """Return a user by email."""
+
+    return User.query.filter(User.email == email).first()
+
+
+def get_user_id_by_email(email):
+    """Return a user by email."""
+
+    user = User.query.filter(User.email == email).first()
+    id = user.user_id
+    return id
+
 
 def query_total_revenue(start_date, end_date):
     """Queries total revenue for a period"""
@@ -305,10 +323,9 @@ def calc_retention(start_date, end_date):
 
 
 """API Functions"""
-def push_accounting_data(data):
+def push_accounting_data(data, user_id):
     try:
-        user_id, period_start, period_end, total_revenue, total_expenses, payroll_expenses = (
-            1,
+        period_start, period_end, total_revenue, total_expenses, payroll_expenses = (
             data['Header']['StartPeriod'],
             data['Header']['EndPeriod'],
             data['Rows']['Row'][0]['Summary']['ColData'][1]['value'],
@@ -324,15 +341,15 @@ def push_accounting_data(data):
         pass
 
 
-def push_customer_data(data):
+def push_customer_data(data, user_id):
     try: 
         for customer in data['customers']:
-            client_fname, client_lname, client_email, client_crm_id, user_id = (
+            client_fname, client_lname, client_email, client_crm_id = (
                 customer['given_name'],
                 customer['family_name'],
                 customer['email_address'],
-                customer['id'],
-                1)
+                customer['id']
+                )
 
             customer_record = create_client(client_fname, client_lname, client_email, client_crm_id, user_id)
             db.session.add(customer_record)
@@ -341,21 +358,67 @@ def push_customer_data(data):
         pass
 
 
-def push_bookings_data(data, start_date, end_date):
+def push_bookings_data(data, start_date, end_date, user_id):
     for booking in data['bookings']:
         if booking['start_at'] >= start_date and booking['start_at'] <= end_date:
-            client_id, class_date, class_name, class_instructor = (
+            client_id, class_date, class_name, class_instructor, user_id = (
                 booking["customer_id"],
                 booking["start_at"],
                 booking["appointment_segments"]["service_variation_id"],
-                booking["appointment_segments"]["team_member_id"],
+                booking["appointment_segments"]["team_member_id"]
                 )
 
             booking_record = create_reservation(
-                client_id, class_date, class_name, class_instructor)
+                client_id, class_date, class_name, class_instructor, user_id)
 
             db.session.add(booking_record)
             db.session.commit()
+
+
+"""CSV CRUD Functions"""
+def pull_reservation_data_from_csv(crm_csv):
+    with open(crm_csv, newline='') as csv_file:
+        csvreader = csv.DictReader(csv_file, quotechar='"')
+
+        reservations_in_db = []
+        for reservation in csvreader:
+            client_id, class_date, class_name, class_instructor = (
+                reservation["client_id"],
+                reservation["class_date"],
+                reservation["class_name"],
+                reservation["class_instructor"],
+            )
+
+            db_reservation = create_reservation(
+                client_id, class_date, class_name, class_instructor)
+            reservations_in_db.append(db_reservation)
+
+        db.session.add_all(reservations_in_db)
+        db.session.commit()
+
+
+def pull_pl_data_from_csv(accounting_csv):
+    with open("csv_data/profit_loss.csv", newline='') as csv_file:
+        csvreader = csv.DictReader(csv_file, quotechar='"')
+
+        # Create profit and loss records, store them in a list
+        pl_in_db = []
+        for pl_record in csvreader:
+            user_id, period_start, period_end, total_revenue, total_expenses, payroll_expenses = (
+                pl_record["user_id"],
+                pl_record["period_start"],
+                pl_record["period_end"],
+                pl_record["total_revenue"],
+                pl_record["total_expenses"],
+                pl_record["payroll_expenses"]
+            )
+
+            db_pl_record = create_profit_loss(
+                user_id, period_start, period_end, total_revenue, total_expenses, payroll_expenses)
+            pl_in_db.append(db_pl_record)
+
+    db.session.add_all(pl_in_db)
+    db.session.commit()
 
 
 
@@ -376,5 +439,5 @@ if __name__ == "__main__":
     
 
 
-   
+
 

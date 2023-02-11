@@ -21,9 +21,43 @@
     {% block head %}{% endblock %}
   </head>
 
-  <nav class="navbar bg-body-tertiary">Powerdash</nav>
+  <nav class="navbar bg-body-tertiary container">
+    <div><h1>Powerdash</h1></div>
+    <div>
+        Create an Account
+        <form action="/users" method="POST">
+          <p>
+            Email <input type="text" name="email">
+            Password <input type="password" name="password">
+          </p>
+          <p>
+            <input type="submit">
+          </p>
+        </form>
+    </div>
+    <div>
+        <form action="/login" method="POST">
+          <p>
+            Email <input type="text" name="email">
+            Password <input type="password" name="password">
+          </p>
+          <p>
+            <button type="submit">Log In</button>
+          </p>
+        </form>
+        <form action="logout">
+          <button type="submit">Log Out</button>
+        </form>
+    </div>
+  </nav>
   
   <body>
+    {% for msg in get_flashed_messages() %}
+      <p class="flash-msg">
+        {{ msg }}
+      </p>
+    {% endfor %}
+
     {% block body %}{% endblock %}
   </body>
 

@@ -12,12 +12,12 @@ class User(db.Model):
     __tablename__ = "users"
 
     user_id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    fname = db.Column(db.String)
-    lname = db.Column(db.String)
     email = db.Column(db.String)
+    password = db.Column(db.String)
 
     clients_info = db.relationship('Client', back_populates="user_client")
     pl_records = db.relationship('ProfitLoss', back_populates="user_profit_and_loss")
+    reservation_record = db.relationship('Reservation', back_populates="user_id_for_reservation")
 
     def __repr__(self):
         return f"<User id = {self.user_id}, User email = {self.email}>"
@@ -72,11 +72,10 @@ class Reservation(db.Model):
     class_date = db.Column(db.DateTime)
     class_name = db.Column(db.String)
     class_instructor = db.Column(db.String)
-    # total_slots = db.Column(db.Integer) this needs to be removed and calculated elsewhere
-    # slots_attended = db.Column(db.Integer) this needs to be removed and calculated elsewhere
-    #user_id needs to be added?
+    user_id = db.Column(db.Integer, db.ForeignKey('users.user_id'))
 
     client_id_for_reservation = db.relationship('Client', back_populates='client_reservations')
+    user_id_for_reservation = db.relationship('User', back_populates="reservation_record")
 
     def __repr__(self):
         return f"<Client id = {self.client_id}, Class name = {self.class_name}>"
