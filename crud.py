@@ -73,7 +73,7 @@ def create_reservation(client_id, client_crm_id, class_date, class_name, class_i
 
 
 def create_sales_order(
-    order_date, client_id, item_name, quantity, gross_sale, discount, net_sale
+    order_date, client_id, item_name, quantity, gross_sale, discount, net_sale, user_id
 ):
     #Create a new sales order record of a Powerdash users' client.
     sales_order = SalesOrder(
@@ -83,7 +83,8 @@ def create_sales_order(
         quantity = quantity,
         gross_sale = gross_sale,
         discount = discount,
-        net_sale = net_sale
+        net_sale = net_sale,
+        user_id = user_id
     )
 
     return sales_order
@@ -121,65 +122,74 @@ def get_user_id_by_email(email):
         pass
 
 
-def query_total_revenue(start_date, end_date):
+def query_total_revenue(start_date, end_date, user_id):
     """Queries total revenue for a period."""
 
     return db.session.query(ProfitLoss.total_revenue).filter(
         ProfitLoss.period_start == start_date, 
-        ProfitLoss.period_end == end_date).first()[0]
+        ProfitLoss.period_end == end_date,
+        ProfitLoss.user_id == user_id).first()[0]
+        
 
 
-def query_total_expenses(start_date, end_date):
+def query_total_expenses(start_date, end_date, user_id):
     """Queries total expenses for a period."""
 
     return db.session.query(ProfitLoss.total_expenses).filter(
         ProfitLoss.period_start == start_date, 
-        ProfitLoss.period_end == end_date).first()[0]
+        ProfitLoss.period_end == end_date,
+        ProfitLoss.user_id == user_id).first()[0]
 
 
-def query_payroll_expenses(start_date, end_date):
+def query_payroll_expenses(start_date, end_date, user_id):
     """Queries total payroll expenses for period."""
 
     return db.session.query(ProfitLoss.payroll_expenses).filter(
         ProfitLoss.period_start == start_date, 
-        ProfitLoss.period_end == end_date).first()[0]
+        ProfitLoss.period_end == end_date,
+        ProfitLoss.user_id == user_id).first()[0]
 
 
-def query_discounts(start_date, end_date):
+def query_discounts(start_date, end_date, user_id):
     """Queries total discount amount on sales orders for period."""
 
     return db.session.query(func.sum(SalesOrder.discount).filter(
         SalesOrder.order_date >= start_date, 
-        SalesOrder.order_date <= end_date)).all()[0][0]
+        SalesOrder.order_date <= end_date,
+        # SalesOrder.user_id == user_id)
+        )
+        ).all()[0][0]
 
 
-def query_count_of_classes_in_period(start_date, end_date):
+def query_count_of_classes_in_period(start_date, end_date, user_id):
     """Queries number of unique classes in a period."""
 
     return db.session.query(Reservation).filter(
+        Reservation.user_id == user_id,
         Reservation.class_date.between(start_date, end_date)).distinct(
         Reservation.class_name, 
         Reservation.class_date, 
         Reservation.class_instructor).count()
 
 
-def query_total_slots_in_period(start_date, end_date, max_slots_per_class=8):
+def query_total_slots_in_period(start_date, end_date, user_id, max_slots_per_class=8):
     """Queries total possible client slots in period."""
 
-    class_count = query_count_of_classes_in_period(start_date, end_date)
+    class_count = query_count_of_classes_in_period(start_date, end_date, user_id)
     
     return class_count * max_slots_per_class
 
 
-def query_attended_slots(start_date, end_date):
+def query_attended_slots(start_date, end_date, user_id):
     """Queries total attended slots in period."""
 
     return db.session.query(Reservation.reservation_id).filter(
         Reservation.class_date >= start_date, 
-        Reservation.class_date <= end_date).count()
+        Reservation.class_date <= end_date,
+        Reservation.user_id == user_id).count()
 
 
-def query_for_profit_margins_chart():
+def query_for_profit_margins_chart(user_id):
     """
     Queries and returns a list of tuples where each tuple 
     contains the period start date and the profit margin
@@ -190,7 +200,7 @@ def query_for_profit_margins_chart():
 
     profit_margins = []
 
-    rows = ProfitLoss.query.all()
+    rows = ProfitLoss.query.filter(ProfitLoss.user_id == user_id).all()
 
     for row in rows:
         total_revenue = row.total_revenue
@@ -203,7 +213,7 @@ def query_for_profit_margins_chart():
     return profit_margins
 
 
-def query_revenue_for_revexp_chart():
+def query_revenue_for_revexp_chart(user_id):
     """
     Queries and returns a list of tuples that contains 
     the period start date and total revenue for that
@@ -214,7 +224,7 @@ def query_revenue_for_revexp_chart():
 
     revenues = []
 
-    rows = ProfitLoss.query.all()
+    rows = ProfitLoss.query.filter(ProfitLoss.user_id == user_id).all()
 
     for row in rows:
         total_revenue = row.total_revenue
@@ -225,7 +235,7 @@ def query_revenue_for_revexp_chart():
     return revenues
 
 
-def query_expenses_for_revexp_chart():
+def query_expenses_for_revexp_chart(user_id):
     """
     Queries and returns a list of tuples that contains 
     the period start date and total expenses for that
@@ -236,7 +246,7 @@ def query_expenses_for_revexp_chart():
 
     expenses = []
 
-    rows = ProfitLoss.query.all()
+    rows = ProfitLoss.query.filter(ProfitLoss.user_id == user_id).all()
 
     for row in rows:
         total_expenses = row.total_expenses
@@ -260,110 +270,110 @@ and end_date are pulled in via an AJAX request.
 
 """
 
-def calc_net_sales_per_class(start_date, end_date):
+def calc_net_sales_per_class(start_date, end_date, user_id):
     """Calculate net sales per class in selected period"""
 
-    total_revenue = query_total_revenue(start_date, end_date)
-    class_count = query_count_of_classes_in_period(start_date, end_date)
+    total_revenue = query_total_revenue(start_date, end_date, user_id)
+    class_count = query_count_of_classes_in_period(start_date, end_date, user_id)
     
     return f"${total_revenue/class_count:.0f}"
 
 
-def calc_expenses_per_class(start_date, end_date):
+def calc_expenses_per_class(start_date, end_date, user_id):
     """Calculcate expenses per class in selected period"""
 
-    total_expenses = query_total_expenses(start_date, end_date)
-    class_count = query_count_of_classes_in_period(start_date, end_date)
+    total_expenses = query_total_expenses(start_date, end_date, user_id)
+    class_count = query_count_of_classes_in_period(start_date, end_date, user_id)
 
     return f"${total_expenses/class_count:.0f}"
 
 
-def calc_payroll_per_class(start_date, end_date):
+def calc_payroll_per_class(start_date, end_date, user_id):
     """Calculate payroll expenses per class in selected period"""
 
-    payroll_expenses = query_payroll_expenses(start_date, end_date)
-    class_count = query_count_of_classes_in_period(start_date, end_date)
+    payroll_expenses = query_payroll_expenses(start_date, end_date, user_id)
+    class_count = query_count_of_classes_in_period(start_date, end_date, user_id)
 
     return f"${payroll_expenses/class_count:.0f}"
 
 
-def calc_total_discounts(start_date, end_date):
+def calc_total_discounts(start_date, end_date, user_id):
     """Calculate total discount % selected period"""
 
-    total_discounts = query_discounts(start_date, end_date)
-    total_revenue = query_total_revenue(start_date, end_date)
+    total_discounts = query_discounts(start_date, end_date, user_id)
+    total_revenue = query_total_revenue(start_date, end_date, user_id)
     
     return f"{(total_discounts/total_revenue) * 100:.2f}%"
 
 
-def calc_profit_per_class(start_date, end_date):
+def calc_profit_per_class(start_date, end_date, user_id):
     """Calculate profit per class for period"""
 
-    total_revenue = query_total_revenue(start_date, end_date)
-    total_expenses = query_total_expenses(start_date, end_date)
-    class_count = query_count_of_classes_in_period(start_date, end_date)
-    class_count = 20
+    total_revenue = query_total_revenue(start_date, end_date, user_id)
+    total_expenses = query_total_expenses(start_date, end_date, user_id)
+    class_count = query_count_of_classes_in_period(start_date, end_date, user_id)
+    # class_count = 20
 
     return f"${(total_revenue - total_expenses) / class_count:.0f}"
 
 
-def calc_profit_margin(start_date, end_date):
+def calc_profit_margin(start_date, end_date, user_id):
     """Calculate profit margin for period"""
 
-    total_revenue = query_total_revenue(start_date, end_date)
-    total_expenses = query_total_expenses(start_date, end_date)
+    total_revenue = query_total_revenue(start_date, end_date, user_id)
+    total_expenses = query_total_expenses(start_date, end_date, user_id)
     
     return f"{((total_revenue - total_expenses) / total_revenue) * 100:.2f}%"
 
 
-def calc_occupancy_rate(start_date, end_date):
+def calc_occupancy_rate(start_date, end_date, user_id):
     """Calculate occupancy rate for period"""
 
-    total_slots_in_period = query_total_slots_in_period(start_date, end_date, max_slots_per_class=8)
-    attended_slots_in_period = query_attended_slots(start_date, end_date)
+    total_slots_in_period = query_total_slots_in_period(start_date, end_date, user_id, max_slots_per_class=8)
+    attended_slots_in_period = query_attended_slots(start_date, end_date, user_id)
     
     return f"{(attended_slots_in_period/total_slots_in_period) * 100:.0f}%"
 
 
-def calc_average_bookings(start_date, end_date):
+def calc_average_bookings(start_date, end_date, user_id):
     """Calculate average bookings for period"""
 
-    attended_slots_in_period = query_attended_slots(start_date, end_date)
-    class_count = query_count_of_classes_in_period(start_date, end_date)
+    attended_slots_in_period = query_attended_slots(start_date, end_date, user_id)
+    class_count = query_count_of_classes_in_period(start_date, end_date, user_id)
     
     return f"{attended_slots_in_period/class_count:.0f}"
 
 
-def calc_break_even_bookings(start_date, end_date):
+def calc_break_even_bookings(start_date, end_date, user_id):
     """Calculate break even bookings for period"""
 
-    total_expenses = query_total_expenses(start_date, end_date)
-    class_count = query_count_of_classes_in_period(start_date, end_date)
+    total_expenses = query_total_expenses(start_date, end_date, user_id)
+    class_count = query_count_of_classes_in_period(start_date, end_date, user_id)
     average_revenue_per_slot = 20 #hardcoded for now, need to figure out how to calculate this from crm api
 
     return f"{total_expenses/(average_revenue_per_slot * class_count):.0f}"
 
 
-def calc_MOM_net_sales(start_date, end_date):
+def calc_MOM_net_sales(start_date, end_date, user_id):
     """Calculate net sales growth compared to previous period"""
 
     previous_start = parse(start_date) - relativedelta(month=1)
     previous_end = parse(end_date) - relativedelta(month=1)
 
-    total_revenue = query_total_revenue(start_date, end_date)
-    previous_period_revenue = query_total_revenue(previous_start, previous_end)
+    total_revenue = query_total_revenue(start_date, end_date, user_id)
+    previous_period_revenue = query_total_revenue(previous_start, previous_end, user_id)
     
     return f"{(total_revenue/previous_period_revenue) * 100:.0f}%"
 
 
-def calc_MOM_expense_growth(start_date, end_date):
+def calc_MOM_expense_growth(start_date, end_date, user_id):
     """Calculate expense growth compared to previous period"""
 
     previous_start = parse(start_date) - relativedelta(month=1)
     previous_end = parse(end_date) - relativedelta(month=1)
 
-    total_expenses = query_total_expenses(start_date, end_date)
-    previous_period_expenses = query_total_expenses(previous_start, previous_end)
+    total_expenses = query_total_expenses(start_date, end_date, user_id)
+    previous_period_expenses = query_total_expenses(previous_start, previous_end, user_id)
     
     return f"{(total_expenses/previous_period_expenses) * 100:.0f}%"
 
@@ -460,38 +470,25 @@ def push_bookings_data(data, user_id):
     reservation_data table.
     """
 
-    # try:
-    #     for booking in data['bookings']:
-    #         client_id, class_date, class_name, class_instructor = (
-    #             booking["customer_id"],
-    #             booking["start_at"],
-    #             booking["appointment_segments"]["service_variation_id"],
-    #             booking["appointment_segments"]["team_member_id"]
-    #             )
+    try:
+        for booking in data['bookings']:
+            user_id_tuple = db.session.query(Client.client_id).filter_by(client_crm_id=booking["customer_id"]).first()
+            
+            client_id,client_crm_id, class_date, class_name, class_instructor = (
+                user_id_tuple[0],
+                booking["customer_id"],
+                booking["start_at"],
+                booking["appointment_segments"][0]["service_variation_id"],
+                booking["appointment_segments"][0]["team_member_id"]
+                )
 
-    #         booking_record = create_reservation(
-    #             client_id, class_date, class_name, class_instructor, user_id)
+            booking_record = create_reservation(
+                client_id,client_crm_id, class_date, class_name, class_instructor, user_id)
 
-    #         db.session.add(booking_record)
-    #         db.session.commit()
-    # except:
-    #     print('can\'t add to database')
-    for booking in data['bookings']:
-        user_id_tuple = db.session.query(Client.client_id).filter_by(client_crm_id=booking["customer_id"]).first()
-        
-        client_id,client_crm_id, class_date, class_name, class_instructor = (
-            user_id_tuple[0],
-            booking["customer_id"],
-            booking["start_at"],
-            booking["appointment_segments"][0]["service_variation_id"],
-            booking["appointment_segments"][0]["team_member_id"]
-            )
-
-        booking_record = create_reservation(
-            client_id,client_crm_id, class_date, class_name, class_instructor, user_id)
-
-        db.session.add(booking_record)
-        db.session.commit()
+            db.session.add(booking_record)
+            db.session.commit()
+    except:
+        pass
 
 
 """

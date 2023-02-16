@@ -1,999 +1,1001 @@
-order_id,order_date,client_id,user_id,item_name,quantity,gross_sale,discount,net_sale
-118830,10/31/2022 23:03,2,1,New Student 3 Pack (1 month expiration),1,80,0,80
-118670,10/31/2022 14:26,22,1,Open Studio (Unhosted),1,25,0,25
-118362,10/30/2022 12:02,69,1,Drop In Class,1,40,0,40
-118454,10/30/2022 19:44,21,1,Drop In Class,1,40,0,40
-118404,10/30/2022 15:02,75,1,Better Grip (2 oz) (Regular),1,15,0,15
-118401,10/30/2022 14:50,68,1,Drop In Class,1,40,40,0
-118178,10/29/2022 12:03,60,1,Drop In Class,1,40,0,40
-118168,10/29/2022 11:40,39,1,Drop In Class,1,40,20,20
-118161,10/29/2022 11:15,7,1,Toe Covers (Burgundy),1,18,0,18
-117825,10/28/2022 0:32,44,1,New Student 3 Pack (1 month expiration),1,80,0,80
-117920,10/28/2022 10:39,40,1,New Student 3 Pack (1 month expiration),1,80,0,80
-118027,10/28/2022 20:04,47,1,New Student 3 Pack (1 month expiration),1,80,0,80
-118015,10/28/2022 17:47,89,1,Drop In Class,1,40,20,20
-118014,10/28/2022 17:46,45,1,Drop In Class,1,40,20,20
-118004,10/28/2022 16:57,96,1,PDX Studio Access Membership,1,200,0,200
-117990,10/28/2022 15:44,61,1,Open Studio (Unhosted),1,25,0,25
-117684,10/27/2022 12:55,46,1,New Student 3 Pack (1 month expiration),1,80,0,80
-117792,10/27/2022 20:07,68,1,Drop In Class,1,40,0,40
-117791,10/27/2022 20:06,39,1,Drop In Class,1,40,0,40
-117499,10/26/2022 18:48,46,1,Kind Bar,1,3,0.75,2.25
-117480,10/26/2022 17:17,22,1,New Student 3 Pack (1 month expiration),1,80,0,80
-117464,10/26/2022 15:30,92,1,Open Studio (Unhosted),1,25,0,25
-117457,10/26/2022 15:05,19,1,New Student 3 Pack (1 month expiration),1,80,0,80
-117452,10/26/2022 14:22,63,1,Drop In Class,1,40,0,40
-117216,10/25/2022 19:07,33,1,P+D Crew Socks,1,20,5,15
-117209,10/25/2022 18:51,16,1,5 Class Pack,1,190,0,190
-117173,10/25/2022 15:44,51,1,Drop In Class,1,40,0,40
-117167,10/25/2022 15:39,98,1,Drop In Class,1,40,0,40
-117163,10/25/2022 15:17,25,1,Drop In Class,1,40,0,40
-117162,10/25/2022 15:16,32,1,Drop In Class,1,40,0,40
-117161,10/25/2022 15:13,92,1,5 Class Pack,1,190,0,190
-116822,10/24/2022 12:27,29,1,Open Studio (Unhosted),1,25,0,25
-116778,10/24/2022 9:37,65,1,Drop In Class,1,40,20,20
-116775,10/24/2022 9:36,89,1,Drop In Class,1,40,20,20
-116930,10/24/2022 20:31,80,1,P&D Sweatpants (Mauve/L),1,45,0,45
-47175,1/1/2022 19:44,30,1,Studio Access Membership (SF),1,200,0,217
-116881,10/24/2022 16:17,70,1,Open Studio (Unhosted),1,25,0,25
-116864,10/24/2022 15:12,13,1,Open Studio (Unhosted),1,25,0,25
-116861,10/24/2022 15:06,14,1,Open Studio (Unhosted),1,25,0,25
-116556,10/23/2022 11:11,82,1,Drop In Class,1,40,20,20
-116650,10/23/2022 21:15,61,1,Drop In Class,1,40,0,40
-116529,10/23/2022 8:57,36,1,New Student 3 Pack (1 month expiration),1,80,0,80
-116613,10/23/2022 16:11,90,1,New Student 3 Pack (1 month expiration),1,80,0,80
-116585,10/23/2022 13:31,4,1,Drop In Class,1,40,40,0
-116351,10/22/2022 12:10,26,1,Drop In Class,1,40,20,20
-116342,10/22/2022 11:32,92,1,P+D Crew Socks,1,20,0,20
-47531,1/3/2022 19:16,27,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-116339,10/22/2022 11:30,10,1,Drop In Class,1,40,0,40
-116321,10/22/2022 9:59,88,1,Monkey Hands (Classic),1,15,0,15
-116404,10/22/2022 18:05,37,1,Drop In Class,1,40,0,40
-116218,10/21/2022 21:28,7,1,Drop In Class,1,40,20,20
-116217,10/21/2022 21:26,36,1,Drop In Class,1,40,20,20
-115892,10/20/2022 12:29,7,1,New Student 3 Pack (1 month expiration),1,80,0,80
-115973,10/20/2022 20:40,69,1,1 Group Lesson (3 students),1,175,0,175
-115965,10/20/2022 19:50,46,1,Open Studio (Unhosted),1,25,0,25
-115964,10/20/2022 19:48,67,1,Drop In Class,1,40,20,20
-115963,10/20/2022 19:47,60,1,Drop In Class,1,40,20,20
-115924,10/20/2022 16:27,15,1,Drop In Class,1,40,0,40
-115697,10/19/2022 22:33,27,1,Drop In Class,1,40,20,20
-115674,10/19/2022 19:59,77,1,New Student 3 Pack (1 month expiration),1,80,0,80
-115457,10/19/2022 6:03,95,1,Open Studio (Unhosted),1,25,0,25
-115641,10/19/2022 16:58,84,1,PoleGrip,1,15,0,15
-115617,10/19/2022 15:00,100,1,Open Studio (Unhosted),1,25,0,25
-115602,10/19/2022 14:00,55,1,Drop In Class,1,40,0,40
-115145,10/18/2022 4:58,27,1,Drop In Class,1,40,20,20
-115087,10/17/2022 20:57,1,1,New Student 3 Pack (1 month expiration),1,80,0,80
-114897,10/17/2022 7:59,27,1,Drop In Class,1,40,20,20
-114896,10/17/2022 7:58,77,1,Drop In Class,1,40,20,20
-115030,10/17/2022 16:27,85,1,Open Studio (Unhosted),1,25,0,25
-115027,10/17/2022 16:26,27,1,Open Studio (Unhosted),1,25,0,25
-47752,1/4/2022 14:28,55,1,6 Week Active Flexibility Series: Splits,1,250,0,250
-114692,10/16/2022 11:26,74,1,Drop In Class,1,40,0,40
-114677,10/16/2022 10:18,10,1,10 Class Pack,1,360,0,360
-114790,10/16/2022 20:23,43,1,Drop In Class,1,40,20,20
-114601,10/16/2022 4:46,62,1,Drop In Class,6,240,240,0
-114600,10/16/2022 4:46,24,1,Drop In Class,3,120,120,0
-114599,10/16/2022 4:45,8,1,Drop In Class,1,40,40,0
-114481,10/15/2022 12:33,49,1,P+D Crew Socks,1,20,0,20
-114454,10/15/2022 11:21,48,1,Toe Covers (Light Pink),1,18,0,18
-114453,10/15/2022 11:20,93,1,Toe Covers (Forest Green),1,18,0,18
-114450,10/15/2022 11:12,48,1,P+D Crew Socks,1,20,0,20
-114438,10/15/2022 10:00,11,1,Knee Pads without Grip (Black/Large),1,35,0,35
-114437,10/15/2022 9:59,93,1,Knee Pads with Grip (Red/Large),1,35,0,35
-114436,10/15/2022 9:58,35,1,P+D Beanie (Dark Gray),1,20,5,15
-114549,10/15/2022 21:54,99,1,1 Semi-Private (2 students),1,150,0,150
-114404,10/15/2022 7:46,59,1,Drop In Class,1,40,20,20
-114512,10/15/2022 14:26,69,1,Knee Pads with Grip (Black/Small),1,35,8.75,26.25
-114245,10/14/2022 11:41,69,1,Drop In Class,1,40,20,20
-114339,10/14/2022 23:32,65,1,Drop In Class,1,40,20,20
-114264,10/14/2022 13:23,44,1,New Student 3 Pack (1 month expiration),1,80,0,80
-114037,10/13/2022 14:39,91,1,Drop In Class,1,40,10,30
-114035,10/13/2022 14:30,32,1,Drop In Class,1,40,10,30
-113708,10/12/2022 11:25,58,1,Open Studio (Unhosted),1,25,0,25
-113798,10/12/2022 18:34,41,1,Kind Bar,1,3,0.75,2.25
-113775,10/12/2022 16:01,52,1,1 Semi-Private (2 students),1,150,0,150
-113389,10/11/2022 10:25,37,1,5 Class Pack,1,190,0,190
-113388,10/11/2022 10:25,56,1,5 Class Pack,1,190,0,190
-113503,10/11/2022 17:39,56,1,Drop In Class,1,40,0,40
-113482,10/11/2022 15:51,91,1,Open Studio for a Performance Series,1,0,0,0
-113481,10/11/2022 15:51,36,1,Open Studio for a Performance Series,1,0,0,0
-113480,10/11/2022 15:50,96,1,Open Studio for a Performance Series,1,0,0,0
-113479,10/11/2022 15:50,44,1,Open Studio for a Performance Series,1,0,0,0
-113478,10/11/2022 15:50,82,1,Open Studio for a Performance Series,2,0,0,0
-113477,10/11/2022 15:49,29,1,Open Studio for a Performance Series,2,0,0,0
-113476,10/11/2022 15:49,73,1,Open Studio for a Performance Series,2,0,0,0
-113475,10/11/2022 15:48,69,1,Open Studio for a Performance Series,2,0,0,0
-113474,10/11/2022 15:48,18,1,Open Studio for a Performance Series,2,0,0,0
-113467,10/11/2022 15:25,52,1,Drop In Class,1,40,0,40
-113449,10/11/2022 14:09,52,1,Drop-In Class,9,0,0,0
-113225,10/10/2022 19:33,10,1,Drop In Class,1,40,40,0
-113009,10/10/2022 1:34,10,1,Open Studio (Unhosted),1,25,0,25
-112983,10/9/2022 22:53,99,1,New Student 3 Pack (1 month expiration),1,80,0,80
-112950,10/9/2022 19:16,49,1,Drop In Class,1,40,0,40
-112929,10/9/2022 15:53,65,1,Drop In Class,1,40,20,20
-112928,10/9/2022 15:52,91,1,Drop In Class,1,40,20,20
-112907,10/9/2022 13:43,45,1,P&D Pride Top (Flowy Side Slit/Medium),1,30,0,30
-112662,10/8/2022 11:34,69,1,Drop In Class,1,40,0,40
-112658,10/8/2022 11:09,49,1,Monkey Hands (Sticky),1,15,0,15
-49233,1/12/2022 20:16,35,1,Studio Access Membership (Oakland),1,200,0,200
-50864,1/21/2022 22:21,74,1,Open Studio (Unhosted),1,25,0,25
-51655,1/26/2022 14:17,83,1,Drop In Class,1,40,0,40
-112508,10/7/2022 19:06,67,1,Drop In Class,1,40,0,40
-112507,10/7/2022 18:49,73,1,Drop In Class,1,40,0,40
-112460,10/7/2022 13:32,15,1,1 Private Lesson (1 student),1,100,0,100
-112123,10/6/2022 8:00,9,1,Drop In Class,1,40,0,40
-51913,1/27/2022 21:54,84,1,Drop In Class,1,40,0,40
-52175,1/29/2022 8:20,21,1,FLUIDITY + FORCE Heels Intensive,1,500,0,500
-52605,1/31/2022 11:54,47,1,5 Week Intensive Training Program,1,600,0,600
-111885,10/5/2022 9:00,95,1,New Student 3 Pack (1 month expiration),1,80,0,80
-112031,10/5/2022 19:56,87,1,Drop In Class,1,40,0,40
-111993,10/5/2022 17:27,39,1,1 Group Lesson (3 students),1,175,0,175
-111988,10/5/2022 17:06,26,1,Kind Bar,1,3,0.75,2.25
-52887,2/1/2022 9:54,83,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-111944,10/5/2022 13:28,18,1,Open Studio (Unhosted),1,25,0,25
-111662,10/4/2022 12:00,18,1,Your Solo with Dresden,1,250,0,250
-111651,10/4/2022 11:31,76,1,Low Flow Group with Sarah Rey,1,250,0,250
-53277,2/3/2022 11:33,98,1,Studio Access Membership (SF),1,200,0,200
-111686,10/4/2022 13:55,1,1,Drop In Class,1,40,0,40
-53419,2/3/2022 23:13,72,1,5 Class Pack,1,190,0,190
-53661,2/4/2022 20:54,49,1,Open Studio (Unhosted),1,25,0,25
-111504,10/3/2022 21:28,21,1,Studio Access Membership,1,200,0,200
-111272,10/3/2022 8:45,94,1,Your Solo with Dresden,1,250,0,250
-111474,10/3/2022 20:35,35,1,Monkey Hands (Sticky),1,15,3.75,11.25
-111256,10/3/2022 8:11,77,1,New Student 3 Pack (1 month expiration),1,80,0,80
-111438,10/3/2022 18:02,73,1,Monkey Hands (Classic),1,15,0,15
-111438,10/3/2022 18:02,45,1,Knee Pads without Grip (Sky Blue/XS),1,35,0,35
-111383,10/3/2022 14:23,9,1,New Student 3 Pack (1 month expiration),1,80,0,80
-111356,10/3/2022 13:14,20,1,Open Studio (Unhosted),1,25,0,25
-111052,10/2/2022 12:22,82,1,Drop In Class,1,40,0,40
-111142,10/2/2022 19:27,48,1,New Student 3 Pack (1 month expiration),1,80,0,80
-111086,10/2/2022 14:54,74,1,Knee Pads with Grip (Black/Medium),1,35,0,35
-110825,10/1/2022 12:28,98,1,P&D Sweatpants (Maroon/S),1,45,0,45
-110823,10/1/2022 12:26,20,1,P+D Festival Crop Tank (S/Storm),1,25,0,25
-110823,10/1/2022 12:26,39,1,P+D Crew Socks,1,20,0,20
-110816,10/1/2022 11:53,88,1,Drop In Class,5,200,0,200
-110815,10/1/2022 11:52,28,1,Drop In Class,2,80,0,80
-110812,10/1/2022 11:51,19,1,Drop In Class,1,40,0,40
-110768,10/1/2022 10:22,96,1,Drop In Class,1,40,0,40
-110445,9/30/2022 12:32,14,1,Drop In Class,1,40,0,40
-110442,9/30/2022 12:13,34,1,New Student 3 Pack (1 month expiration),1,80,0,80
-110508,9/30/2022 15:37,37,1,Drop In Class,1,40,0,40
-110507,9/30/2022 15:36,84,1,Drop In Class,1,40,0,40
-110505,9/30/2022 15:31,90,1,Drop In Class,1,40,0,40
-110504,9/30/2022 15:19,81,1,5 Class Pack,1,190,0,190
-110166,9/29/2022 12:20,21,1,Drop In Class,1,40,0,40
-110165,9/29/2022 12:12,75,1,Drop In Class,1,40,0,40
-110145,9/29/2022 10:49,29,1,Drop In Class,1,40,0,40
-110265,9/29/2022 18:40,9,1,Monkey Hands (Sticky),1,15,0,15
-110265,9/29/2022 18:40,44,1,Dew Point 2.5 oz. (Ultra),1,15,0,15
-110263,9/29/2022 18:32,84,1,Drop In Class,1,40,0,40
-110199,9/29/2022 13:50,59,1,Drop In Class,1,40,0,40
-110191,9/29/2022 13:28,16,1,Drop In Class,1,40,0,40
-110190,9/29/2022 13:28,98,1,Drop In Class,1,40,0,40
-109989,9/28/2022 19:06,48,1,PoleGrip,1,15,0,15
-109948,9/28/2022 16:56,51,1,Studio Access Membership,1,200,0,200
-109946,9/28/2022 16:54,34,1,Better Grip (2 oz) (Regular),1,15,0,15
-109925,9/28/2022 15:21,49,1,Drop In Class,1,40,0,40
-109896,9/28/2022 13:35,94,1,Drop In Class,1,40,0,40
-109879,9/28/2022 13:11,46,1,Open Studio (Unhosted),1,25,0,25
-109691,9/27/2022 23:40,44,1,New Student 3 Pack (1 month expiration),1,80,0,80
-109680,9/27/2022 21:25,94,1,Drop In Class,1,40,0,40
-109678,9/27/2022 21:22,42,1,Drop In Class,1,40,0,40
-109649,9/27/2022 19:15,22,1,Kind Bar,1,3,0.75,2.25
-109630,9/27/2022 17:20,28,1,New Student 3 Pack (1 month expiration),1,80,0,80
-109435,9/27/2022 1:52,40,1,New Student 3 Pack (1 month expiration),1,80,0,80
-54009,2/6/2022 20:56,92,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-109386,9/26/2022 20:41,14,1,Monkey Hands (Sticky),1,15,0,15
-109182,9/26/2022 5:28,58,1,Drop In Class,1,40,0,40
-109320,9/26/2022 14:37,40,1,Open Studio (Unhosted),1,25,0,25
-109043,9/25/2022 11:53,72,1,Drop In Class,1,40,0,40
-109042,9/25/2022 11:44,11,1,Drop In Class,1,40,0,40
-109127,9/25/2022 20:06,45,1,Drop In Class,1,40,0,40
-109126,9/25/2022 20:05,27,1,Drop In Class,1,40,0,40
-109120,9/25/2022 19:58,31,1,5 Class Pack,1,190,0,190
-54117,2/7/2022 12:52,2,1,FLUIDITY + FORCE Heels Intensive,1,500,0,500
-108313,9/22/2022 10:15,40,1,Drop In Class,1,40,0,40
-108312,9/22/2022 10:13,77,1,Drop In Class,1,40,0,40
-108424,9/22/2022 18:31,80,1,New Student 3 Pack (1 month expiration),1,80,0,80
-108416,9/22/2022 17:28,65,1,10 Class Pack,1,360,360,0
-108385,9/22/2022 15:19,53,1,Drop In Class,1,40,0,40
-108202,9/21/2022 20:39,86,1,PD Retro Shorts (Medium/Teal),1,27,0,27
-108187,9/21/2022 18:49,16,1,INVERTS 101 with Roz the Diva!,1,100,0,100
-108181,9/21/2022 18:03,31,1,Kind Bar,1,3,0.75,2.25
-108172,9/21/2022 16:45,46,1,Drop In Class,1,40,0,40
-108167,9/21/2022 16:19,6,1,New Student 3 Pack (1 month expiration),1,80,0,80
-107806,9/20/2022 10:54,76,1,Drop In Class,1,40,0,40
-107799,9/20/2022 10:31,31,1,Your Solo with Dresden,1,250,0,250
-107787,9/20/2022 9:13,65,1,New Student 3 Pack (1 month expiration),1,80,0,80
-107778,9/20/2022 8:43,69,1,5 Class Pack,1,190,0,190
-54117,2/7/2022 12:52,6,1,FLUIDITY + FORCE Heels Intensive,1,500,0,500
-107904,9/20/2022 17:26,1,1,Drop In Class,1,40,0,40
-107895,9/20/2022 16:37,42,1,Drop In Class,1,40,0,40
-107863,9/20/2022 14:27,66,1,New Student 3 Pack (1 month expiration),1,80,0,80
-107543,9/19/2022 12:24,74,1,Drop In Class,1,40,0,40
-107535,9/19/2022 11:29,87,1,New Student 3 Pack (1 month expiration),1,80,0,80
-107694,9/19/2022 22:52,6,1,Drop In Class,1,40,0,40
-107671,9/19/2022 20:53,89,1,Drop In Class,1,40,0,40
-107669,9/19/2022 20:50,47,1,Drop In Class,1,40,0,40
-107668,9/19/2022 20:49,9,1,Drop In Class,1,40,0,40
-107666,9/19/2022 20:40,44,1,Monkey Hands (Sticky),1,15,0,15
-107659,9/19/2022 19:55,24,1,Drop In Class,1,40,0,40
-107628,9/19/2022 17:41,61,1,Kind Bar,1,3,0.75,2.25
-107592,9/19/2022 16:25,28,1,Drop In Class,1,40,0,40
-107579,9/19/2022 14:53,62,1,Open Studio (Unhosted),1,25,0,25
-107324,9/18/2022 12:43,88,1,Drop In Class,1,40,0,40
-107300,9/18/2022 10:41,79,1,Drop In Class,1,40,0,40
-107130,9/17/2022 11:21,92,1,P&D Sweatpants (Lilac/XS),1,45,0,45
-107130,9/17/2022 11:21,69,1,Knee Pads with Grip (Pink/Large),1,35,0,35
-107130,9/17/2022 11:21,39,1,P&D Pride Top (Flowy Side Slit/Small),1,30,0,30
-107116,9/17/2022 10:37,34,1,Kind Bar,1,3,0.75,2.25
-107208,9/17/2022 19:11,30,1,Drop In Class,1,40,0,40
-107147,9/17/2022 13:03,68,1,Drop In Class,1,40,0,40
-106826,9/16/2022 12:58,52,1,Drop In Class,1,40,0,40
-106825,9/16/2022 12:57,76,1,Drop In Class,1,40,0,40
-106813,9/16/2022 11:32,80,1,Open Studio (Unhosted),1,25,0,25
-106809,9/16/2022 11:27,94,1,Drop In Class,4,160,0,160
-106808,9/16/2022 11:26,39,1,Drop In Class,2,80,0,80
-106806,9/16/2022 11:26,87,1,Drop In Class,2,80,0,80
-106901,9/16/2022 20:18,78,1,Drop In Class,1,40,0,40
-106886,9/16/2022 18:10,7,1,5 Class Pack,1,190,0,190
-106719,9/16/2022 5:53,24,1,Drop In Class,1,40,0,40
-106718,9/16/2022 5:53,10,1,Drop In Class,1,40,0,40
-106567,9/15/2022 12:51,92,1,New Student 3 Pack (1 month expiration),1,80,0,80
-106556,9/15/2022 11:57,7,1,Low Flow Group with Sarah Rey,1,250,0,250
-106633,9/15/2022 18:54,4,1,Drop In Class,1,40,0,40
-106621,9/15/2022 17:28,56,1,5 Class Pack,1,190,0,190
-106296,9/14/2022 8:25,19,1,Drop In Class,1,40,0,40
-106412,9/14/2022 18:24,36,1,5 Class Pack,1,190,0,190
-106395,9/14/2022 16:41,38,1,Drop In Class,1,40,0,40
-106237,9/14/2022 1:07,51,1,Drop In Class,1,40,0,40
-105935,9/13/2022 12:22,34,1,$80 Gift Card,1,80,0,80
-105922,9/13/2022 12:18,64,1,New Student 3 Pack (1 month expiration),1,80,0,80
-105867,9/13/2022 9:34,70,1,5 Class Pack,1,190,0,190
-106209,9/13/2022 20:23,28,1,Drop In Class,1,40,0,40
-106164,9/13/2022 16:05,100,1,Drop In Class,1,40,0,40
-106149,9/13/2022 14:28,69,1,Drop In Class,1,40,0,40
-105599,9/12/2022 9:44,70,1,Open Studio (Unhosted),1,25,0,25
-105708,9/12/2022 15:35,33,1,Open Studio (Unhosted) (12mo),1,25,0,25
-105460,9/11/2022 21:42,71,1,5 Class Pack,1,190,0,190
-105393,9/11/2022 16:14,2,1,Drop In Class,1,40,0,40
-105124,9/10/2022 11:43,75,1,New Student 3 Pack (1 month expiration),1,80,0,80
-105160,9/10/2022 14:18,92,1,New Student 3 Pack (1 month expiration),1,80,0,80
-104873,9/9/2022 9:21,77,1,Drop In Class,1,40,0,40
-104870,9/9/2022 9:14,65,1,Drop In Class,1,40,0,40
-104866,9/9/2022 9:00,75,1,Your Solo with Dresden,1,250,0,250
-105018,9/9/2022 21:00,67,1,Drop In Class,1,40,0,40
-105013,9/9/2022 20:18,81,1,Drop In Class,1,40,0,40
-104776,9/8/2022 21:04,86,1,New Student 3 Pack (1 month expiration),1,80,0,80
-104771,9/8/2022 20:59,22,1,New Student 3 Pack (1 month expiration),1,80,0,80
-104748,9/8/2022 18:48,77,1,Drop In Class,1,40,0,40
-104320,9/7/2022 7:41,14,1,Low Flow Group with Sarah Rey,1,250,0,250
-104488,9/7/2022 19:08,13,1,5 Class Pack,1,190,0,190
-104477,9/7/2022 17:53,68,1,P+D Festival Crop Tank (L/Pink),1,25,6.25,18.75
-104457,9/7/2022 16:49,70,1,Open Studio (Unhosted),1,25,0,25
-104455,9/7/2022 16:48,15,1,Open Studio (Unhosted),1,25,0,25
-104451,9/7/2022 16:41,59,1,Drop In Class,1,40,0,40
-104075,9/6/2022 12:15,31,1,Initial deposit for group class with Amy Bond: 2-5pm on 11/11 and 3-6pm on 11/12,1,500,0,500
-104142,9/6/2022 15:46,100,1,INVERTS 101 with Roz the Diva!,1,100,0,100
-103787,9/5/2022 11:12,24,1,Open Studio (Unhosted),1,25,0,25
-103934,9/5/2022 23:10,25,1,Event Balance,1,250,0,250
-103928,9/5/2022 22:31,54,1,New Student 3 Pack (1 month expiration),1,80,0,80
-103889,9/5/2022 18:25,36,1,Drop In Class,1,40,0,40
-103694,9/5/2022 4:29,23,1,Drop In Class,1,40,0,40
-103693,9/5/2022 3:55,43,1,Drop In Class,1,40,0,40
-103864,9/5/2022 15:52,1,1,Drop In Class,1,40,0,40
-103689,9/5/2022 3:48,46,1,Drop In Class,1,40,0,40
-103595,9/4/2022 14:55,96,1,Better Grip (2 oz) (Regular),1,15,3.75,11.25
-103593,9/4/2022 14:50,44,1,P&D Gym Bag,1,30,0,30
-103455,9/3/2022 22:30,26,1,5 Class Pack,1,190,0,190
-103443,9/3/2022 21:27,74,1,Studio Access Membership,1,200,0,200
-103422,9/3/2022 19:26,13,1,5 Class Pack,1,190,0,190
-103409,9/3/2022 17:30,15,1,Drop In Class,1,40,0,40
-54151,2/7/2022 16:07,7,1,Event Balance,1,200,0,200
-103387,9/3/2022 14:16,13,1,Drop In Class,1,40,0,40
-103386,9/3/2022 14:03,20,1,P&D Sweatpants (Forest/S),1,45,11.25,33.75
-102877,9/1/2022 10:57,57,1,Drop In Class,1,40,0,40
-102859,9/1/2022 9:52,78,1,5 Class Pack,1,190,0,190
-102829,9/1/2022 8:02,96,1,New Student 3 Pack (1 month expiration),1,80,0,80
-102816,9/1/2022 6:37,68,1,Drop In Class,1,40,0,40
-102903,9/1/2022 13:25,35,1,Drop In Class,5,200,0,200
-102901,9/1/2022 13:23,96,1,Drop In Class,2,80,0,80
-102899,9/1/2022 13:21,22,1,Drop In Class,3,120,0,120
-102610,8/31/2022 18:18,12,1,Kind Bar,1,3,0.75,2.25
-102605,8/31/2022 18:09,63,1,New Student 3 Pack (1 month expiration),1,80,0,80
-102582,8/31/2022 17:06,4,1,Drop In Class,1,40,0,40
-102354,8/30/2022 19:37,18,1,Drop In Class,1,40,0,40
-102353,8/30/2022 19:15,19,1,Kind Bar,1,3,0.75,2.25
-102351,8/30/2022 19:10,24,1,New Student 3 Pack (1 month expiration),1,80,0,80
-102349,8/30/2022 19:07,70,1,Knee Pads with Grip (Caramel/Small),1,35,0,35
-102083,8/29/2022 20:50,78,1,P&D Sweatpants (Forest/S),1,45,11.25,33.75
-102082,8/29/2022 20:49,89,1,P&D Sweatpants (Maroon/M),1,45,11.25,33.75
-102080,8/29/2022 20:47,36,1,P&D Sweatpants (Black/L),1,45,0,45
-102072,8/29/2022 19:35,93,1,Monkey Hands (Classic),1,15,3.75,11.25
-102043,8/29/2022 17:55,6,1,Toe Covers (Hot Pink),1,18,0,18
-102041,8/29/2022 17:54,57,1,Toe Covers (Black),1,18,0,18
-102025,8/29/2022 17:00,97,1,P+D Classy Biker Shorts (S / M),1,25,6.25,18.75
-102015,8/29/2022 16:38,57,1,Toe Covers (Black Leather),1,18,18,0
-101998,8/29/2022 15:31,7,1,5 Class Pack,1,190,0,190
-101727,8/28/2022 14:46,54,1,Drop In Class,1,40,0,40
-101721,8/28/2022 13:59,73,1,10 Class Pack,1,360,0,360
-101719,8/28/2022 13:53,16,1,PDX Tank (S),1,20,0,20
-101341,8/26/2022 19:33,99,1,Drop In Class,1,40,0,40
-101336,8/26/2022 18:38,42,1,Drop In Class,1,40,0,40
-101313,8/26/2022 16:19,13,1,Drop In Class,1,40,0,40
-101096,8/25/2022 19:25,18,1,Drop In Class,1,40,0,40
-101083,8/25/2022 18:49,25,1,Drop In Class,1,40,0,40
-101026,8/25/2022 14:31,85,1,10 Class Pack,1,360,0,360
-101024,8/25/2022 14:26,29,1,10 Class Pack,1,360,0,360
-100745,8/24/2022 11:22,80,1,Drop In Class,1,40,0,40
-100743,8/24/2022 11:18,69,1,Drop In Class,1,40,0,40
-100847,8/24/2022 20:28,25,1,PoleGrip,1,15,0,15
-100846,8/24/2022 20:28,98,1,P+D Festival Crop Tank (M/Pink),1,25,6.25,18.75
-100702,8/24/2022 7:42,33,1,Open Studio (Unhosted),1,25,0,25
-100830,8/24/2022 18:48,14,1,Monkey Hands (Classic),1,15,0,15
-100808,8/24/2022 16:12,43,1,Drop In Class,1,40,0,40
-100488,8/23/2022 12:00,85,1,New Student 3 Pack (1 month expiration),1,80,0,80
-100613,8/23/2022 21:04,4,1,5 Class Pack,1,190,0,190
-100596,8/23/2022 19:56,6,1,Drop In Class,1,40,0,40
-100595,8/23/2022 19:55,7,1,Open Studio (Unhosted),1,25,0,25
-100392,8/23/2022 6:55,44,1,New Student 3 Pack (1 month expiration),1,80,0,80
-100546,8/23/2022 16:31,68,1,New Student 3 Pack (1 month expiration),1,80,0,80
-100325,8/22/2022 20:26,100,1,Drop In Class,1,40,0,40
-100325,8/22/2022 20:26,42,1,Kind Bar,1,3,0.75,2.25
-100319,8/22/2022 19:14,74,1,Better Grip (2 oz) (Regular),1,15,0,15
-100297,8/22/2022 17:38,22,1,Sam Star's Fonjis for LIFE! (Int/Adv),1,50,0,50
-100087,8/21/2022 23:57,48,1,New Student 3 Pack (1 month expiration),1,80,0,80
-100080,8/21/2022 22:52,79,1,Sam Star's Ninja Apprentice (Beg/Int),1,50,0,50
-100052,8/21/2022 18:54,91,1,Drop In Class,1,40,0,40
-100020,8/21/2022 15:26,20,1,Drop In Class,1,40,0,40
-99771,8/20/2022 12:37,62,1,P+D Crop Tee (L),1,25,0,25
-99769,8/20/2022 12:35,44,1,Drop In Class,1,40,0,40
-99825,8/20/2022 20:35,88,1,Drop In Class,1,40,0,40
-99823,8/20/2022 19:32,30,1,Drop In Class,1,40,8,32
-99787,8/20/2022 15:42,87,1,New Student 3 Pack (1 month expiration),1,80,0,80
-99585,8/19/2022 12:17,47,1,Drop In Class,1,40,0,40
-99584,8/19/2022 12:16,54,1,Drop In Class,1,40,0,40
-99683,8/19/2022 23:12,77,1,Drop In Class,1,40,8,32
-99404,8/18/2022 19:35,25,1,Drop In Class,1,40,0,40
-99069,8/17/2022 10:03,70,1,Drop In Class,1,40,8,32
-99058,8/17/2022 9:23,36,1,10 Class Pack,1,360,0,360
-54326,2/8/2022 12:07,31,1,Extra Guest,2,70,0,70
-99108,8/17/2022 13:12,13,1,New Student 3 Pack (1 month expiration),1,80,0,80
-54508,2/9/2022 11:46,12,1,20 Class Pack,1,680,0,680
-98817,8/16/2022 10:53,46,1,Drop In Class,1,40,0,40
-98816,8/16/2022 10:53,63,1,Drop In Class,1,40,0,40
-98799,8/16/2022 9:05,8,1,Drop In Class,1,40,0,40
-98796,8/16/2022 8:59,47,1,Drop In Class,1,40,0,40
-98794,8/16/2022 8:54,11,1,Drop In Class,1,40,0,40
-98792,8/16/2022 8:46,39,1,Drop In Class,1,40,0,40
-98756,8/16/2022 7:11,88,1,Drop In Class,1,40,0,40
-98755,8/16/2022 7:10,65,1,Drop In Class,5,200,0,200
-98754,8/16/2022 7:08,3,1,Drop In Class,2,80,0,80
-98673,8/15/2022 20:36,35,1,Drop In Class,1,40,0,40
-98663,8/15/2022 19:15,28,1,Drop In Class,1,40,0,40
-98660,8/15/2022 19:07,28,1,Drop In Class,1,40,0,40
-98645,8/15/2022 18:10,98,1,Toe Covers (Mauve),1,18,0,18
-98636,8/15/2022 18:05,59,1,Knee Pad,1,5,0,5
-98634,8/15/2022 18:03,69,1,P+D Crew Socks,1,20,0,20
-54718,2/10/2022 15:06,26,1,Drop In Class,1,40,0,40
-98579,8/15/2022 15:16,28,1,Drop In Class,1,40,0,40
-98549,8/15/2022 13:36,62,1,Drop In Class,1,40,0,40
-98266,8/14/2022 11:33,87,1,Second Half of Teacher Training,1,175,0,175
-98331,8/14/2022 17:30,54,1,Open Studio (Unhosted),1,25,0,25
-98298,8/14/2022 14:11,42,1,Open Studio (Unhosted),1,25,0,25
-98294,8/14/2022 14:00,39,1,PD Retro Shorts (Medium/Black),1,27,0,27
-98292,8/14/2022 13:47,93,1,Open Studio (Unhosted),1,25,0,25
-98062,8/13/2022 12:30,24,1,Drop In Class,1,40,0,40
-98056,8/13/2022 11:55,91,1,Drop In Class,1,40,0,40
-98110,8/13/2022 20:10,100,1,New Student 3 Pack (1 month expiration),1,80,0,80
-98078,8/13/2022 13:49,96,1,Toe Covers (Holo Silver),1,18,0,18
-98078,8/13/2022 13:49,44,1,P&D Pride Top (Flowy Side Slit/Medium),1,30,0,30
-98078,8/13/2022 13:49,25,1,P+D Classy Biker Shorts (S / M),1,25,0,25
-98076,8/13/2022 13:46,63,1,Drop In Class,1,40,0,40
-98076,8/13/2022 13:46,27,1,PD Retro Shorts (Large/Baby Blue),1,27,0,27
-98074,8/13/2022 13:39,6,1,PD Retro Shorts (Large/Light Pink),1,27,0,27
-97833,8/12/2022 8:00,67,1,New Student 3 Pack (1 month expiration),1,80,0,80
-97829,8/12/2022 7:17,41,1,Drop In Class,1,40,0,40
-97907,8/12/2022 15:13,97,1,Drop In Class,1,40,8,32
-97905,8/12/2022 15:05,36,1,5 Class Pack,1,190,38,152
-55389,2/14/2022 17:20,55,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-97761,8/11/2022 20:17,49,1,Drop In Class,1,40,0,40
-97759,8/11/2022 19:49,27,1,PD Retro Shorts (Medium/Red),1,27,6.75,20.25
-97567,8/11/2022 6:44,15,1,New Student 3 Pack (1 month expiration),1,80,0,80
-97731,8/11/2022 17:42,90,1,New Student 3 Pack (1 month expiration),1,80,80,0
-97343,8/10/2022 10:40,8,1,Drop In Class,1,40,0,40
-97339,8/10/2022 10:38,3,1,Drop In Class,1,40,0,40
-97501,8/10/2022 22:18,17,1,5 Class Pack,1,190,0,190
-55616,2/15/2022 19:26,55,1,Drop In Class,1,40,0,40
-55626,2/15/2022 20:08,49,1,5 Class Pack,1,190,0,190
-97314,8/10/2022 8:51,54,1,Event Balance,1,250,0,250
-97457,8/10/2022 19:00,87,1,Event Balance,1,250,0,250
-97428,8/10/2022 15:53,63,1,New Student 3 Pack (1 month expiration),1,80,0,80
-97427,8/10/2022 15:47,17,1,Drop In Class,1,40,0,40
-97394,8/10/2022 13:31,72,1,Drop In Class,1,40,0,40
-97186,8/9/2022 19:07,1,1,PD Retro Shorts (XS/Black),1,27,6.75,20.25
-97186,8/9/2022 19:07,87,1,Kind Bar,1,3,0.75,2.25
-97127,8/9/2022 15:15,71,1,10 Class Pack,1,360,0,360
-97102,8/9/2022 13:25,67,1,Drop In Class,1,40,0,40
-96792,8/8/2022 11:07,42,1,Drop In Class,1,40,0,40
-96898,8/8/2022 20:17,42,1,New Student 3 Pack (1 month expiration),1,80,0,80
-96731,8/8/2022 7:31,21,1,Drop In Class,1,40,0,40
-96882,8/8/2022 18:02,55,1,Knee Pads without Grip (Sky Blue/Small),1,35,0,35
-96881,8/8/2022 17:57,62,1,Knee Pads with Grip (Sky Blue/Small),1,35,0,35
-96670,8/8/2022 1:20,79,1,Drop In Class,1,40,0,40
-96408,8/7/2022 0:59,78,1,Drop In Class,1,40,0,40
-96407,8/7/2022 0:46,57,1,Drop In Class,1,40,0,40
-96559,8/7/2022 12:33,77,1,Drop In Class,1,40,0,40
-96544,8/7/2022 11:33,91,1,New Student 3 Pack (1 month expiration),1,80,0,80
-96326,8/6/2022 12:13,30,1,Drop In Class,1,40,0,40
-96310,8/6/2022 10:50,17,1,Event Deposit,1,100,0,100
-96399,8/6/2022 22:33,20,1,Drop In Class,1,40,0,40
-96302,8/6/2022 10:21,18,1,Drop In Class,1,40,0,40
-96388,8/6/2022 21:09,27,1,Drop In Class,1,40,0,40
-96290,8/6/2022 9:05,18,1,New Student 3 Pack (1 month expiration),1,80,0,80
-96122,8/5/2022 11:29,92,1,Drop In Class,1,40,0,40
-96225,8/5/2022 22:26,75,1,New Student 3 Pack (1 month expiration),1,80,0,80
-96108,8/5/2022 10:25,48,1,New Student 3 Pack (1 month expiration),1,80,0,80
-96205,8/5/2022 18:40,9,1,Open Studio (Unhosted),1,25,0,25
-96180,8/5/2022 16:23,36,1,New Student 3 Pack (1 month expiration),1,80,0,80
-96163,8/5/2022 14:51,35,1,New Student 3 Pack (1 month expiration),1,80,0,80
-95990,8/4/2022 21:16,53,1,Sam Star's Ninja Tricks (Adv),1,50,0,50
-95989,8/4/2022 21:15,56,1,Sam Star's Fonjis for LIFE! (Int/Adv),1,50,0,50
-95980,8/4/2022 20:16,85,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-95942,8/4/2022 15:56,38,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-95922,8/4/2022 13:21,78,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-95655,8/3/2022 12:58,30,1,Drop In Class,1,40,0,40
-95767,8/3/2022 21:26,72,1,Studio Access Membership,1,200,0,200
-95764,8/3/2022 21:17,2,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-95762,8/3/2022 21:14,15,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-95552,8/3/2022 7:01,91,1,P+D Crew Socks,1,20,5,15
-95725,8/3/2022 18:27,26,1,Drop In Class,1,40,0,40
-95679,8/3/2022 15:20,82,1,Drop In Class,1,40,0,40
-95378,8/2/2022 11:37,3,1,Drop In Class,1,40,0,40
-95377,8/2/2022 11:36,20,1,Drop In Class,1,40,0,40
-95455,8/2/2022 18:04,10,1,Drop In Class,1,40,0,40
-95451,8/2/2022 17:52,94,1,Drop In Class,1,40,0,40
-95443,8/2/2022 17:14,54,1,Drop In Class,1,40,0,40
-95440,8/2/2022 16:51,90,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-95432,8/2/2022 16:03,83,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-95412,8/2/2022 14:02,38,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-56088,2/18/2022 13:25,11,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-95228,8/1/2022 18:04,73,1,Knee Pads without Grip (Latte/Medium),1,35,0,35
-95220,8/1/2022 17:17,51,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-95168,8/1/2022 14:34,12,1,Open Studio (Unhosted),1,25,0,25
-94724,7/31/2022 9:28,35,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-94722,7/31/2022 9:20,48,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-94822,7/31/2022 14:12,44,1,Kind Bar,1,3,0.9,2.1
-94606,7/30/2022 12:48,17,1,Monkey Hands (Classic),1,15,4.5,10.5
-94601,7/30/2022 12:31,49,1,P+D Festival Crop Tank (M/Storm),1,25,0,25
-94597,7/30/2022 12:20,51,1,Knee Pad,1,5,0,5
-94573,7/30/2022 10:15,23,1,P+D Festival Crop Tank (S/Ice Blue),1,25,7.5,17.5
-94668,7/30/2022 21:18,62,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-94387,7/29/2022 10:28,70,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-94416,7/29/2022 13:53,5,1,10 Class Pack,1,360,0,360
-94197,7/28/2022 12:19,89,1,Drop In Class,1,40,0,40
-94244,7/28/2022 18:26,46,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-94229,7/28/2022 16:02,24,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-93998,7/27/2022 12:17,44,1,Studio Access Membership,1,200,0,200
-93937,7/27/2022 8:22,80,1,Fonjis for LIFE! (Int/Adv),1,50,0,50
-94049,7/27/2022 17:58,25,1,Drop In Class,1,40,0,40
-93712,7/26/2022 10:04,40,1,Drop In Class,1,40,0,40
-93698,7/26/2022 8:58,51,1,Event Balance,1,250,0,250
-93607,7/25/2022 22:08,80,1,Drop In Class,1,40,0,40
-93452,7/25/2022 8:52,61,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-93439,7/25/2022 7:54,62,1,5 Class Pack,1,190,0,190
-93531,7/25/2022 14:06,12,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-93326,7/24/2022 19:39,73,1,Drop In Class,1,40,0,40
-93306,7/24/2022 17:21,72,1,Drop In Class,1,40,0,40
-93303,7/24/2022 17:11,73,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-93295,7/24/2022 16:40,81,1,Drop In Class,1,40,0,40
-93264,7/24/2022 14:19,87,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-93257,7/24/2022 13:10,98,1,Drop In Class,1,40,0,40
-93256,7/24/2022 13:07,18,1,P&D Pin (Red Pole),1,10,3,7
-93254,7/24/2022 13:02,91,1,Kind Bar,1,3,0.9,2.1
-93050,7/23/2022 11:10,100,1,Drop In Class,1,40,0,40
-93036,7/23/2022 10:03,18,1,Toe Covers (Pink Floral),1,18,5.4,12.6
-93129,7/23/2022 22:02,43,1,Drop In Class,1,40,0,40
-92959,7/22/2022 22:49,76,1,Drop In Class,1,40,0,40
-92765,7/21/2022 22:28,66,1,Drop In Class,1,40,0,40
-92391,7/20/2022 10:55,96,1,Drop In Class,1,40,0,40
-92390,7/20/2022 10:53,88,1,Drop In Class,1,40,0,40
-92386,7/20/2022 10:48,66,1,Drop In Class,1,40,0,40
-92373,7/20/2022 9:57,4,1,Drop In Class,1,40,0,40
-92371,7/20/2022 9:55,98,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-92366,7/20/2022 9:37,84,1,Drop In Class,1,40,0,40
-92439,7/20/2022 14:54,42,1,Knee Pads with Grip (Cacao/XS),1,35,0,35
-56240,2/19/2022 13:23,49,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-92212,7/19/2022 19:29,19,1,Open Studio (Unhosted),1,25,0,25
-92064,7/19/2022 7:12,60,1,5 Class Pack,1,190,0,190
-92190,7/19/2022 17:44,27,1,Drop In Class,1,40,0,40
-92032,7/19/2022 4:47,55,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-92173,7/19/2022 16:25,21,1,5 Class Pack,1,190,0,190
-91888,7/18/2022 12:41,55,1,Open Studio (Unhosted),1,25,0,25
-91923,7/18/2022 15:31,30,1,Drop In Class,1,40,0,40
-91607,7/17/2022 9:05,25,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-91713,7/17/2022 20:38,52,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-91667,7/17/2022 14:34,24,1,P&D Sweatpants (White/XS),1,45,0,45
-91666,7/17/2022 14:28,66,1,Better Grip (2 oz) (Regular),1,15,4.5,10.5
-91474,7/16/2022 12:35,24,1,P&D Sweatpants (Athletic Heather/XS),1,45,13.5,31.5
-91517,7/16/2022 18:04,46,1,Drop In Class,1,40,0,40
-91510,7/16/2022 17:19,85,1,Half of Pole L1 TT,1,175,0,175
-91503,7/16/2022 15:19,1,1,Drop In Class,1,40,0,40
-91499,7/16/2022 14:23,10,1,Drop In Class,1,40,0,40
-91360,7/15/2022 18:54,22,1,TT payment for V,1,300,0,300
-91318,7/15/2022 15:37,1,1,5 Class Pack,1,190,0,190
-91082,7/14/2022 11:10,91,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-91121,7/14/2022 15:51,58,1,Drop In Class,1,40,0,40
-91119,7/14/2022 15:43,62,1,Drop In Class,1,40,0,40
-90845,7/13/2022 12:04,88,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-90834,7/13/2022 10:54,35,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-90932,7/13/2022 18:12,42,1,Drop In Class,1,40,0,40
-90932,7/13/2022 18:12,68,1,Kind Bar,1,3,0.9,2.1
-90929,7/13/2022 18:02,85,1,P+D Classy Biker Shorts (L / XL),1,25,0,25
-90915,7/13/2022 17:06,53,1,Drop In Class,1,40,0,40
-90542,7/12/2022 3:12,7,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-90311,7/11/2022 7:00,81,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-90146,7/10/2022 11:18,28,1,Knee Pads with Grip (Latte/Large),1,35,0,35
-90232,7/10/2022 21:28,86,1,Drop In Class,1,40,0,40
-89857,7/9/2022 0:12,47,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-89933,7/9/2022 11:14,41,1,P+D Classy Biker Shorts (S / M),1,25,7.5,17.5
-89932,7/9/2022 11:11,99,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-90037,7/9/2022 23:07,9,1,Open Studio (Unhosted),1,25,0,25
-89832,7/8/2022 19:53,54,1,Drop In Class,1,40,0,40
-89796,7/8/2022 15:47,76,1,5 Class Pack,1,190,0,190
-89795,7/8/2022 15:42,76,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-89520,7/7/2022 11:35,19,1,5 Class Pack,1,190,0,190
-89613,7/7/2022 20:22,58,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-89612,7/7/2022 20:19,16,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-89611,7/7/2022 20:16,1,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-89601,7/7/2022 19:07,84,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-89589,7/7/2022 17:00,48,1,Drop In Class,1,40,0,40
-89232,7/6/2022 8:32,23,1,Drop In Class,1,40,0,40
-89358,7/6/2022 17:59,83,1,PoleGrip,1,15,0,15
-89350,7/6/2022 17:09,9,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-89008,7/5/2022 11:42,97,1,Drop In Class,1,40,0,40
-89007,7/5/2022 11:42,59,1,Drop In Class,1,40,0,40
-88985,7/5/2022 10:19,5,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-88983,7/5/2022 10:11,94,1,Drop In Class,1,40,0,40
-88760,7/4/2022 11:08,58,1,Drop In Class,1,40,0,40
-88759,7/4/2022 10:57,16,1,Event Deposit,1,100,0,100
-88644,7/3/2022 21:26,67,1,Studio Access Membership,1,200,0,200
-88551,7/3/2022 13:41,64,1,Better Grip (2 oz) (Regular),1,15,0,15
-88550,7/3/2022 13:33,34,1,P&D Gym Bag,1,30,0,30
-88544,7/3/2022 13:10,48,1,Kind Bar,1,3,0.9,2.1
-88393,7/2/2022 18:32,96,1,Drop In Class,1,40,0,40
-56244,2/19/2022 13:38,33,1,P+D Crop Tee (M),1,25,0,27.12
-87717,6/30/2022 0:03,85,1,Drop In Class,1,40,0,40
-87824,6/30/2022 10:12,81,1,Drop In Class,1,40,0,40
-87823,6/30/2022 10:11,84,1,Drop In Class,1,40,0,40
-87708,6/29/2022 23:59,12,1,Drop In Class,1,40,0,40
-87601,6/29/2022 11:20,89,1,Drop In Class,1,40,0,40
-87568,6/29/2022 8:22,82,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-87552,6/29/2022 7:08,50,1,5 Class Pack,1,190,0,190
-87233,6/28/2022 0:02,56,1,5 Class Pack,1,190,0,190
-87090,6/27/2022 12:16,97,1,Studio Access Membership,1,200,0,200
-87024,6/27/2022 7:21,9,1,5 Class Pack,1,190,0,190
-87183,6/27/2022 17:53,33,1,Knee Pads with Grip (Black/Small),1,35,0,35
-87183,6/27/2022 17:53,67,1,Toe Covers (Black Holo),1,18,0,18
-87130,6/27/2022 14:18,51,1,Drop In Class,1,40,40,0
-87125,6/27/2022 14:06,100,1,Drop In Class,1,40,0,40
-86922,6/26/2022 19:49,98,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-86913,6/26/2022 18:04,4,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-86874,6/26/2022 14:47,81,1,Micah's SATURDAY course,1,150,0,150
-86659,6/25/2022 12:34,59,1,P+D Beanie (Olive),1,20,0,20
-86659,6/25/2022 12:34,16,1,P+D Festival Crop Tank (L/Storm),1,25,0,25
-86658,6/25/2022 12:33,52,1,P+D Festival Crop Tank (M/Ice Blue),1,25,0,25
-86656,6/25/2022 12:26,16,1,Micah Workshop Payment,1,70,0,70
-86533,6/24/2022 20:01,95,1,Drop In Class,1,40,0,40
-86482,6/24/2022 13:28,88,1,Drop In Class,1,40,0,40
-86260,6/23/2022 12:52,45,1,5 Class Pack,1,190,0,190
-85969,6/22/2022 10:27,24,1,10 Class Pack,1,360,0,360
-85962,6/22/2022 10:05,30,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-86014,6/22/2022 14:45,49,1,Middle Splits Cartwheels and Tilts,1,150,150,0
-86014,6/22/2022 14:45,61,1,Backbend Breakthrough,1,150,150,0
-85743,6/21/2022 12:28,76,1,Event Deposit,1,100,0,100
-85732,6/21/2022 11:48,17,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-85715,6/21/2022 11:03,32,1,Drop In Class,1,40,0,40
-85802,6/21/2022 17:46,32,1,Drop In Class,1,40,0,40
-85801,6/21/2022 17:43,74,1,Single Drop In,1,40,0,40
-85800,6/21/2022 17:39,91,1,Drop In Class,1,40,0,40
-85799,6/21/2022 17:38,99,1,Kind Bar,1,3,0.9,2.1
-85784,6/21/2022 16:23,69,1,Drop In Class,1,40,0,40
-85774,6/21/2022 14:27,11,1,Drop In Class,1,40,0,40
-85771,6/21/2022 14:19,66,1,Drop In Class,1,40,0,40
-85615,6/20/2022 22:23,50,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-85599,6/20/2022 20:49,6,1,New Student 3 Class Special - 1 Month Exp,1,80,80,0
-85580,6/20/2022 18:07,33,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-85579,6/20/2022 17:58,14,1,Toe Covers (Mauve),1,18,0,18
-85264,6/19/2022 11:38,92,1,5 Class Pack,1,190,190,0
-85236,6/19/2022 8:39,42,1,Drop In Class,1,40,0,40
-85302,6/19/2022 17:54,60,1,Drop In Class,1,40,0,40
-85301,6/19/2022 17:43,48,1,Drop In Class,1,40,0,40
-85127,6/18/2022 11:42,42,1,P+D Festival Crop Tank (S/Storm),1,25,7.5,17.5
-85127,6/18/2022 11:42,92,1,P+D Beanie (Olive),1,20,6,14
-85124,6/18/2022 11:33,80,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-85119,6/18/2022 11:02,58,1,Monkey Hands (Classic),1,15,4.5,10.5
-85119,6/18/2022 11:02,17,1,P+D Festival Crop Tank (S/Storm),1,25,7.5,17.5
-85116,6/18/2022 10:49,89,1,Kind Bar,1,3,0.9,2.1
-85156,6/18/2022 16:08,77,1,Drop In Class,1,40,0,40
-85154,6/18/2022 16:06,37,1,Drop In Class,1,40,0,40
-85068,6/17/2022 23:14,51,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-84966,6/17/2022 10:39,67,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-85046,6/17/2022 18:04,48,1,Knee Pads with Grip (Sky Blue/Medium),1,35,0,35
-85043,6/17/2022 17:58,85,1,Drop In Class,1,40,0,40
-84994,6/17/2022 14:36,12,1,Drop In Class,1,40,0,40
-84786,6/16/2022 12:02,63,1,10 Class Pack,1,360,0,360
-84765,6/16/2022 11:08,5,1,5 Class Pack,1,190,0,190
-84874,6/16/2022 19:54,49,1,Drop In Class,1,40,0,40
-84530,6/15/2022 11:14,98,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-84486,6/15/2022 7:52,89,1,Drop In Class,1,40,0,40
-84622,6/15/2022 19:16,75,1,P+D Festival Crop Tank (L/Storm),1,25,0,25
-84611,6/15/2022 18:14,29,1,Kind Bar,1,3,0.9,2.1
-84417,6/14/2022 23:04,33,1,Pole Level 1 Teacher Training,1,500,0,500
-84416,6/14/2022 22:59,13,1,Drop In Class,1,40,8,32
-84340,6/14/2022 15:48,10,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-84330,6/14/2022 14:51,55,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-84095,6/13/2022 17:24,6,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-84057,6/13/2022 14:09,34,1,10 Class Pack,1,360,0,360
-83774,6/12/2022 11:12,20,1,Drop In Class,1,40,0,40
-83857,6/12/2022 19:40,26,1,Open Studio (Unhosted),1,25,0,25
-83822,6/12/2022 16:24,11,1,P+D Festival Crop Tank (S/Storm),1,25,0,25
-83700,6/12/2022 1:18,29,1,Drop In Class,1,40,0,40
-83533,6/11/2022 0:12,65,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-83621,6/11/2022 12:03,55,1,20 Class Pack,1,680,0,680
-83602,6/11/2022 9:54,33,1,P+D Festival Crop Tank (S/Mustard),1,25,7.5,17.5
-83670,6/11/2022 18:36,66,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-83542,6/11/2022 1:53,17,1,Drop In Class,1,40,0,40
-83397,6/10/2022 8:17,86,1,Drop In Class,1,40,0,40
-83490,6/10/2022 17:37,62,1,Drop In Class,1,40,0,40
-83486,6/10/2022 17:01,39,1,Drop In Class,1,40,0,40
-83459,6/10/2022 13:58,80,1,Drop In Class,1,40,0,40
-83163,6/9/2022 10:25,4,1,Open Studio (Unhosted),1,25,0,25
-83282,6/9/2022 20:52,100,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-82935,6/8/2022 10:21,33,1,Drop In Class,1,40,0,40
-83078,6/8/2022 21:21,87,1,Corkage Fee,2,20,0,20
-83078,6/8/2022 21:21,67,1,Event Clean Up Fee,1,10,0,10
-83058,6/8/2022 18:51,8,1,Kind Bar,1,3,0.9,2.1
-83010,6/8/2022 13:06,55,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-82799,6/7/2022 19:17,13,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-82406,6/6/2022 9:11,72,1,5 Class Pack,1,190,0,190
-82403,6/6/2022 9:02,61,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-82378,6/6/2022 8:02,87,1,Event Balance,1,250,0,250
-82238,6/5/2022 12:09,57,1,PoleGrip,1,15,0,15
-82204,6/5/2022 9:50,74,1,Heels with Sass,1,50,0,50
-82293,6/5/2022 19:05,24,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-82292,6/5/2022 18:58,68,1,Heels with Sass,1,50,0,50
-82256,6/5/2022 14:03,6,1,Better Grip (2 oz) (Regular),1,15,0,15
-82251,6/5/2022 13:05,62,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-82136,6/4/2022 23:32,68,1,5 Class Pack,1,190,0,190
-82102,6/4/2022 15:33,42,1,P+D Festival Crop Tank (M/Storm),1,25,0,25
-82005,6/4/2022 1:44,44,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-81895,6/3/2022 11:49,11,1,Drop In Class,1,40,0,40
-81893,6/3/2022 11:45,9,1,Drop In Class,1,40,0,40
-81986,6/3/2022 21:27,40,1,Studio Access Membership,1,200,0,200
-81872,6/3/2022 8:52,39,1,Event Deposit (PDX),1,100,0,100
-81953,6/3/2022 18:46,29,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
-81948,6/3/2022 17:19,27,1,Drop In Class,1,40,0,40
-81945,6/3/2022 17:03,40,1,Drop In Class,1,40,0,40
-81669,6/2/2022 11:35,91,1,Drop In Class,1,40,0,40
-81656,6/2/2022 10:29,28,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-81702,6/2/2022 15:24,52,1,Drop In Class,1,40,0,40
-81683,6/2/2022 13:16,51,1,Drop In Class,1,40,0,40
-81250,5/31/2022 23:08,86,1,Drop In Class,1,40,0,40
-81244,5/31/2022 22:55,63,1,Drop In Class,1,40,0,40
-81162,5/31/2022 17:57,30,1,Knee Pads with Grip (Pink/Small),1,35,0,35
-81125,5/31/2022 15:17,76,1,P+D Classy Biker Shorts (S / M),1,25,0,25
-81125,5/31/2022 15:17,87,1,P+D Classy Biker Shorts (L / XL),1,25,0,25
-81099,5/31/2022 13:46,75,1,P+D Festival Crop Tank (S/Mustard),1,25,7.5,17.5
-80835,5/30/2022 10:49,52,1,Drop In Class,1,40,0,40
-80718,5/29/2022 23:07,92,1,Drop In Class,1,40,0,40
-80666,5/29/2022 14:01,23,1,5 Class Pack,1,190,0,190
-80271,5/27/2022 10:43,48,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-80263,5/27/2022 9:47,39,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-80373,5/27/2022 21:12,12,1,5 Class Pack,1,190,0,190
-80358,5/27/2022 19:42,91,1,Drop In Class,1,40,0,40
-80333,5/27/2022 16:34,32,1,Drop In Class,1,40,0,40
-56548,2/21/2022 9:44,88,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
-79809,5/25/2022 11:07,12,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-79898,5/25/2022 19:52,24,1,Event Deposit (PDX),1,100,0,100
-79892,5/25/2022 19:29,90,1,Drop In Class (PDX),1,40,0,40
-79701,5/24/2022 21:26,30,1,Drop In Class (PDX),1,40,0,40
-79697,5/24/2022 21:13,71,1,Drop In Class (PDX),1,40,0,40
-79328,5/23/2022 10:50,51,1,Drop In Class (PDX),1,40,0,40
-79327,5/23/2022 10:50,81,1,Drop In Class (PDX),1,40,0,40
-79462,5/23/2022 22:30,72,1,Event Balance (PDX),1,200,0,200
-79453,5/23/2022 21:01,65,1,Drop In Class (PDX),1,40,0,40
-79422,5/23/2022 17:35,33,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,16,64
-79394,5/23/2022 15:19,84,1,Event Deposit (PDX),1,100,0,100
-79366,5/23/2022 13:47,35,1,Open Studio PDX (Unhosted),1,25,0,25
-79362,5/23/2022 13:23,93,1,Drop In Class (PDX),1,40,0,40
-79113,5/22/2022 10:54,81,1,Drop In Class (PDX),1,40,0,40
-79219,5/22/2022 21:46,54,1,Drop In Class (PDX),1,40,0,40
-79149,5/22/2022 13:44,22,1,PoleGrip,1,15,0,15
-79147,5/22/2022 13:41,10,1,PoleGrip,1,15,0,15
-79145,5/22/2022 13:40,11,1,PoleGrip,1,15,0,15
-78942,5/21/2022 12:34,69,1,PD Retro Shorts (Large/White),1,25,0,25
-78898,5/21/2022 11:17,38,1,Drop In Class (PDX),1,40,0,40
-56637,2/21/2022 17:49,8,1,Toe Covers (Rainbow),1,18,0,19.84
-78810,5/20/2022 20:16,34,1,PoleGrip,1,15,4.5,10.5
-78803,5/20/2022 19:34,48,1,P+D Festival Crop Tank (L/Ice Blue),1,25,0,25
-78783,5/20/2022 17:35,32,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-78764,5/20/2022 15:04,60,1,P+D Festival Crop Tank (S/Mustard),1,25,7.5,17.5
-78745,5/20/2022 13:16,95,1,Middle Splits Cartwheels and Tilts,1,150,0,150
-78743,5/20/2022 13:11,77,1,Event Balance (PDX),1,200,0,200
-78569,5/19/2022 18:58,21,1,Drop In Class (PDX),1,40,0,40
-78547,5/19/2022 16:44,38,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-78536,5/19/2022 15:03,1,1,Backbend Breakthrough,1,150,0,150
-78347,5/18/2022 17:51,12,1,P+D Festival Crop Tank (S/Pink),1,25,7.5,17.5
-78346,5/18/2022 17:41,34,1,P+D Festival Crop Tank (S/Ice Blue),1,25,7.5,17.5
-78331,5/18/2022 16:53,88,1,Drop In Class (PDX),1,40,0,40
-78161,5/17/2022 21:38,4,1,Monkey Hands (Classic),1,15,4.5,10.5
-78140,5/17/2022 19:10,93,1,Better Grip (2 oz) (Regular),1,15,0,15
-78128,5/17/2022 17:59,51,1,P&D Sweatpants (White/S),1,45,0,45
-78090,5/17/2022 14:45,43,1,Drop In Class (PDX),1,40,0,40
-77788,5/16/2022 11:50,11,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-77889,5/16/2022 18:51,39,1,Drop In Class (PDX),1,40,0,40
-77844,5/16/2022 16:20,76,1,Monkey Hands (Sticky),1,15,4.5,10.5
-77841,5/16/2022 16:14,31,1,Drop In Class (PDX),1,40,0,40
-77531,5/15/2022 11:49,95,1,5 Class Pack (PDX),1,190,0,190
-77526,5/15/2022 11:27,66,1,Drop In Class (PDX),1,40,0,40
-77522,5/15/2022 11:19,57,1,Kind Bar,1,3,0.9,2.1
-77521,5/15/2022 11:17,68,1,Toe Covers (Electric),1,18,0,18
-77519,5/15/2022 11:05,5,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-77555,5/15/2022 15:02,15,1,Drop In Class (PDX),1,40,0,40
-77366,5/14/2022 12:28,68,1,Knee Pads without Grip (Sky Blue/Large),1,35,0,35
-77342,5/14/2022 10:05,53,1,Drop In Class (PDX),1,40,0,40
-77412,5/14/2022 20:20,52,1,Drop In Class (PDX),1,40,0,40
-77410,5/14/2022 20:03,46,1,Drop In Class (PDX),1,40,0,40
-77409,5/14/2022 19:45,56,1,Drop In Class (PDX),1,40,0,40
-77380,5/14/2022 13:53,75,1,Toe Covers (Dark Sky),1,18,0,18
-77379,5/14/2022 13:47,28,1,Michah Walters Workshop Payment,1,200,0,200
-77252,5/13/2022 20:37,15,1,Drop In Class (PDX),1,40,0,40
-77249,5/13/2022 19:46,51,1,Drop In Class (PDX),1,40,0,40
-77239,5/13/2022 18:50,54,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-77232,5/13/2022 18:19,49,1,Drop In Class (PDX),1,40,0,40
-77213,5/13/2022 16:11,32,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-77040,5/12/2022 21:01,6,1,Drop In Class (PDX),1,40,0,40
-77019,5/12/2022 19:22,31,1,Event Deposit (PDX),1,100,0,100
-77013,5/12/2022 19:01,49,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-77006,5/12/2022 18:31,39,1,Kind Bar,1,3,0.9,2.1
-76675,5/11/2022 12:53,11,1,5 Class Pack (PDX),1,190,0,190
-76661,5/11/2022 11:43,42,1,Drop In Class (PDX),1,40,0,40
-76794,5/11/2022 22:21,32,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-76793,5/11/2022 22:20,64,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-76621,5/11/2022 9:23,100,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-76457,5/10/2022 15:51,21,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-76137,5/9/2022 12:58,2,1,10 Class Pack (PDX),1,360,0,360
-76130,5/9/2022 12:41,38,1,10 Class Pack (PDX),1,360,0,360
-76120,5/9/2022 12:18,42,1,Heels with Sass,1,50,0,50
-76242,5/9/2022 21:19,2,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
-76239,5/9/2022 21:17,7,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
-76167,5/9/2022 15:17,90,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
-75863,5/8/2022 11:29,33,1,Drop In Class (PDX),1,40,0,40
-75929,5/8/2022 20:05,91,1,Drop In Class (PDX),1,40,0,40
-75919,5/8/2022 19:14,18,1,Drop In Class (PDX),1,40,0,40
-75899,5/8/2022 16:58,70,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-75668,5/7/2022 11:34,9,1,Kind Bar,1,3,0.9,2.1
-75667,5/7/2022 11:20,24,1,Knee Pads without Grip (Latte/Large),1,35,0,35
-75667,5/7/2022 11:20,27,1,P+D Classy Biker Shorts (L / XL),1,25,0,25
-75634,5/7/2022 9:34,85,1,Drop In Class (PDX),1,40,0,40
-75691,5/7/2022 13:54,11,1,P&D Sweatpants (Gray/XS),1,45,13.5,31.5
-75406,5/6/2022 11:20,31,1,10 Class Pack (PDX),1,360,0,360
-75399,5/6/2022 10:42,81,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-75270,5/5/2022 19:05,78,1,Toe Covers (Holo Python),1,18,5.4,12.6
-75260,5/5/2022 18:21,88,1,Drop In Class (PDX),1,40,0,40
-74811,5/3/2022 21:26,83,1,Studio Access Membership (PDX),1,200,0,200
-74635,5/3/2022 8:44,21,1,Drop In Class (PDX),1,40,0,40
-74769,5/3/2022 18:35,13,1,Knee Pads without Grip (Black/Small),1,35,0,35
-74391,5/2/2022 10:50,71,1,Drop In Class (PDX),1,40,0,40
-74514,5/2/2022 20:46,85,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-74504,5/2/2022 18:45,38,1,Drop In Class (PDX),1,40,0,40
-74461,5/2/2022 16:19,90,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-74116,5/1/2022 11:44,79,1,5 Class Pack (PDX),1,190,190,0
-74103,5/1/2022 11:03,82,1,Knee Pads with Grip (Sky Blue/Medium),1,35,10.5,24.5
-74078,5/1/2022 9:05,4,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-74191,5/1/2022 17:16,48,1,PDX Tank (M),1,20,20,0
-74191,5/1/2022 17:16,33,1,P&D Key Chain,1,7,7,0
-74151,5/1/2022 13:47,4,1,Dew Point 2.5 oz. (Ultra),1,15,0,15
-73813,4/30/2022 12:17,26,1,Kind Bar,1,3,0.9,2.1
-73792,4/30/2022 10:39,78,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-73770,4/30/2022 9:23,6,1,Drop In Class (PDX),1,40,0,40
-73769,4/30/2022 9:23,89,1,P&D Pride Top (High V Neck/Small),1,30,9,21
-73769,4/30/2022 9:23,52,1,PD Retro Shorts (Medium/White),1,25,7.5,17.5
-73892,4/30/2022 20:54,11,1,Open Studio PDX (Unhosted),1,25,0,25
-73890,4/30/2022 20:52,24,1,Drop In Class (PDX),1,40,0,40
-73763,4/30/2022 8:39,12,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-73885,4/30/2022 19:16,28,1,Drop In Class (PDX),1,40,0,40
-73818,4/30/2022 13:25,29,1,Drop In Class (PDX),1,40,0,40
-73817,4/30/2022 13:23,67,1,PoleGrip,1,15,4.5,10.5
-73646,4/29/2022 17:23,41,1,5 Class Pack (PDX),1,190,0,190
-73265,4/28/2022 10:30,50,1,Drop In Class (PDX),1,40,0,40
-73372,4/28/2022 19:13,71,1,P&D Gym Bag,1,30,9,21
-73366,4/28/2022 18:10,12,1,P&D Gym Bag,1,30,9,21
-73342,4/28/2022 16:25,46,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-73006,4/27/2022 12:42,44,1,20 Class Pack (PDX),1,680,680,0
-72998,4/27/2022 12:08,13,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-72994,4/27/2022 11:47,89,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-56687,2/21/2022 23:54,98,1,Studio Access Membership (SF),1,200,0,200
-72882,4/26/2022 21:18,38,1,Static Rotations,1,60,0,60
-72881,4/26/2022 21:17,30,1,Magical Mounts,1,60,0,60
-72860,4/26/2022 19:11,59,1,PoleGrip,2,30,0,30
-72829,4/26/2022 17:06,79,1,Open Studio PDX (Unhosted),1,25,0,25
-72801,4/26/2022 14:46,42,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-72456,4/25/2022 12:48,52,1,Drop In Class (PDX),1,40,0,40
-72455,4/25/2022 12:47,99,1,Drop In Class (PDX),1,40,0,40
-72586,4/25/2022 21:30,64,1,Drop In Class (PDX),1,40,0,40
-72541,4/25/2022 18:24,2,1,Static Rotations,1,60,0,60
-72540,4/25/2022 18:21,81,1,Magical Mounts,1,60,0,60
-72466,4/25/2022 13:26,91,1,Magical Mounts,1,60,0,60
-72288,4/24/2022 19:08,36,1,Drop In Class (PDX),1,40,0,40
-72269,4/24/2022 16:11,44,1,P&D Key Chain,1,7,7,0
-72269,4/24/2022 16:11,17,1,PDX Tank (S),1,20,20,0
-72267,4/24/2022 15:35,24,1,Drop In Class (PDX),1,40,0,40
-72073,4/23/2022 12:41,97,1,Drop In Class (PDX),1,40,0,40
-72055,4/23/2022 11:18,2,1,P&D Sweatpants (Mauve/L),1,45,0,45
-72047,4/23/2022 10:49,18,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
-72023,4/23/2022 8:27,15,1,Magical Mounts,1,60,0,60
-72086,4/23/2022 14:31,82,1,PoleGrip,1,15,4.5,10.5
-72086,4/23/2022 14:31,42,1,Knee Pads with Grip (Pink/XS),1,35,10.5,24.5
-72078,4/23/2022 13:44,25,1,P&D Sweatpants (Athletic Heather/M),1,45,13.5,31.5
-71842,4/22/2022 9:12,75,1,Pole Level 1 Teacher Training,1,500,0,500
-71663,4/21/2022 11:36,99,1,Drop In Class (PDX),1,40,0,40
-71774,4/21/2022 22:36,28,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-71725,4/21/2022 17:28,30,1,Drop In Class (PDX),1,40,0,40
-71713,4/21/2022 16:35,59,1,Drop In Class (PDX),1,40,0,40
-71443,4/20/2022 12:37,26,1,Static Rotations,1,60,0,60
-71442,4/20/2022 12:37,52,1,Magical Mounts,1,60,0,60
-71430,4/20/2022 11:22,97,1,5 Class Pack (PDX),1,190,0,190
-71401,4/20/2022 9:03,77,1,Heels with Sass,1,50,0,50
-71495,4/20/2022 17:45,50,1,Kind Bar,1,3,0.9,2.1
-71107,4/19/2022 0:42,22,1,Drop In Class (PDX),1,40,0,40
-71303,4/19/2022 20:51,6,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-71290,4/19/2022 19:44,3,1,Drop In Class (PDX),1,40,0,40
-71284,4/19/2022 19:12,58,1,20 Class Pack (PDX),1,680,0,680
-71262,4/19/2022 17:22,65,1,Drop In Class (PDX),1,40,0,40
-71252,4/19/2022 16:50,5,1,20 Class Pack (PDX),1,680,680,0
-71251,4/19/2022 16:50,58,1,20 Class Pack (PDX),1,680,680,0
-70934,4/18/2022 12:17,3,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-71088,4/18/2022 23:18,11,1,20 Class Pack (PDX),1,680,680,0
-71088,4/18/2022 23:18,50,1,Open Studio PDX (Unhosted),10,250,250,0
-71058,4/18/2022 20:30,16,1,Drop In Class (PDX),1,40,40,0
-71004,4/18/2022 16:39,48,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-70944,4/18/2022 13:03,37,1,Backbend Breakthrough,1,150,0,150
-70709,4/17/2022 12:50,15,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-70706,4/17/2022 12:29,98,1,Drop In Class (PDX),1,40,40,0
-70779,4/17/2022 22:57,91,1,Drop In Class (PDX),1,40,0,40
-70678,4/17/2022 9:37,36,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-70549,4/16/2022 12:15,54,1,Backbend Breakthrough,1,150,0,150
-70548,4/16/2022 12:14,41,1,Middle Splits Cartwheels and Tilts,1,150,0,150
-70564,4/16/2022 13:48,47,1,Kind Bar,1,3,0.9,2.1
-70564,4/16/2022 13:48,29,1,PoleGrip,1,15,4.5,10.5
-70335,4/15/2022 8:37,13,1,Pole Level 1 Teacher Training,1,500,0,500
-70453,4/15/2022 19:39,8,1,PoleGrip,1,15,0,15
-70453,4/15/2022 19:39,95,1,P&D Pin (Red Pole),1,10,0,10
-70395,4/15/2022 13:34,80,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-70176,4/14/2022 12:21,5,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
-70142,4/14/2022 9:15,79,1,Drop In Class (PDX),1,40,0,40
-70248,4/14/2022 19:34,66,1,PDX Tank (S),1,20,20,0
-70248,4/14/2022 19:34,3,1,P&D Key Chain,1,7,7,0
-70240,4/14/2022 18:14,64,1,Kind Bar,1,3,0.9,2.1
-70199,4/14/2022 14:56,94,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-69977,4/13/2022 12:46,66,1,20 Class Pack (PDX),1,680,680,0
-69977,4/13/2022 12:46,18,1,Open Studio PDX (Unhosted),10,250,250,0
-69923,4/13/2022 7:50,14,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-70041,4/13/2022 18:16,59,1,PDX Tank (S),1,20,20,0
-70041,4/13/2022 18:16,44,1,P&D Key Chain,1,7,7,0
-70040,4/13/2022 18:15,18,1,Kind Bar,1,3,0.9,2.1
-70035,4/13/2022 17:43,34,1,P+D Classy Biker Shorts (S / M),1,25,7.5,17.5
-70035,4/13/2022 17:43,9,1,P&D Gym Bag,1,30,9,21
-69889,4/13/2022 1:53,10,1,Static Rotations,1,60,0,60
-69888,4/13/2022 1:52,46,1,Magical Mounts,1,60,0,60
-69879,4/12/2022 23:22,80,1,5 Class Pack (PDX),1,190,0,190
-69841,4/12/2022 19:32,8,1,Drop In Class (PDX),3,120,0,120
-69821,4/12/2022 17:25,20,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-69802,4/12/2022 16:03,92,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-69799,4/12/2022 15:52,99,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-69426,4/11/2022 12:09,23,1,20 Class Pack (PDX),1,680,680,0
-69426,4/11/2022 12:09,88,1,Open Studio PDX (Unhosted),10,250,250,0
-69419,4/11/2022 11:45,77,1,10 Class Pack (PDX),1,360,0,360
-69548,4/11/2022 19:30,58,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-69538,4/11/2022 18:42,47,1,Static Rotations,1,60,0,60
-69514,4/11/2022 17:22,62,1,Magical Mounts,1,60,0,60
-69513,4/11/2022 17:22,18,1,Static Rotations,1,60,0,60
-69504,4/11/2022 16:52,92,1,Static Rotations,1,60,0,60
-69503,4/11/2022 16:51,41,1,Better Grip (2 oz) (Regular),1,15,0,15
-69465,4/11/2022 14:13,71,1,Magical Mounts,1,60,0,60
-69190,4/10/2022 12:20,83,1,Kind Bar,1,3,0.9,2.1
-69187,4/10/2022 11:57,60,1,PoleGrip,1,15,4.5,10.5
-69175,4/10/2022 11:10,84,1,Knee Pads with Grip (Black/Medium),1,35,0,35
-69169,4/10/2022 10:58,29,1,Drop In Class (PDX),1,40,0,40
-69168,4/10/2022 10:54,53,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
-69159,4/10/2022 10:15,79,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-57026,2/23/2022 14:20,59,1,P&D Sweatpants (Mauve/L),1,45,0,49.61
-57442,2/25/2022 10:07,57,1,Handstands Series with Anna,1,175,0,175
-69127,4/10/2022 7:51,42,1,5 Class Pack (PDX),1,190,0,190
-69245,4/10/2022 16:06,26,1,$100 Gift Card,1,100,0,100
-68989,4/9/2022 10:09,77,1,P&D Key Chain,1,7,7,0
-68987,4/9/2022 9:55,69,1,5 Class Pack (PDX),1,190,0,190
-68967,4/9/2022 8:44,26,1,Kind Bar,1,3,0.9,2.1
-69059,4/9/2022 20:31,62,1,Drop In Class (PDX),1,40,0,40
-58615,2/28/2022 14:45,44,1,5 Week Intensive Training Program,1,600,0,600
-68815,4/8/2022 10:44,55,1,Drop In Class (PDX),1,40,0,40
-68810,4/8/2022 10:36,15,1,Drop In Class (PDX),1,40,0,40
-68809,4/8/2022 10:36,52,1,Static Rotations,1,60,0,60
-68908,4/8/2022 20:17,91,1,Kind Bar,1,3,0.9,2.1
-68896,4/8/2022 17:42,74,1,P+D Crew Socks,1,20,6,14
-68894,4/8/2022 17:40,18,1,Drop In Class (PDX),3,120,120,0
-68864,4/8/2022 15:26,51,1,Open Studio PDX (Unhosted),10,250,250,0
-68864,4/8/2022 15:26,68,1,20 Class Pack (PDX),1,680,680,0
-68847,4/8/2022 13:28,76,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-68464,4/7/2022 0:44,57,1,Event Balance (PDX),1,200,0,200
-58898,3/1/2022 5:39,34,1,4 Weeks Active Flex: Backbends with Shiki,1,175,0,175
-68691,4/7/2022 20:37,63,1,PoleGrip,1,15,0,15
-68691,4/7/2022 20:37,47,1,PD Retro Shorts (Medium/Baby Blue),1,25,0,25
-68543,4/7/2022 8:20,13,1,Magical Mounts,1,60,0,60
-68540,4/7/2022 7:41,50,1,Static Rotations,1,60,0,60
-68539,4/7/2022 7:41,31,1,Magical Mounts,1,60,0,60
-68687,4/7/2022 19:06,91,1,Static Rotations,1,60,0,60
-68340,4/6/2022 12:42,45,1,5 Class Pack (PDX),1,190,0,190
-68335,4/6/2022 12:00,99,1,Magical Mounts,1,60,0,60
-68377,4/6/2022 14:44,60,1,Drop In Class (PDX),1,40,0,40
-68367,4/6/2022 14:06,47,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-68191,4/5/2022 19:35,45,1,Magical Mounts,1,60,0,60
-68184,4/5/2022 19:07,47,1,5 Class Pack (PDX),1,190,0,190
-68181,4/5/2022 18:42,64,1,Magical Mounts,1,60,0,60
-68177,4/5/2022 18:14,46,1,Static Rotations,1,60,0,60
-68175,4/5/2022 18:04,65,1,Knee Pads with Grip (Black/Large),1,35,0,35
-68129,4/5/2022 15:41,3,1,Static Rotations,1,60,0,60
-68127,4/5/2022 15:37,94,1,Drop In Class (PDX),1,40,0,40
-68091,4/5/2022 13:48,28,1,Static Rotations,1,60,0,60
-68088,4/5/2022 13:48,59,1,Magical Mounts,1,60,0,60
-67801,4/4/2022 12:16,10,1,Open Studio PDX (Unhosted),1,25,0,25
-67784,4/4/2022 11:03,88,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-67775,4/4/2022 10:39,46,1,Drop In Class (PDX),1,40,0,40
-67889,4/4/2022 18:07,99,1,Drop In Class (PDX),1,40,0,40
-67887,4/4/2022 17:56,33,1,P+D Sports Bra (M),1,30,9,21
-67886,4/4/2022 17:54,14,1,PDX Tank (S),1,20,0,20
-67884,4/4/2022 17:35,83,1,Drop In Class (PDX),1,40,0,40
-67866,4/4/2022 15:56,76,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-67865,4/4/2022 15:55,28,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-67827,4/4/2022 13:40,73,1,Open Studio PDX (Unhosted),1,25,0,25
-67623,4/3/2022 21:25,52,1,Studio Access Membership (PDX),1,200,0,200
-67258,4/2/2022 11:20,8,1,PD Retro Shorts (Small/Baby Blue),1,25,0,25
-67237,4/2/2022 10:05,48,1,Drop In Class (PDX),1,40,0,40
-67292,4/2/2022 14:07,9,1,Drop In Class (PDX),1,40,0,40
-67291,4/2/2022 14:03,47,1,Drop In Class (PDX),1,40,0,40
-67289,4/2/2022 13:58,38,1,Drop In Class (PDX),1,40,0,40
-60105,3/3/2022 21:48,37,1,Drop In Class,1,40,0,40
-67161,4/1/2022 20:08,25,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-67159,4/1/2022 19:20,40,1,Drop In Class (PDX),1,40,40,0
-66735,3/31/2022 16:29,100,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-66714,3/31/2022 15:10,20,1,5 Class Pack (PDX),1,190,38,152
-66407,3/30/2022 14:54,75,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
-66101,3/29/2022 13:05,46,1,Event Balance (PDX),1,200,0,200
-65728,3/28/2022 12:44,54,1,Drop In Class (PDX),1,40,0,40
-65694,3/28/2022 9:57,36,1,Drop In Class (PDX),1,40,0,40
-65807,3/28/2022 19:11,80,1,Dew Point 2.5 oz. (Ultra),1,15,0,15
-65628,3/28/2022 1:57,24,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,16,64
-65736,3/28/2022 13:19,11,1,5 Class Pack (PDX),1,190,0,190
-65512,3/27/2022 12:33,92,1,Better Grip (2 oz) (Regular),1,15,4.5,10.5
-65512,3/27/2022 12:33,45,1,P+D Classy Biker Shorts (S / M),1,25,7.5,17.5
-65607,3/27/2022 21:44,69,1,Drop In Class (PDX),3,120,120,0
-65606,3/27/2022 21:43,86,1,Drop In Class (PDX),3,120,120,0
-65605,3/27/2022 21:42,82,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
-65604,3/27/2022 21:41,16,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
-65603,3/27/2022 21:41,49,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
-65602,3/27/2022 21:39,64,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
-65601,3/27/2022 21:38,46,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
-65600,3/27/2022 21:38,73,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
-65599,3/27/2022 21:36,13,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
-65530,3/27/2022 14:18,50,1,Drop In Class (PDX),1,40,0,40
-65527,3/27/2022 13:48,99,1,P+D Crop Tee (M),1,25,0,25
-65342,3/26/2022 12:17,78,1,P&D Sweatpants (Gray/S),1,45,13.5,31.5
-65342,3/26/2022 12:17,94,1,P&D Sweatpants (Mauve/S),1,45,13.5,31.5
-65341,3/26/2022 12:16,79,1,Studio Access Membership (PDX),1,200,0,200
-65304,3/26/2022 10:04,40,1,PD Retro Shorts (Large/Baby Blue),1,25,25,0
-65300,3/26/2022 9:31,23,1,PoleGrip,1,15,4.5,10.5
-65174,1/25/2023 17:45,37,1,Drop In Class (PDX),1,40,0,40
+order_id,order_date,client_id,user_id,item_name,quantity,gross_sales,discount,net_sales
+118830,12/24/2022 0:00,79,1,New Student 3 Pack (1 month expiration),1,80,0,80
+118670,1/17/2023 0:00,21,4,Open Studio (Unhosted),1,25,0,25
+118362,10/11/2022 0:00,18,3,Drop In Class,1,40,0,40
+118454,1/24/2023 0:00,34,1,Drop In Class,1,40,0,40
+118404,11/24/2022 0:00,14,3,Better Grip (2 oz) (Regular),1,15,0,15
+118401,12/23/2022 0:00,13,3,Drop In Class,1,40,40,0
+118178,11/28/2022 0:00,52,3,Drop In Class,1,40,0,40
+118168,12/22/2022 0:00,90,4,Drop In Class,1,40,20,20
+118161,10/12/2022 0:00,29,1,Toe Covers (Burgundy),1,18,0,18
+117825,11/19/2022 0:00,74,3,New Student 3 Pack (1 month expiration),1,80,0,80
+117920,12/11/2022 0:00,74,2,New Student 3 Pack (1 month expiration),1,80,0,80
+118027,11/22/2022 0:00,56,4,New Student 3 Pack (1 month expiration),1,80,0,80
+118015,12/14/2022 0:00,48,2,Drop In Class,1,40,20,20
+118014,11/2/2022 0:00,9,2,Drop In Class,1,40,20,20
+118004,11/28/2022 0:00,24,1,PDX Studio Access Membership,1,200,0,200
+117990,11/15/2022 0:00,68,1,Open Studio (Unhosted),1,25,0,25
+117684,10/19/2022 0:00,56,3,New Student 3 Pack (1 month expiration),1,80,0,80
+117792,11/29/2022 0:00,34,3,Drop In Class,1,40,0,40
+117791,11/13/2022 0:00,44,2,Drop In Class,1,40,0,40
+117499,11/3/2022 0:00,75,1,Kind Bar,1,3,0.75,2.25
+117480,10/14/2022 0:00,60,2,New Student 3 Pack (1 month expiration),1,80,0,80
+117464,12/15/2022 0:00,49,1,Open Studio (Unhosted),1,25,0,25
+117457,11/1/2022 0:00,83,3,New Student 3 Pack (1 month expiration),1,80,0,80
+117452,12/6/2022 0:00,58,2,Drop In Class,1,40,0,40
+117216,10/16/2022 0:00,10,3,P+D Crew Socks,1,20,5,15
+117209,12/22/2022 0:00,84,3,5 Class Pack,1,190,0,190
+117173,10/16/2022 0:00,42,2,Drop In Class,1,40,0,40
+117167,1/22/2023 0:00,68,4,Drop In Class,1,40,0,40
+117163,10/21/2022 0:00,63,1,Drop In Class,1,40,0,40
+117162,10/8/2022 0:00,96,3,Drop In Class,1,40,0,40
+117161,11/30/2022 0:00,84,4,5 Class Pack,1,190,0,190
+116822,1/5/2023 0:00,5,4,Open Studio (Unhosted),1,25,0,25
+116778,10/18/2022 0:00,22,4,Drop In Class,1,40,20,20
+116775,10/4/2022 0:00,40,2,Drop In Class,1,40,20,20
+116930,10/16/2022 0:00,70,3,P&D Sweatpants (Mauve/L),1,45,0,45
+47175,10/6/2022 0:00,60,2,Studio Access Membership (SF),1,200,0,217
+116881,12/4/2022 0:00,100,2,Open Studio (Unhosted),1,25,0,25
+116864,12/20/2022 0:00,21,3,Open Studio (Unhosted),1,25,0,25
+116861,11/12/2022 0:00,83,2,Open Studio (Unhosted),1,25,0,25
+116556,1/26/2023 0:00,81,4,Drop In Class,1,40,20,20
+116650,10/29/2022 0:00,25,2,Drop In Class,1,40,0,40
+116529,10/6/2022 0:00,32,1,New Student 3 Pack (1 month expiration),1,80,0,80
+116613,12/30/2022 0:00,80,1,New Student 3 Pack (1 month expiration),1,80,0,80
+116585,1/2/2023 0:00,74,2,Drop In Class,1,40,40,0
+116351,11/8/2022 0:00,30,2,Drop In Class,1,40,20,20
+116342,11/10/2022 0:00,81,2,P+D Crew Socks,1,20,0,20
+47531,1/29/2023 0:00,46,3,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+116339,10/27/2022 0:00,19,3,Drop In Class,1,40,0,40
+116321,1/8/2023 0:00,23,2,Monkey Hands (Classic),1,15,0,15
+116404,12/20/2022 0:00,50,1,Drop In Class,1,40,0,40
+116218,1/26/2023 0:00,9,3,Drop In Class,1,40,20,20
+116217,1/3/2023 0:00,72,4,Drop In Class,1,40,20,20
+115892,10/30/2022 0:00,38,2,New Student 3 Pack (1 month expiration),1,80,0,80
+115973,10/3/2022 0:00,50,2,1 Group Lesson (3 students),1,175,0,175
+115965,10/14/2022 0:00,86,4,Open Studio (Unhosted),1,25,0,25
+115964,12/17/2022 0:00,2,4,Drop In Class,1,40,20,20
+115963,1/24/2023 0:00,64,4,Drop In Class,1,40,20,20
+115924,11/3/2022 0:00,42,3,Drop In Class,1,40,0,40
+115697,11/3/2022 0:00,87,2,Drop In Class,1,40,20,20
+115674,1/30/2023 0:00,64,2,New Student 3 Pack (1 month expiration),1,80,0,80
+115457,1/19/2023 0:00,17,4,Open Studio (Unhosted),1,25,0,25
+115641,10/13/2022 0:00,61,2,PoleGrip,1,15,0,15
+115617,10/14/2022 0:00,97,1,Open Studio (Unhosted),1,25,0,25
+115602,12/8/2022 0:00,76,3,Drop In Class,1,40,0,40
+115145,10/6/2022 0:00,3,3,Drop In Class,1,40,20,20
+115087,1/20/2023 0:00,30,3,New Student 3 Pack (1 month expiration),1,80,0,80
+114897,1/7/2023 0:00,32,3,Drop In Class,1,40,20,20
+114896,12/15/2022 0:00,14,1,Drop In Class,1,40,20,20
+115030,11/28/2022 0:00,44,1,Open Studio (Unhosted),1,25,0,25
+115027,10/7/2022 0:00,62,4,Open Studio (Unhosted),1,25,0,25
+47752,1/31/2023 0:00,48,4,6 Week Active Flexibility Series: Splits,1,250,0,250
+114692,11/27/2022 0:00,57,3,Drop In Class,1,40,0,40
+114677,1/1/2023 0:00,59,4,10 Class Pack,1,360,0,360
+114790,1/1/2023 0:00,69,3,Drop In Class,1,40,20,20
+114601,1/8/2023 0:00,69,3,Drop In Class,6,240,240,0
+114600,1/18/2023 0:00,78,4,Drop In Class,3,120,120,0
+114599,11/11/2022 0:00,25,1,Drop In Class,1,40,40,0
+114481,10/18/2022 0:00,21,2,P+D Crew Socks,1,20,0,20
+114454,10/20/2022 0:00,37,2,Toe Covers (Light Pink),1,18,0,18
+114453,1/25/2023 0:00,43,4,Toe Covers (Forest Green),1,18,0,18
+114450,10/13/2022 0:00,6,3,P+D Crew Socks,1,20,0,20
+114438,1/16/2023 0:00,74,2,Knee Pads without Grip (Black/Large),1,35,0,35
+114437,10/18/2022 0:00,39,4,Knee Pads with Grip (Red/Large),1,35,0,35
+114436,1/8/2023 0:00,49,3,P+D Beanie (Dark Gray),1,20,5,15
+114549,10/17/2022 0:00,16,3,1 Semi-Private (2 students),1,150,0,150
+114404,12/5/2022 0:00,12,1,Drop In Class,1,40,20,20
+114512,1/5/2023 0:00,50,4,Knee Pads with Grip (Black/Small),1,35,8.75,26.25
+114245,1/18/2023 0:00,64,1,Drop In Class,1,40,20,20
+114339,11/7/2022 0:00,48,2,Drop In Class,1,40,20,20
+114264,1/9/2023 0:00,92,4,New Student 3 Pack (1 month expiration),1,80,0,80
+114037,10/8/2022 0:00,80,1,Drop In Class,1,40,10,30
+114035,12/26/2022 0:00,94,3,Drop In Class,1,40,10,30
+113708,11/24/2022 0:00,31,3,Open Studio (Unhosted),1,25,0,25
+113798,10/27/2022 0:00,72,1,Kind Bar,1,3,0.75,2.25
+113775,11/18/2022 0:00,53,4,1 Semi-Private (2 students),1,150,0,150
+113389,11/9/2022 0:00,10,3,5 Class Pack,1,190,0,190
+113388,1/10/2023 0:00,70,3,5 Class Pack,1,190,0,190
+113503,11/6/2022 0:00,83,1,Drop In Class,1,40,0,40
+113482,11/27/2022 0:00,11,1,Open Studio for a Performance Series,1,0,0,0
+113481,11/9/2022 0:00,3,3,Open Studio for a Performance Series,1,0,0,0
+113480,10/17/2022 0:00,82,4,Open Studio for a Performance Series,1,0,0,0
+113479,12/2/2022 0:00,10,3,Open Studio for a Performance Series,1,0,0,0
+113478,1/7/2023 0:00,19,4,Open Studio for a Performance Series,2,0,0,0
+113477,10/20/2022 0:00,39,1,Open Studio for a Performance Series,2,0,0,0
+113476,11/15/2022 0:00,63,2,Open Studio for a Performance Series,2,0,0,0
+113475,11/4/2022 0:00,51,1,Open Studio for a Performance Series,2,0,0,0
+113474,12/17/2022 0:00,42,3,Open Studio for a Performance Series,2,0,0,0
+113467,1/17/2023 0:00,97,2,Drop In Class,1,40,0,40
+113449,1/15/2023 0:00,23,3,Drop-In Class,9,0,0,0
+113225,10/19/2022 0:00,9,3,Drop In Class,1,40,40,0
+113009,11/21/2022 0:00,67,2,Open Studio (Unhosted),1,25,0,25
+112983,10/7/2022 0:00,51,4,New Student 3 Pack (1 month expiration),1,80,0,80
+112950,10/17/2022 0:00,65,2,Drop In Class,1,40,0,40
+112929,10/16/2022 0:00,25,4,Drop In Class,1,40,20,20
+112928,1/8/2023 0:00,81,1,Drop In Class,1,40,20,20
+112907,11/7/2022 0:00,57,4,P&D Pride Top (Flowy Side Slit/Medium),1,30,0,30
+112662,12/6/2022 0:00,8,3,Drop In Class,1,40,0,40
+112658,10/28/2022 0:00,64,4,Monkey Hands (Sticky),1,15,0,15
+49233,1/18/2023 0:00,55,1,Studio Access Membership (Oakland),1,200,0,200
+50864,1/29/2023 0:00,69,1,Open Studio (Unhosted),1,25,0,25
+51655,11/15/2022 0:00,75,1,Drop In Class,1,40,0,40
+112508,12/18/2022 0:00,89,1,Drop In Class,1,40,0,40
+112507,11/23/2022 0:00,30,3,Drop In Class,1,40,0,40
+112460,11/16/2022 0:00,70,3,1 Private Lesson (1 student),1,100,0,100
+112123,12/5/2022 0:00,52,4,Drop In Class,1,40,0,40
+51913,11/7/2022 0:00,20,4,Drop In Class,1,40,0,40
+52175,11/2/2022 0:00,86,2,FLUIDITY + FORCE Heels Intensive,1,500,0,500
+52605,10/29/2022 0:00,78,4,5 Week Intensive Training Program,1,600,0,600
+111885,10/15/2022 0:00,19,2,New Student 3 Pack (1 month expiration),1,80,0,80
+112031,10/8/2022 0:00,12,2,Drop In Class,1,40,0,40
+111993,12/30/2022 0:00,78,1,1 Group Lesson (3 students),1,175,0,175
+111988,1/12/2023 0:00,4,4,Kind Bar,1,3,0.75,2.25
+52887,1/31/2023 0:00,74,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+111944,12/26/2022 0:00,23,1,Open Studio (Unhosted),1,25,0,25
+111662,11/15/2022 0:00,78,4,Your Solo with Dresden,1,250,0,250
+111651,10/12/2022 0:00,2,4,Low Flow Group with Sarah Rey,1,250,0,250
+53277,12/29/2022 0:00,73,3,Studio Access Membership (SF),1,200,0,200
+111686,12/5/2022 0:00,27,2,Drop In Class,1,40,0,40
+53419,1/20/2023 0:00,42,2,5 Class Pack,1,190,0,190
+53661,11/21/2022 0:00,65,2,Open Studio (Unhosted),1,25,0,25
+111504,12/23/2022 0:00,72,2,Studio Access Membership,1,200,0,200
+111272,1/2/2023 0:00,2,2,Your Solo with Dresden,1,250,0,250
+111474,1/25/2023 0:00,24,2,Monkey Hands (Sticky),1,15,3.75,11.25
+111256,10/18/2022 0:00,29,3,New Student 3 Pack (1 month expiration),1,80,0,80
+111438,11/13/2022 0:00,94,4,Monkey Hands (Classic),1,15,0,15
+111438,11/29/2022 0:00,47,4,Knee Pads without Grip (Sky Blue/XS),1,35,0,35
+111383,11/12/2022 0:00,1,1,New Student 3 Pack (1 month expiration),1,80,0,80
+111356,11/20/2022 0:00,93,2,Open Studio (Unhosted),1,25,0,25
+111052,1/24/2023 0:00,36,4,Drop In Class,1,40,0,40
+111142,11/7/2022 0:00,33,2,New Student 3 Pack (1 month expiration),1,80,0,80
+111086,12/30/2022 0:00,68,1,Knee Pads with Grip (Black/Medium),1,35,0,35
+110825,10/26/2022 0:00,3,2,P&D Sweatpants (Maroon/S),1,45,0,45
+110823,12/29/2022 0:00,92,3,P+D Festival Crop Tank (S/Storm),1,25,0,25
+110823,1/16/2023 0:00,42,3,P+D Crew Socks,1,20,0,20
+110816,11/20/2022 0:00,32,1,Drop In Class,5,200,0,200
+110815,11/9/2022 0:00,99,4,Drop In Class,2,80,0,80
+110812,1/22/2023 0:00,9,2,Drop In Class,1,40,0,40
+110768,1/27/2023 0:00,45,1,Drop In Class,1,40,0,40
+110445,1/6/2023 0:00,22,4,Drop In Class,1,40,0,40
+110442,11/4/2022 0:00,53,4,New Student 3 Pack (1 month expiration),1,80,0,80
+110508,1/11/2023 0:00,49,2,Drop In Class,1,40,0,40
+110507,11/24/2022 0:00,91,4,Drop In Class,1,40,0,40
+110505,1/4/2023 0:00,57,3,Drop In Class,1,40,0,40
+110504,12/19/2022 0:00,43,1,5 Class Pack,1,190,0,190
+110166,10/19/2022 0:00,58,1,Drop In Class,1,40,0,40
+110165,1/21/2023 0:00,96,4,Drop In Class,1,40,0,40
+110145,11/12/2022 0:00,45,1,Drop In Class,1,40,0,40
+110265,1/13/2023 0:00,22,1,Monkey Hands (Sticky),1,15,0,15
+110265,10/28/2022 0:00,75,2,Dew Point 2.5 oz. (Ultra),1,15,0,15
+110263,10/26/2022 0:00,93,3,Drop In Class,1,40,0,40
+110199,11/20/2022 0:00,28,4,Drop In Class,1,40,0,40
+110191,1/10/2023 0:00,29,2,Drop In Class,1,40,0,40
+110190,1/18/2023 0:00,7,1,Drop In Class,1,40,0,40
+109989,10/14/2022 0:00,11,4,PoleGrip,1,15,0,15
+109948,10/30/2022 0:00,39,1,Studio Access Membership,1,200,0,200
+109946,12/18/2022 0:00,23,3,Better Grip (2 oz) (Regular),1,15,0,15
+109925,10/21/2022 0:00,48,3,Drop In Class,1,40,0,40
+109896,10/1/2022 0:00,6,2,Drop In Class,1,40,0,40
+109879,12/17/2022 0:00,35,4,Open Studio (Unhosted),1,25,0,25
+109691,1/18/2023 0:00,41,3,New Student 3 Pack (1 month expiration),1,80,0,80
+109680,10/12/2022 0:00,42,4,Drop In Class,1,40,0,40
+109678,10/29/2022 0:00,52,1,Drop In Class,1,40,0,40
+109649,1/5/2023 0:00,30,2,Kind Bar,1,3,0.75,2.25
+109630,12/12/2022 0:00,25,4,New Student 3 Pack (1 month expiration),1,80,0,80
+109435,1/14/2023 0:00,89,4,New Student 3 Pack (1 month expiration),1,80,0,80
+54009,12/31/2022 0:00,37,2,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+109386,1/15/2023 0:00,8,1,Monkey Hands (Sticky),1,15,0,15
+109182,11/26/2022 0:00,54,2,Drop In Class,1,40,0,40
+109320,1/14/2023 0:00,7,3,Open Studio (Unhosted),1,25,0,25
+109043,1/17/2023 0:00,83,2,Drop In Class,1,40,0,40
+109042,11/17/2022 0:00,53,1,Drop In Class,1,40,0,40
+109127,12/8/2022 0:00,51,4,Drop In Class,1,40,0,40
+109126,11/16/2022 0:00,56,1,Drop In Class,1,40,0,40
+109120,12/17/2022 0:00,11,3,5 Class Pack,1,190,0,190
+54117,1/28/2023 0:00,42,3,FLUIDITY + FORCE Heels Intensive,1,500,0,500
+108313,1/28/2023 0:00,5,3,Drop In Class,1,40,0,40
+108312,12/3/2022 0:00,19,2,Drop In Class,1,40,0,40
+108424,12/16/2022 0:00,40,3,New Student 3 Pack (1 month expiration),1,80,0,80
+108416,11/16/2022 0:00,43,2,10 Class Pack,1,360,360,0
+108385,10/22/2022 0:00,46,1,Drop In Class,1,40,0,40
+108202,10/15/2022 0:00,68,3,PD Retro Shorts (Medium/Teal),1,27,0,27
+108187,12/19/2022 0:00,91,2,INVERTS 101 with Roz the Diva!,1,100,0,100
+108181,11/16/2022 0:00,72,3,Kind Bar,1,3,0.75,2.25
+108172,11/18/2022 0:00,91,1,Drop In Class,1,40,0,40
+108167,1/30/2023 0:00,6,4,New Student 3 Pack (1 month expiration),1,80,0,80
+107806,10/9/2022 0:00,13,3,Drop In Class,1,40,0,40
+107799,1/30/2023 0:00,18,1,Your Solo with Dresden,1,250,0,250
+107787,12/30/2022 0:00,35,2,New Student 3 Pack (1 month expiration),1,80,0,80
+107778,1/18/2023 0:00,87,4,5 Class Pack,1,190,0,190
+54117,1/25/2023 0:00,15,3,FLUIDITY + FORCE Heels Intensive,1,500,0,500
+107904,11/2/2022 0:00,72,4,Drop In Class,1,40,0,40
+107895,1/4/2023 0:00,42,4,Drop In Class,1,40,0,40
+107863,1/19/2023 0:00,33,3,New Student 3 Pack (1 month expiration),1,80,0,80
+107543,10/5/2022 0:00,5,3,Drop In Class,1,40,0,40
+107535,10/29/2022 0:00,88,3,New Student 3 Pack (1 month expiration),1,80,0,80
+107694,10/12/2022 0:00,96,2,Drop In Class,1,40,0,40
+107671,1/18/2023 0:00,22,4,Drop In Class,1,40,0,40
+107669,1/30/2023 0:00,94,2,Drop In Class,1,40,0,40
+107668,12/11/2022 0:00,62,1,Drop In Class,1,40,0,40
+107666,11/12/2022 0:00,79,2,Monkey Hands (Sticky),1,15,0,15
+107659,12/15/2022 0:00,46,1,Drop In Class,1,40,0,40
+107628,11/24/2022 0:00,34,1,Kind Bar,1,3,0.75,2.25
+107592,11/2/2022 0:00,40,4,Drop In Class,1,40,0,40
+107579,1/21/2023 0:00,97,4,Open Studio (Unhosted),1,25,0,25
+107324,10/31/2022 0:00,34,3,Drop In Class,1,40,0,40
+107300,12/6/2022 0:00,68,4,Drop In Class,1,40,0,40
+107130,1/4/2023 0:00,42,3,P&D Sweatpants (Lilac/XS),1,45,0,45
+107130,10/11/2022 0:00,60,2,Knee Pads with Grip (Pink/Large),1,35,0,35
+107130,10/27/2022 0:00,95,1,P&D Pride Top (Flowy Side Slit/Small),1,30,0,30
+107116,12/5/2022 0:00,77,2,Kind Bar,1,3,0.75,2.25
+107208,11/25/2022 0:00,76,1,Drop In Class,1,40,0,40
+107147,1/21/2023 0:00,91,2,Drop In Class,1,40,0,40
+106826,1/19/2023 0:00,57,3,Drop In Class,1,40,0,40
+106825,1/23/2023 0:00,15,4,Drop In Class,1,40,0,40
+106813,10/29/2022 0:00,84,4,Open Studio (Unhosted),1,25,0,25
+106809,1/26/2023 0:00,65,1,Drop In Class,4,160,0,160
+106808,10/6/2022 0:00,79,3,Drop In Class,2,80,0,80
+106806,12/3/2022 0:00,80,1,Drop In Class,2,80,0,80
+106901,10/16/2022 0:00,8,4,Drop In Class,1,40,0,40
+106886,12/20/2022 0:00,59,3,5 Class Pack,1,190,0,190
+106719,1/20/2023 0:00,51,3,Drop In Class,1,40,0,40
+106718,10/18/2022 0:00,81,1,Drop In Class,1,40,0,40
+106567,10/7/2022 0:00,58,3,New Student 3 Pack (1 month expiration),1,80,0,80
+106556,10/23/2022 0:00,85,3,Low Flow Group with Sarah Rey,1,250,0,250
+106633,11/21/2022 0:00,34,3,Drop In Class,1,40,0,40
+106621,1/15/2023 0:00,88,2,5 Class Pack,1,190,0,190
+106296,1/25/2023 0:00,32,3,Drop In Class,1,40,0,40
+106412,10/24/2022 0:00,43,1,5 Class Pack,1,190,0,190
+106395,12/9/2022 0:00,72,2,Drop In Class,1,40,0,40
+106237,12/14/2022 0:00,47,4,Drop In Class,1,40,0,40
+105935,12/12/2022 0:00,73,2,$80 Gift Card,1,80,0,80
+105922,11/3/2022 0:00,9,3,New Student 3 Pack (1 month expiration),1,80,0,80
+105867,11/25/2022 0:00,68,1,5 Class Pack,1,190,0,190
+106209,12/18/2022 0:00,59,2,Drop In Class,1,40,0,40
+106164,10/23/2022 0:00,40,4,Drop In Class,1,40,0,40
+106149,1/5/2023 0:00,13,1,Drop In Class,1,40,0,40
+105599,1/7/2023 0:00,17,2,Open Studio (Unhosted),1,25,0,25
+105708,1/12/2023 0:00,72,3,Open Studio (Unhosted) (12mo),1,25,0,25
+105460,1/6/2023 0:00,49,2,5 Class Pack,1,190,0,190
+105393,12/31/2022 0:00,23,3,Drop In Class,1,40,0,40
+105124,11/9/2022 0:00,100,3,New Student 3 Pack (1 month expiration),1,80,0,80
+105160,12/27/2022 0:00,71,2,New Student 3 Pack (1 month expiration),1,80,0,80
+104873,11/14/2022 0:00,40,3,Drop In Class,1,40,0,40
+104870,10/15/2022 0:00,64,4,Drop In Class,1,40,0,40
+104866,1/12/2023 0:00,67,3,Your Solo with Dresden,1,250,0,250
+105018,10/29/2022 0:00,62,1,Drop In Class,1,40,0,40
+105013,11/28/2022 0:00,63,3,Drop In Class,1,40,0,40
+104776,12/21/2022 0:00,69,4,New Student 3 Pack (1 month expiration),1,80,0,80
+104771,11/3/2022 0:00,65,4,New Student 3 Pack (1 month expiration),1,80,0,80
+104748,1/13/2023 0:00,40,3,Drop In Class,1,40,0,40
+104320,10/24/2022 0:00,89,1,Low Flow Group with Sarah Rey,1,250,0,250
+104488,10/4/2022 0:00,26,4,5 Class Pack,1,190,0,190
+104477,10/6/2022 0:00,55,4,P+D Festival Crop Tank (L/Pink),1,25,6.25,18.75
+104457,12/23/2022 0:00,77,4,Open Studio (Unhosted),1,25,0,25
+104455,1/3/2023 0:00,28,4,Open Studio (Unhosted),1,25,0,25
+104451,11/27/2022 0:00,29,4,Drop In Class,1,40,0,40
+104075,10/26/2022 0:00,84,2,Initial deposit for group class with Amy Bond: 2-5pm on 11/11 and 3-6pm on 11/12,1,500,0,500
+104142,1/13/2023 0:00,96,4,INVERTS 101 with Roz the Diva!,1,100,0,100
+103787,12/14/2022 0:00,71,3,Open Studio (Unhosted),1,25,0,25
+103934,12/18/2022 0:00,39,3,Event Balance,1,250,0,250
+103928,11/22/2022 0:00,21,4,New Student 3 Pack (1 month expiration),1,80,0,80
+103889,1/15/2023 0:00,48,2,Drop In Class,1,40,0,40
+103694,12/19/2022 0:00,1,1,Drop In Class,1,40,0,40
+103693,1/4/2023 0:00,20,2,Drop In Class,1,40,0,40
+103864,12/27/2022 0:00,21,1,Drop In Class,1,40,0,40
+103689,10/25/2022 0:00,98,2,Drop In Class,1,40,0,40
+103595,11/11/2022 0:00,60,3,Better Grip (2 oz) (Regular),1,15,3.75,11.25
+103593,10/29/2022 0:00,35,3,P&D Gym Bag,1,30,0,30
+103455,11/4/2022 0:00,33,1,5 Class Pack,1,190,0,190
+103443,11/3/2022 0:00,84,3,Studio Access Membership,1,200,0,200
+103422,10/24/2022 0:00,27,1,5 Class Pack,1,190,0,190
+103409,1/31/2023 0:00,31,4,Drop In Class,1,40,0,40
+54151,1/5/2023 0:00,76,1,Event Balance,1,200,0,200
+103387,10/12/2022 0:00,80,2,Drop In Class,1,40,0,40
+103386,12/1/2022 0:00,55,1,P&D Sweatpants (Forest/S),1,45,11.25,33.75
+102877,11/28/2022 0:00,8,1,Drop In Class,1,40,0,40
+102859,1/19/2023 0:00,86,1,5 Class Pack,1,190,0,190
+102829,11/24/2022 0:00,97,4,New Student 3 Pack (1 month expiration),1,80,0,80
+102816,1/14/2023 0:00,66,2,Drop In Class,1,40,0,40
+102903,10/9/2022 0:00,35,4,Drop In Class,5,200,0,200
+102901,12/30/2022 0:00,71,1,Drop In Class,2,80,0,80
+102899,12/31/2022 0:00,59,4,Drop In Class,3,120,0,120
+102610,1/17/2023 0:00,88,4,Kind Bar,1,3,0.75,2.25
+102605,12/28/2022 0:00,85,2,New Student 3 Pack (1 month expiration),1,80,0,80
+102582,11/3/2022 0:00,13,1,Drop In Class,1,40,0,40
+102354,1/12/2023 0:00,42,1,Drop In Class,1,40,0,40
+102353,10/15/2022 0:00,57,3,Kind Bar,1,3,0.75,2.25
+102351,12/14/2022 0:00,45,3,New Student 3 Pack (1 month expiration),1,80,0,80
+102349,1/19/2023 0:00,45,3,Knee Pads with Grip (Caramel/Small),1,35,0,35
+102083,10/19/2022 0:00,41,1,P&D Sweatpants (Forest/S),1,45,11.25,33.75
+102082,10/9/2022 0:00,27,2,P&D Sweatpants (Maroon/M),1,45,11.25,33.75
+102080,11/29/2022 0:00,17,2,P&D Sweatpants (Black/L),1,45,0,45
+102072,11/10/2022 0:00,54,2,Monkey Hands (Classic),1,15,3.75,11.25
+102043,11/29/2022 0:00,93,4,Toe Covers (Hot Pink),1,18,0,18
+102041,10/17/2022 0:00,27,2,Toe Covers (Black),1,18,0,18
+102025,11/3/2022 0:00,7,3,P+D Classy Biker Shorts (S / M),1,25,6.25,18.75
+102015,10/23/2022 0:00,58,2,Toe Covers (Black Leather),1,18,18,0
+101998,1/30/2023 0:00,16,4,5 Class Pack,1,190,0,190
+101727,12/18/2022 0:00,30,4,Drop In Class,1,40,0,40
+101721,11/14/2022 0:00,52,1,10 Class Pack,1,360,0,360
+101719,10/13/2022 0:00,92,2,PDX Tank (S),1,20,0,20
+101341,10/25/2022 0:00,79,2,Drop In Class,1,40,0,40
+101336,11/5/2022 0:00,35,3,Drop In Class,1,40,0,40
+101313,10/19/2022 0:00,54,2,Drop In Class,1,40,0,40
+101096,12/15/2022 0:00,65,4,Drop In Class,1,40,0,40
+101083,10/20/2022 0:00,28,1,Drop In Class,1,40,0,40
+101026,1/17/2023 0:00,24,4,10 Class Pack,1,360,0,360
+101024,1/28/2023 0:00,77,1,10 Class Pack,1,360,0,360
+100745,1/3/2023 0:00,32,4,Drop In Class,1,40,0,40
+100743,10/2/2022 0:00,39,2,Drop In Class,1,40,0,40
+100847,1/13/2023 0:00,11,4,PoleGrip,1,15,0,15
+100846,11/23/2022 0:00,44,4,P+D Festival Crop Tank (M/Pink),1,25,6.25,18.75
+100702,11/15/2022 0:00,26,3,Open Studio (Unhosted),1,25,0,25
+100830,10/18/2022 0:00,45,3,Monkey Hands (Classic),1,15,0,15
+100808,1/19/2023 0:00,15,2,Drop In Class,1,40,0,40
+100488,12/27/2022 0:00,8,3,New Student 3 Pack (1 month expiration),1,80,0,80
+100613,12/13/2022 0:00,84,2,5 Class Pack,1,190,0,190
+100596,10/31/2022 0:00,4,4,Drop In Class,1,40,0,40
+100595,1/31/2023 0:00,45,1,Open Studio (Unhosted),1,25,0,25
+100392,1/5/2023 0:00,81,1,New Student 3 Pack (1 month expiration),1,80,0,80
+100546,10/1/2022 0:00,43,2,New Student 3 Pack (1 month expiration),1,80,0,80
+100325,11/5/2022 0:00,87,1,Drop In Class,1,40,0,40
+100325,10/8/2022 0:00,54,1,Kind Bar,1,3,0.75,2.25
+100319,11/14/2022 0:00,98,4,Better Grip (2 oz) (Regular),1,15,0,15
+100297,10/22/2022 0:00,93,2,Sam Star's Fonjis for LIFE! (Int/Adv),1,50,0,50
+100087,10/22/2022 0:00,83,3,New Student 3 Pack (1 month expiration),1,80,0,80
+100080,10/1/2022 0:00,13,4,Sam Star's Ninja Apprentice (Beg/Int),1,50,0,50
+100052,1/31/2023 0:00,82,4,Drop In Class,1,40,0,40
+100020,1/3/2023 0:00,53,4,Drop In Class,1,40,0,40
+99771,12/17/2022 0:00,76,4,P+D Crop Tee (L),1,25,0,25
+99769,10/14/2022 0:00,8,2,Drop In Class,1,40,0,40
+99825,1/13/2023 0:00,75,2,Drop In Class,1,40,0,40
+99823,11/19/2022 0:00,97,1,Drop In Class,1,40,8,32
+99787,11/14/2022 0:00,24,2,New Student 3 Pack (1 month expiration),1,80,0,80
+99585,11/20/2022 0:00,64,3,Drop In Class,1,40,0,40
+99584,1/31/2023 0:00,21,4,Drop In Class,1,40,0,40
+99683,11/10/2022 0:00,14,4,Drop In Class,1,40,8,32
+99404,1/16/2023 0:00,9,2,Drop In Class,1,40,0,40
+99069,11/18/2022 0:00,16,4,Drop In Class,1,40,8,32
+99058,1/4/2023 0:00,27,1,10 Class Pack,1,360,0,360
+54326,11/2/2022 0:00,40,1,Extra Guest,2,70,0,70
+99108,10/9/2022 0:00,88,2,New Student 3 Pack (1 month expiration),1,80,0,80
+54508,11/2/2022 0:00,2,4,20 Class Pack,1,680,0,680
+98817,11/6/2022 0:00,92,4,Drop In Class,1,40,0,40
+98816,10/31/2022 0:00,60,3,Drop In Class,1,40,0,40
+98799,12/8/2022 0:00,83,3,Drop In Class,1,40,0,40
+98796,10/5/2022 0:00,33,2,Drop In Class,1,40,0,40
+98794,11/12/2022 0:00,15,4,Drop In Class,1,40,0,40
+98792,10/29/2022 0:00,47,4,Drop In Class,1,40,0,40
+98756,11/5/2022 0:00,29,2,Drop In Class,1,40,0,40
+98755,1/25/2023 0:00,19,2,Drop In Class,5,200,0,200
+98754,11/8/2022 0:00,63,2,Drop In Class,2,80,0,80
+98673,1/29/2023 0:00,27,1,Drop In Class,1,40,0,40
+98663,12/28/2022 0:00,14,3,Drop In Class,1,40,0,40
+98660,10/6/2022 0:00,89,4,Drop In Class,1,40,0,40
+98645,10/1/2022 0:00,56,1,Toe Covers (Mauve),1,18,0,18
+98636,1/10/2023 0:00,42,3,Knee Pad,1,5,0,5
+98634,11/8/2022 0:00,98,2,P+D Crew Socks,1,20,0,20
+54718,10/23/2022 0:00,87,2,Drop In Class,1,40,0,40
+98579,10/27/2022 0:00,97,2,Drop In Class,1,40,0,40
+98549,11/11/2022 0:00,48,1,Drop In Class,1,40,0,40
+98266,11/19/2022 0:00,26,4,Second Half of Teacher Training,1,175,0,175
+98331,12/19/2022 0:00,8,4,Open Studio (Unhosted),1,25,0,25
+98298,1/11/2023 0:00,20,3,Open Studio (Unhosted),1,25,0,25
+98294,1/9/2023 0:00,75,2,PD Retro Shorts (Medium/Black),1,27,0,27
+98292,1/27/2023 0:00,99,3,Open Studio (Unhosted),1,25,0,25
+98062,10/5/2022 0:00,10,4,Drop In Class,1,40,0,40
+98056,11/14/2022 0:00,79,1,Drop In Class,1,40,0,40
+98110,12/22/2022 0:00,97,2,New Student 3 Pack (1 month expiration),1,80,0,80
+98078,1/19/2023 0:00,14,2,Toe Covers (Holo Silver),1,18,0,18
+98078,11/14/2022 0:00,75,2,P&D Pride Top (Flowy Side Slit/Medium),1,30,0,30
+98078,11/17/2022 0:00,42,4,P+D Classy Biker Shorts (S / M),1,25,0,25
+98076,1/19/2023 0:00,82,2,Drop In Class,1,40,0,40
+98076,1/2/2023 0:00,56,2,PD Retro Shorts (Large/Baby Blue),1,27,0,27
+98074,10/29/2022 0:00,72,4,PD Retro Shorts (Large/Light Pink),1,27,0,27
+97833,11/1/2022 0:00,77,4,New Student 3 Pack (1 month expiration),1,80,0,80
+97829,10/10/2022 0:00,18,3,Drop In Class,1,40,0,40
+97907,12/11/2022 0:00,96,1,Drop In Class,1,40,8,32
+97905,12/2/2022 0:00,43,3,5 Class Pack,1,190,38,152
+55389,1/6/2023 0:00,27,2,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+97761,1/31/2023 0:00,95,2,Drop In Class,1,40,0,40
+97759,1/6/2023 0:00,89,1,PD Retro Shorts (Medium/Red),1,27,6.75,20.25
+97567,1/27/2023 0:00,64,1,New Student 3 Pack (1 month expiration),1,80,0,80
+97731,12/25/2022 0:00,5,2,New Student 3 Pack (1 month expiration),1,80,80,0
+97343,12/7/2022 0:00,59,4,Drop In Class,1,40,0,40
+97339,12/23/2022 0:00,11,2,Drop In Class,1,40,0,40
+97501,11/13/2022 0:00,16,3,5 Class Pack,1,190,0,190
+55616,10/7/2022 0:00,97,2,Drop In Class,1,40,0,40
+55626,11/20/2022 0:00,76,1,5 Class Pack,1,190,0,190
+97314,1/28/2023 0:00,4,2,Event Balance,1,250,0,250
+97457,10/5/2022 0:00,60,2,Event Balance,1,250,0,250
+97428,12/19/2022 0:00,95,1,New Student 3 Pack (1 month expiration),1,80,0,80
+97427,1/15/2023 0:00,21,3,Drop In Class,1,40,0,40
+97394,11/16/2022 0:00,29,4,Drop In Class,1,40,0,40
+97186,1/24/2023 0:00,48,1,PD Retro Shorts (XS/Black),1,27,6.75,20.25
+97186,1/25/2023 0:00,33,1,Kind Bar,1,3,0.75,2.25
+97127,12/3/2022 0:00,42,3,10 Class Pack,1,360,0,360
+97102,1/23/2023 0:00,24,4,Drop In Class,1,40,0,40
+96792,10/17/2022 0:00,62,3,Drop In Class,1,40,0,40
+96898,1/8/2023 0:00,75,4,New Student 3 Pack (1 month expiration),1,80,0,80
+96731,11/30/2022 0:00,70,1,Drop In Class,1,40,0,40
+96882,10/6/2022 0:00,80,2,Knee Pads without Grip (Sky Blue/Small),1,35,0,35
+96881,10/31/2022 0:00,52,2,Knee Pads with Grip (Sky Blue/Small),1,35,0,35
+96670,10/10/2022 0:00,81,3,Drop In Class,1,40,0,40
+96408,12/30/2022 0:00,8,4,Drop In Class,1,40,0,40
+96407,1/15/2023 0:00,43,2,Drop In Class,1,40,0,40
+96559,11/12/2022 0:00,63,1,Drop In Class,1,40,0,40
+96544,10/5/2022 0:00,7,4,New Student 3 Pack (1 month expiration),1,80,0,80
+96326,1/24/2023 0:00,84,2,Drop In Class,1,40,0,40
+96310,12/15/2022 0:00,20,1,Event Deposit,1,100,0,100
+96399,12/6/2022 0:00,1,3,Drop In Class,1,40,0,40
+96302,1/5/2023 0:00,44,2,Drop In Class,1,40,0,40
+96388,1/29/2023 0:00,59,4,Drop In Class,1,40,0,40
+96290,1/24/2023 0:00,69,4,New Student 3 Pack (1 month expiration),1,80,0,80
+96122,11/18/2022 0:00,80,2,Drop In Class,1,40,0,40
+96225,10/6/2022 0:00,59,1,New Student 3 Pack (1 month expiration),1,80,0,80
+96108,11/4/2022 0:00,28,4,New Student 3 Pack (1 month expiration),1,80,0,80
+96205,10/30/2022 0:00,84,4,Open Studio (Unhosted),1,25,0,25
+96180,12/18/2022 0:00,66,4,New Student 3 Pack (1 month expiration),1,80,0,80
+96163,10/7/2022 0:00,73,4,New Student 3 Pack (1 month expiration),1,80,0,80
+95990,12/27/2022 0:00,35,1,Sam Star's Ninja Tricks (Adv),1,50,0,50
+95989,10/14/2022 0:00,80,3,Sam Star's Fonjis for LIFE! (Int/Adv),1,50,0,50
+95980,10/29/2022 0:00,54,2,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+95942,10/15/2022 0:00,87,4,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+95922,1/8/2023 0:00,77,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+95655,1/6/2023 0:00,100,3,Drop In Class,1,40,0,40
+95767,12/23/2022 0:00,31,4,Studio Access Membership,1,200,0,200
+95764,12/29/2022 0:00,21,4,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+95762,11/30/2022 0:00,82,4,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+95552,11/30/2022 0:00,23,3,P+D Crew Socks,1,20,5,15
+95725,1/4/2023 0:00,22,1,Drop In Class,1,40,0,40
+95679,12/20/2022 0:00,56,2,Drop In Class,1,40,0,40
+95378,10/2/2022 0:00,39,1,Drop In Class,1,40,0,40
+95377,1/27/2023 0:00,69,3,Drop In Class,1,40,0,40
+95455,1/2/2023 0:00,64,2,Drop In Class,1,40,0,40
+95451,12/1/2022 0:00,45,2,Drop In Class,1,40,0,40
+95443,12/1/2022 0:00,8,2,Drop In Class,1,40,0,40
+95440,12/20/2022 0:00,24,4,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+95432,10/11/2022 0:00,21,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+95412,1/10/2023 0:00,42,3,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+56088,11/9/2022 0:00,43,3,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+95228,1/20/2023 0:00,18,3,Knee Pads without Grip (Latte/Medium),1,35,0,35
+95220,10/23/2022 0:00,57,2,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+95168,12/4/2022 0:00,51,3,Open Studio (Unhosted),1,25,0,25
+94724,11/26/2022 0:00,56,4,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+94722,11/23/2022 0:00,81,2,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+94822,11/1/2022 0:00,59,3,Kind Bar,1,3,0.9,2.1
+94606,12/26/2022 0:00,80,4,Monkey Hands (Classic),1,15,4.5,10.5
+94601,11/16/2022 0:00,88,2,P+D Festival Crop Tank (M/Storm),1,25,0,25
+94597,12/16/2022 0:00,98,3,Knee Pad,1,5,0,5
+94573,11/23/2022 0:00,40,1,P+D Festival Crop Tank (S/Ice Blue),1,25,7.5,17.5
+94668,12/31/2022 0:00,11,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+94387,1/27/2023 0:00,59,3,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+94416,10/10/2022 0:00,75,4,10 Class Pack,1,360,0,360
+94197,1/2/2023 0:00,70,3,Drop In Class,1,40,0,40
+94244,12/6/2022 0:00,47,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+94229,12/30/2022 0:00,74,2,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+93998,12/27/2022 0:00,81,3,Studio Access Membership,1,200,0,200
+93937,10/7/2022 0:00,45,4,Fonjis for LIFE! (Int/Adv),1,50,0,50
+94049,10/19/2022 0:00,24,3,Drop In Class,1,40,0,40
+93712,10/12/2022 0:00,60,2,Drop In Class,1,40,0,40
+93698,1/24/2023 0:00,12,3,Event Balance,1,250,0,250
+93607,10/4/2022 0:00,51,2,Drop In Class,1,40,0,40
+93452,10/26/2022 0:00,8,3,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+93439,10/26/2022 0:00,68,1,5 Class Pack,1,190,0,190
+93531,10/14/2022 0:00,65,4,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+93326,10/5/2022 0:00,79,3,Drop In Class,1,40,0,40
+93306,12/15/2022 0:00,79,2,Drop In Class,1,40,0,40
+93303,1/21/2023 0:00,9,2,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+93295,10/1/2022 0:00,66,2,Drop In Class,1,40,0,40
+93264,12/5/2022 0:00,23,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+93257,1/8/2023 0:00,55,1,Drop In Class,1,40,0,40
+93256,11/13/2022 0:00,59,1,P&D Pin (Red Pole),1,10,3,7
+93254,1/6/2023 0:00,8,2,Kind Bar,1,3,0.9,2.1
+93050,11/20/2022 0:00,19,1,Drop In Class,1,40,0,40
+93036,1/28/2023 0:00,39,2,Toe Covers (Pink Floral),1,18,5.4,12.6
+93129,10/8/2022 0:00,60,1,Drop In Class,1,40,0,40
+92959,1/23/2023 0:00,18,4,Drop In Class,1,40,0,40
+92765,12/24/2022 0:00,92,4,Drop In Class,1,40,0,40
+92391,10/10/2022 0:00,20,3,Drop In Class,1,40,0,40
+92390,1/5/2023 0:00,17,1,Drop In Class,1,40,0,40
+92386,1/6/2023 0:00,41,3,Drop In Class,1,40,0,40
+92373,10/17/2022 0:00,48,3,Drop In Class,1,40,0,40
+92371,12/12/2022 0:00,77,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+92366,1/5/2023 0:00,40,4,Drop In Class,1,40,0,40
+92439,11/13/2022 0:00,87,2,Knee Pads with Grip (Cacao/XS),1,35,0,35
+56240,10/31/2022 0:00,73,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+92212,10/11/2022 0:00,41,2,Open Studio (Unhosted),1,25,0,25
+92064,10/27/2022 0:00,63,4,5 Class Pack,1,190,0,190
+92190,1/20/2023 0:00,33,3,Drop In Class,1,40,0,40
+92032,11/21/2022 0:00,90,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+92173,12/1/2022 0:00,3,1,5 Class Pack,1,190,0,190
+91888,1/11/2023 0:00,60,1,Open Studio (Unhosted),1,25,0,25
+91923,12/24/2022 0:00,4,4,Drop In Class,1,40,0,40
+91607,10/4/2022 0:00,28,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+91713,11/3/2022 0:00,5,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+91667,12/5/2022 0:00,1,2,P&D Sweatpants (White/XS),1,45,0,45
+91666,1/23/2023 0:00,6,2,Better Grip (2 oz) (Regular),1,15,4.5,10.5
+91474,10/28/2022 0:00,20,1,P&D Sweatpants (Athletic Heather/XS),1,45,13.5,31.5
+91517,1/11/2023 0:00,88,2,Drop In Class,1,40,0,40
+91510,11/4/2022 0:00,87,1,Half of Pole L1 TT,1,175,0,175
+91503,12/29/2022 0:00,72,1,Drop In Class,1,40,0,40
+91499,10/30/2022 0:00,24,4,Drop In Class,1,40,0,40
+91360,1/29/2023 0:00,16,2,TT payment for V,1,300,0,300
+91318,11/9/2022 0:00,86,2,5 Class Pack,1,190,0,190
+91082,11/1/2022 0:00,25,2,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+91121,11/26/2022 0:00,43,2,Drop In Class,1,40,0,40
+91119,11/3/2022 0:00,66,4,Drop In Class,1,40,0,40
+90845,10/22/2022 0:00,99,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+90834,12/25/2022 0:00,25,3,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+90932,12/24/2022 0:00,98,4,Drop In Class,1,40,0,40
+90932,1/7/2023 0:00,48,4,Kind Bar,1,3,0.9,2.1
+90929,11/26/2022 0:00,11,2,P+D Classy Biker Shorts (L / XL),1,25,0,25
+90915,11/5/2022 0:00,12,3,Drop In Class,1,40,0,40
+90542,10/10/2022 0:00,85,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+90311,12/9/2022 0:00,55,3,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+90146,11/18/2022 0:00,98,4,Knee Pads with Grip (Latte/Large),1,35,0,35
+90232,12/3/2022 0:00,67,2,Drop In Class,1,40,0,40
+89857,11/30/2022 0:00,100,4,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+89933,12/11/2022 0:00,74,3,P+D Classy Biker Shorts (S / M),1,25,7.5,17.5
+89932,1/23/2023 0:00,55,3,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+90037,1/30/2023 0:00,58,1,Open Studio (Unhosted),1,25,0,25
+89832,11/2/2022 0:00,33,2,Drop In Class,1,40,0,40
+89796,11/23/2022 0:00,54,2,5 Class Pack,1,190,0,190
+89795,11/16/2022 0:00,37,3,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+89520,12/11/2022 0:00,50,2,5 Class Pack,1,190,0,190
+89613,11/17/2022 0:00,51,3,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+89612,1/20/2023 0:00,94,3,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+89611,1/16/2023 0:00,12,3,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+89601,11/7/2022 0:00,31,2,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+89589,10/28/2022 0:00,2,2,Drop In Class,1,40,0,40
+89232,11/22/2022 0:00,90,4,Drop In Class,1,40,0,40
+89358,11/17/2022 0:00,8,4,PoleGrip,1,15,0,15
+89350,10/26/2022 0:00,48,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+89008,11/28/2022 0:00,31,2,Drop In Class,1,40,0,40
+89007,10/27/2022 0:00,9,1,Drop In Class,1,40,0,40
+88985,11/20/2022 0:00,94,2,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+88983,12/17/2022 0:00,99,3,Drop In Class,1,40,0,40
+88760,11/16/2022 0:00,48,2,Drop In Class,1,40,0,40
+88759,11/25/2022 0:00,28,2,Event Deposit,1,100,0,100
+88644,12/12/2022 0:00,82,2,Studio Access Membership,1,200,0,200
+88551,12/1/2022 0:00,99,4,Better Grip (2 oz) (Regular),1,15,0,15
+88550,10/14/2022 0:00,82,4,P&D Gym Bag,1,30,0,30
+88544,10/12/2022 0:00,92,1,Kind Bar,1,3,0.9,2.1
+88393,1/29/2023 0:00,93,2,Drop In Class,1,40,0,40
+56244,11/6/2022 0:00,34,3,P+D Crop Tee (M),1,25,0,27.12
+87717,1/31/2023 0:00,27,1,Drop In Class,1,40,0,40
+87824,10/20/2022 0:00,61,1,Drop In Class,1,40,0,40
+87823,10/17/2022 0:00,88,2,Drop In Class,1,40,0,40
+87708,11/25/2022 0:00,45,3,Drop In Class,1,40,0,40
+87601,11/7/2022 0:00,3,3,Drop In Class,1,40,0,40
+87568,11/3/2022 0:00,67,3,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+87552,10/11/2022 0:00,21,4,5 Class Pack,1,190,0,190
+87233,1/5/2023 0:00,43,3,5 Class Pack,1,190,0,190
+87090,11/24/2022 0:00,79,1,Studio Access Membership,1,200,0,200
+87024,11/16/2022 0:00,49,4,5 Class Pack,1,190,0,190
+87183,1/16/2023 0:00,11,4,Knee Pads with Grip (Black/Small),1,35,0,35
+87183,11/20/2022 0:00,98,2,Toe Covers (Black Holo),1,18,0,18
+87130,1/4/2023 0:00,51,1,Drop In Class,1,40,40,0
+87125,11/16/2022 0:00,2,1,Drop In Class,1,40,0,40
+86922,12/25/2022 0:00,81,2,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+86913,11/5/2022 0:00,56,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+86874,12/29/2022 0:00,90,4,Micah's SATURDAY course,1,150,0,150
+86659,10/24/2022 0:00,82,1,P+D Beanie (Olive),1,20,0,20
+86659,12/4/2022 0:00,99,3,P+D Festival Crop Tank (L/Storm),1,25,0,25
+86658,10/30/2022 0:00,91,2,P+D Festival Crop Tank (M/Ice Blue),1,25,0,25
+86656,12/11/2022 0:00,1,2,Micah Workshop Payment,1,70,0,70
+86533,12/8/2022 0:00,66,3,Drop In Class,1,40,0,40
+86482,12/29/2022 0:00,31,1,Drop In Class,1,40,0,40
+86260,12/21/2022 0:00,66,2,5 Class Pack,1,190,0,190
+85969,1/21/2023 0:00,55,1,10 Class Pack,1,360,0,360
+85962,11/23/2022 0:00,66,4,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+86014,11/22/2022 0:00,38,2,Middle Splits Cartwheels and Tilts,1,150,150,0
+86014,1/13/2023 0:00,8,2,Backbend Breakthrough,1,150,150,0
+85743,1/20/2023 0:00,13,4,Event Deposit,1,100,0,100
+85732,11/14/2022 0:00,6,3,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+85715,11/11/2022 0:00,51,2,Drop In Class,1,40,0,40
+85802,1/24/2023 0:00,93,4,Drop In Class,1,40,0,40
+85801,12/13/2022 0:00,49,2,Single Drop In,1,40,0,40
+85800,12/23/2022 0:00,74,3,Drop In Class,1,40,0,40
+85799,10/17/2022 0:00,28,3,Kind Bar,1,3,0.9,2.1
+85784,1/17/2023 0:00,90,3,Drop In Class,1,40,0,40
+85774,12/2/2022 0:00,3,1,Drop In Class,1,40,0,40
+85771,12/21/2022 0:00,53,2,Drop In Class,1,40,0,40
+85615,10/1/2022 0:00,7,4,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+85599,1/31/2023 0:00,30,2,New Student 3 Class Special - 1 Month Exp,1,80,80,0
+85580,12/13/2022 0:00,81,3,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+85579,10/7/2022 0:00,5,3,Toe Covers (Mauve),1,18,0,18
+85264,11/28/2022 0:00,68,1,5 Class Pack,1,190,190,0
+85236,12/27/2022 0:00,75,4,Drop In Class,1,40,0,40
+85302,1/7/2023 0:00,35,2,Drop In Class,1,40,0,40
+85301,11/27/2022 0:00,62,2,Drop In Class,1,40,0,40
+85127,12/5/2022 0:00,96,3,P+D Festival Crop Tank (S/Storm),1,25,7.5,17.5
+85127,10/1/2022 0:00,79,1,P+D Beanie (Olive),1,20,6,14
+85124,11/28/2022 0:00,82,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+85119,11/11/2022 0:00,39,4,Monkey Hands (Classic),1,15,4.5,10.5
+85119,1/22/2023 0:00,32,1,P+D Festival Crop Tank (S/Storm),1,25,7.5,17.5
+85116,10/17/2022 0:00,11,1,Kind Bar,1,3,0.9,2.1
+85156,12/25/2022 0:00,69,1,Drop In Class,1,40,0,40
+85154,1/8/2023 0:00,30,2,Drop In Class,1,40,0,40
+85068,12/6/2022 0:00,5,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+84966,12/30/2022 0:00,98,4,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+85046,12/7/2022 0:00,50,2,Knee Pads with Grip (Sky Blue/Medium),1,35,0,35
+85043,10/27/2022 0:00,92,2,Drop In Class,1,40,0,40
+84994,11/9/2022 0:00,96,2,Drop In Class,1,40,0,40
+84786,11/14/2022 0:00,45,2,10 Class Pack,1,360,0,360
+84765,12/16/2022 0:00,28,3,5 Class Pack,1,190,0,190
+84874,10/13/2022 0:00,67,1,Drop In Class,1,40,0,40
+84530,10/2/2022 0:00,2,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+84486,1/20/2023 0:00,4,1,Drop In Class,1,40,0,40
+84622,12/3/2022 0:00,70,4,P+D Festival Crop Tank (L/Storm),1,25,0,25
+84611,1/3/2023 0:00,96,3,Kind Bar,1,3,0.9,2.1
+84417,11/9/2022 0:00,51,4,Pole Level 1 Teacher Training,1,500,0,500
+84416,10/9/2022 0:00,89,4,Drop In Class,1,40,8,32
+84340,11/3/2022 0:00,82,4,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+84330,1/4/2023 0:00,7,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+84095,10/3/2022 0:00,80,3,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+84057,10/12/2022 0:00,11,1,10 Class Pack,1,360,0,360
+83774,1/16/2023 0:00,58,3,Drop In Class,1,40,0,40
+83857,11/12/2022 0:00,68,3,Open Studio (Unhosted),1,25,0,25
+83822,10/15/2022 0:00,1,1,P+D Festival Crop Tank (S/Storm),1,25,0,25
+83700,1/11/2023 0:00,5,4,Drop In Class,1,40,0,40
+83533,10/14/2022 0:00,54,2,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+83621,1/22/2023 0:00,72,4,20 Class Pack,1,680,0,680
+83602,12/20/2022 0:00,77,4,P+D Festival Crop Tank (S/Mustard),1,25,7.5,17.5
+83670,1/18/2023 0:00,4,3,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+83542,1/2/2023 0:00,13,1,Drop In Class,1,40,0,40
+83397,12/16/2022 0:00,36,4,Drop In Class,1,40,0,40
+83490,11/3/2022 0:00,45,4,Drop In Class,1,40,0,40
+83486,10/12/2022 0:00,69,4,Drop In Class,1,40,0,40
+83459,12/22/2022 0:00,91,4,Drop In Class,1,40,0,40
+83163,11/7/2022 0:00,42,1,Open Studio (Unhosted),1,25,0,25
+83282,1/6/2023 0:00,83,3,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+82935,11/21/2022 0:00,63,1,Drop In Class,1,40,0,40
+83078,1/13/2023 0:00,79,4,Corkage Fee,2,20,0,20
+83078,11/14/2022 0:00,42,3,Event Clean Up Fee,1,10,0,10
+83058,1/4/2023 0:00,79,3,Kind Bar,1,3,0.9,2.1
+83010,11/21/2022 0:00,95,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+82799,10/15/2022 0:00,64,4,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+82406,10/2/2022 0:00,92,3,5 Class Pack,1,190,0,190
+82403,11/7/2022 0:00,83,4,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+82378,10/31/2022 0:00,97,2,Event Balance,1,250,0,250
+82238,11/22/2022 0:00,30,2,PoleGrip,1,15,0,15
+82204,10/22/2022 0:00,36,3,Heels with Sass,1,50,0,50
+82293,12/18/2022 0:00,85,4,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+82292,1/5/2023 0:00,45,1,Heels with Sass,1,50,0,50
+82256,12/23/2022 0:00,93,2,Better Grip (2 oz) (Regular),1,15,0,15
+82251,12/7/2022 0:00,91,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+82136,12/16/2022 0:00,95,2,5 Class Pack,1,190,0,190
+82102,11/20/2022 0:00,49,4,P+D Festival Crop Tank (M/Storm),1,25,0,25
+82005,1/21/2023 0:00,56,3,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+81895,11/20/2022 0:00,33,3,Drop In Class,1,40,0,40
+81893,12/9/2022 0:00,70,3,Drop In Class,1,40,0,40
+81986,10/26/2022 0:00,38,2,Studio Access Membership,1,200,0,200
+81872,1/5/2023 0:00,96,3,Event Deposit (PDX),1,100,0,100
+81953,10/28/2022 0:00,77,1,New Student 3 Class Special - 1 Month Exp,1,80,0,80
+81948,10/1/2022 0:00,28,4,Drop In Class,1,40,0,40
+81945,10/15/2022 0:00,90,1,Drop In Class,1,40,0,40
+81669,10/31/2022 0:00,98,4,Drop In Class,1,40,0,40
+81656,1/7/2023 0:00,94,2,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+81702,12/15/2022 0:00,81,1,Drop In Class,1,40,0,40
+81683,1/7/2023 0:00,45,4,Drop In Class,1,40,0,40
+81250,10/29/2022 0:00,23,4,Drop In Class,1,40,0,40
+81244,10/2/2022 0:00,54,4,Drop In Class,1,40,0,40
+81162,1/14/2023 0:00,34,4,Knee Pads with Grip (Pink/Small),1,35,0,35
+81125,10/23/2022 0:00,6,3,P+D Classy Biker Shorts (S / M),1,25,0,25
+81125,10/8/2022 0:00,54,3,P+D Classy Biker Shorts (L / XL),1,25,0,25
+81099,12/25/2022 0:00,54,4,P+D Festival Crop Tank (S/Mustard),1,25,7.5,17.5
+80835,1/16/2023 0:00,27,3,Drop In Class,1,40,0,40
+80718,10/17/2022 0:00,39,3,Drop In Class,1,40,0,40
+80666,12/10/2022 0:00,14,3,5 Class Pack,1,190,0,190
+80271,11/14/2022 0:00,80,4,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+80263,1/15/2023 0:00,58,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+80373,11/23/2022 0:00,32,4,5 Class Pack,1,190,0,190
+80358,11/28/2022 0:00,78,3,Drop In Class,1,40,0,40
+80333,1/9/2023 0:00,19,2,Drop In Class,1,40,0,40
+56548,12/2/2022 0:00,56,1,New Student 3 Pack - Intro Classes Only (1 mo exp),1,80,0,80
+79809,12/11/2022 0:00,13,3,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+79898,11/27/2022 0:00,93,1,Event Deposit (PDX),1,100,0,100
+79892,12/6/2022 0:00,32,1,Drop In Class (PDX),1,40,0,40
+79701,1/9/2023 0:00,95,2,Drop In Class (PDX),1,40,0,40
+79697,12/12/2022 0:00,22,4,Drop In Class (PDX),1,40,0,40
+79328,10/3/2022 0:00,19,2,Drop In Class (PDX),1,40,0,40
+79327,1/30/2023 0:00,83,1,Drop In Class (PDX),1,40,0,40
+79462,12/25/2022 0:00,81,1,Event Balance (PDX),1,200,0,200
+79453,1/20/2023 0:00,13,3,Drop In Class (PDX),1,40,0,40
+79422,1/20/2023 0:00,3,2,New Student 3 Class Special - 1 Month Exp (PDX),1,80,16,64
+79394,12/10/2022 0:00,74,2,Event Deposit (PDX),1,100,0,100
+79366,11/20/2022 0:00,8,3,Open Studio PDX (Unhosted),1,25,0,25
+79362,11/9/2022 0:00,33,1,Drop In Class (PDX),1,40,0,40
+79113,1/26/2023 0:00,79,1,Drop In Class (PDX),1,40,0,40
+79219,10/31/2022 0:00,50,2,Drop In Class (PDX),1,40,0,40
+79149,11/24/2022 0:00,56,1,PoleGrip,1,15,0,15
+79147,11/2/2022 0:00,33,1,PoleGrip,1,15,0,15
+79145,11/22/2022 0:00,18,1,PoleGrip,1,15,0,15
+78942,1/8/2023 0:00,67,1,PD Retro Shorts (Large/White),1,25,0,25
+78898,12/6/2022 0:00,75,4,Drop In Class (PDX),1,40,0,40
+56637,11/28/2022 0:00,54,1,Toe Covers (Rainbow),1,18,0,19.84
+78810,1/21/2023 0:00,1,2,PoleGrip,1,15,4.5,10.5
+78803,11/2/2022 0:00,72,3,P+D Festival Crop Tank (L/Ice Blue),1,25,0,25
+78783,10/23/2022 0:00,43,2,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+78764,11/29/2022 0:00,72,2,P+D Festival Crop Tank (S/Mustard),1,25,7.5,17.5
+78745,12/26/2022 0:00,4,3,Middle Splits Cartwheels and Tilts,1,150,0,150
+78743,12/13/2022 0:00,82,3,Event Balance (PDX),1,200,0,200
+78569,12/8/2022 0:00,58,2,Drop In Class (PDX),1,40,0,40
+78547,12/29/2022 0:00,37,4,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+78536,1/15/2023 0:00,99,1,Backbend Breakthrough,1,150,0,150
+78347,1/31/2023 0:00,21,4,P+D Festival Crop Tank (S/Pink),1,25,7.5,17.5
+78346,12/8/2022 0:00,16,1,P+D Festival Crop Tank (S/Ice Blue),1,25,7.5,17.5
+78331,10/30/2022 0:00,52,3,Drop In Class (PDX),1,40,0,40
+78161,10/18/2022 0:00,9,2,Monkey Hands (Classic),1,15,4.5,10.5
+78140,1/11/2023 0:00,17,1,Better Grip (2 oz) (Regular),1,15,0,15
+78128,1/2/2023 0:00,22,3,P&D Sweatpants (White/S),1,45,0,45
+78090,10/22/2022 0:00,94,3,Drop In Class (PDX),1,40,0,40
+77788,12/18/2022 0:00,92,4,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+77889,1/31/2023 0:00,53,3,Drop In Class (PDX),1,40,0,40
+77844,10/4/2022 0:00,2,4,Monkey Hands (Sticky),1,15,4.5,10.5
+77841,11/22/2022 0:00,44,4,Drop In Class (PDX),1,40,0,40
+77531,11/26/2022 0:00,12,2,5 Class Pack (PDX),1,190,0,190
+77526,10/20/2022 0:00,42,4,Drop In Class (PDX),1,40,0,40
+77522,10/4/2022 0:00,39,3,Kind Bar,1,3,0.9,2.1
+77521,12/3/2022 0:00,61,1,Toe Covers (Electric),1,18,0,18
+77519,12/3/2022 0:00,17,3,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+77555,1/14/2023 0:00,57,4,Drop In Class (PDX),1,40,0,40
+77366,10/4/2022 0:00,49,2,Knee Pads without Grip (Sky Blue/Large),1,35,0,35
+77342,1/27/2023 0:00,52,2,Drop In Class (PDX),1,40,0,40
+77412,11/6/2022 0:00,49,1,Drop In Class (PDX),1,40,0,40
+77410,10/5/2022 0:00,91,4,Drop In Class (PDX),1,40,0,40
+77409,11/8/2022 0:00,62,2,Drop In Class (PDX),1,40,0,40
+77380,1/22/2023 0:00,55,2,Toe Covers (Dark Sky),1,18,0,18
+77379,12/30/2022 0:00,19,2,Michah Walters Workshop Payment,1,200,0,200
+77252,12/11/2022 0:00,72,2,Drop In Class (PDX),1,40,0,40
+77249,1/17/2023 0:00,67,3,Drop In Class (PDX),1,40,0,40
+77239,12/31/2022 0:00,54,2,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+77232,11/5/2022 0:00,2,4,Drop In Class (PDX),1,40,0,40
+77213,10/31/2022 0:00,93,2,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+77040,11/29/2022 0:00,49,4,Drop In Class (PDX),1,40,0,40
+77019,12/28/2022 0:00,74,2,Event Deposit (PDX),1,100,0,100
+77013,1/8/2023 0:00,56,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+77006,1/31/2023 0:00,25,2,Kind Bar,1,3,0.9,2.1
+76675,12/15/2022 0:00,99,1,5 Class Pack (PDX),1,190,0,190
+76661,11/30/2022 0:00,5,4,Drop In Class (PDX),1,40,0,40
+76794,11/2/2022 0:00,25,3,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+76793,11/2/2022 0:00,25,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+76621,12/19/2022 0:00,67,4,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+76457,12/3/2022 0:00,8,2,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+76137,10/6/2022 0:00,52,4,10 Class Pack (PDX),1,360,0,360
+76130,11/20/2022 0:00,24,3,10 Class Pack (PDX),1,360,0,360
+76120,12/4/2022 0:00,97,4,Heels with Sass,1,50,0,50
+76242,12/29/2022 0:00,32,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
+76239,11/24/2022 0:00,28,4,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
+76167,12/15/2022 0:00,98,4,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
+75863,10/1/2022 0:00,24,1,Drop In Class (PDX),1,40,0,40
+75929,11/9/2022 0:00,64,3,Drop In Class (PDX),1,40,0,40
+75919,12/31/2022 0:00,96,3,Drop In Class (PDX),1,40,0,40
+75899,10/28/2022 0:00,3,3,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+75668,10/6/2022 0:00,17,2,Kind Bar,1,3,0.9,2.1
+75667,10/21/2022 0:00,93,3,Knee Pads without Grip (Latte/Large),1,35,0,35
+75667,1/5/2023 0:00,59,1,P+D Classy Biker Shorts (L / XL),1,25,0,25
+75634,11/14/2022 0:00,31,3,Drop In Class (PDX),1,40,0,40
+75691,1/15/2023 0:00,90,4,P&D Sweatpants (Gray/XS),1,45,13.5,31.5
+75406,1/16/2023 0:00,30,2,10 Class Pack (PDX),1,360,0,360
+75399,1/3/2023 0:00,72,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+75270,10/11/2022 0:00,16,4,Toe Covers (Holo Python),1,18,5.4,12.6
+75260,10/25/2022 0:00,75,3,Drop In Class (PDX),1,40,0,40
+74811,10/21/2022 0:00,84,2,Studio Access Membership (PDX),1,200,0,200
+74635,1/16/2023 0:00,46,3,Drop In Class (PDX),1,40,0,40
+74769,10/4/2022 0:00,74,1,Knee Pads without Grip (Black/Small),1,35,0,35
+74391,11/11/2022 0:00,12,1,Drop In Class (PDX),1,40,0,40
+74514,10/21/2022 0:00,25,4,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+74504,12/18/2022 0:00,62,4,Drop In Class (PDX),1,40,0,40
+74461,1/7/2023 0:00,10,2,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+74116,1/19/2023 0:00,97,2,5 Class Pack (PDX),1,190,190,0
+74103,10/7/2022 0:00,2,2,Knee Pads with Grip (Sky Blue/Medium),1,35,10.5,24.5
+74078,1/28/2023 0:00,87,4,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+74191,1/7/2023 0:00,70,4,PDX Tank (M),1,20,20,0
+74191,1/11/2023 0:00,38,2,P&D Key Chain,1,7,7,0
+74151,1/20/2023 0:00,8,1,Dew Point 2.5 oz. (Ultra),1,15,0,15
+73813,11/12/2022 0:00,54,1,Kind Bar,1,3,0.9,2.1
+73792,11/5/2022 0:00,33,2,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+73770,12/15/2022 0:00,80,4,Drop In Class (PDX),1,40,0,40
+73769,12/9/2022 0:00,96,1,P&D Pride Top (High V Neck/Small),1,30,9,21
+73769,10/26/2022 0:00,11,3,PD Retro Shorts (Medium/White),1,25,7.5,17.5
+73892,1/10/2023 0:00,79,4,Open Studio PDX (Unhosted),1,25,0,25
+73890,11/26/2022 0:00,2,2,Drop In Class (PDX),1,40,0,40
+73763,11/20/2022 0:00,44,4,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+73885,11/14/2022 0:00,57,3,Drop In Class (PDX),1,40,0,40
+73818,10/2/2022 0:00,58,1,Drop In Class (PDX),1,40,0,40
+73817,11/16/2022 0:00,38,4,PoleGrip,1,15,4.5,10.5
+73646,12/9/2022 0:00,83,4,5 Class Pack (PDX),1,190,0,190
+73265,1/24/2023 0:00,35,2,Drop In Class (PDX),1,40,0,40
+73372,1/3/2023 0:00,4,4,P&D Gym Bag,1,30,9,21
+73366,1/10/2023 0:00,27,3,P&D Gym Bag,1,30,9,21
+73342,10/22/2022 0:00,57,3,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+73006,1/1/2023 0:00,3,4,20 Class Pack (PDX),1,680,680,0
+72998,1/9/2023 0:00,29,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+72994,10/12/2022 0:00,95,3,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+56687,1/13/2023 0:00,95,3,Studio Access Membership (SF),1,200,0,200
+72882,1/4/2023 0:00,98,3,Static Rotations,1,60,0,60
+72881,10/26/2022 0:00,91,2,Magical Mounts,1,60,0,60
+72860,1/25/2023 0:00,61,3,PoleGrip,2,30,0,30
+72829,10/10/2022 0:00,7,4,Open Studio PDX (Unhosted),1,25,0,25
+72801,10/30/2022 0:00,76,3,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+72456,10/23/2022 0:00,56,2,Drop In Class (PDX),1,40,0,40
+72455,12/2/2022 0:00,65,3,Drop In Class (PDX),1,40,0,40
+72586,1/7/2023 0:00,90,1,Drop In Class (PDX),1,40,0,40
+72541,1/8/2023 0:00,46,3,Static Rotations,1,60,0,60
+72540,11/6/2022 0:00,79,4,Magical Mounts,1,60,0,60
+72466,10/28/2022 0:00,55,4,Magical Mounts,1,60,0,60
+72288,1/28/2023 0:00,84,1,Drop In Class (PDX),1,40,0,40
+72269,12/17/2022 0:00,12,2,P&D Key Chain,1,7,7,0
+72269,10/22/2022 0:00,18,4,PDX Tank (S),1,20,20,0
+72267,11/28/2022 0:00,9,3,Drop In Class (PDX),1,40,0,40
+72073,1/28/2023 0:00,40,3,Drop In Class (PDX),1,40,0,40
+72055,10/12/2022 0:00,96,4,P&D Sweatpants (Mauve/L),1,45,0,45
+72047,1/14/2023 0:00,48,3,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
+72023,12/18/2022 0:00,23,2,Magical Mounts,1,60,0,60
+72086,10/25/2022 0:00,94,4,PoleGrip,1,15,4.5,10.5
+72086,10/6/2022 0:00,58,2,Knee Pads with Grip (Pink/XS),1,35,10.5,24.5
+72078,12/17/2022 0:00,45,2,P&D Sweatpants (Athletic Heather/M),1,45,13.5,31.5
+71842,11/3/2022 0:00,76,3,Pole Level 1 Teacher Training,1,500,0,500
+71663,10/12/2022 0:00,78,1,Drop In Class (PDX),1,40,0,40
+71774,11/10/2022 0:00,6,4,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+71725,1/22/2023 0:00,74,3,Drop In Class (PDX),1,40,0,40
+71713,1/3/2023 0:00,72,2,Drop In Class (PDX),1,40,0,40
+71443,10/18/2022 0:00,79,1,Static Rotations,1,60,0,60
+71442,1/2/2023 0:00,73,3,Magical Mounts,1,60,0,60
+71430,11/23/2022 0:00,2,2,5 Class Pack (PDX),1,190,0,190
+71401,10/14/2022 0:00,63,1,Heels with Sass,1,50,0,50
+71495,1/29/2023 0:00,80,4,Kind Bar,1,3,0.9,2.1
+71107,11/10/2022 0:00,27,1,Drop In Class (PDX),1,40,0,40
+71303,10/30/2022 0:00,85,4,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+71290,10/13/2022 0:00,82,1,Drop In Class (PDX),1,40,0,40
+71284,10/2/2022 0:00,10,4,20 Class Pack (PDX),1,680,0,680
+71262,12/18/2022 0:00,24,2,Drop In Class (PDX),1,40,0,40
+71252,1/22/2023 0:00,81,1,20 Class Pack (PDX),1,680,680,0
+71251,10/19/2022 0:00,49,4,20 Class Pack (PDX),1,680,680,0
+70934,11/3/2022 0:00,89,4,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+71088,1/6/2023 0:00,17,2,20 Class Pack (PDX),1,680,680,0
+71088,11/13/2022 0:00,92,3,Open Studio PDX (Unhosted),10,250,250,0
+71058,1/16/2023 0:00,65,3,Drop In Class (PDX),1,40,40,0
+71004,11/8/2022 0:00,41,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+70944,11/27/2022 0:00,1,4,Backbend Breakthrough,1,150,0,150
+70709,12/19/2022 0:00,82,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+70706,12/12/2022 0:00,88,4,Drop In Class (PDX),1,40,40,0
+70779,10/13/2022 0:00,33,4,Drop In Class (PDX),1,40,0,40
+70678,11/6/2022 0:00,37,3,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+70549,11/1/2022 0:00,24,4,Backbend Breakthrough,1,150,0,150
+70548,11/18/2022 0:00,46,3,Middle Splits Cartwheels and Tilts,1,150,0,150
+70564,1/6/2023 0:00,94,4,Kind Bar,1,3,0.9,2.1
+70564,12/23/2022 0:00,53,4,PoleGrip,1,15,4.5,10.5
+70335,10/17/2022 0:00,40,4,Pole Level 1 Teacher Training,1,500,0,500
+70453,12/18/2022 0:00,72,3,PoleGrip,1,15,0,15
+70453,10/12/2022 0:00,82,4,P&D Pin (Red Pole),1,10,0,10
+70395,12/27/2022 0:00,69,2,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+70176,12/23/2022 0:00,12,3,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
+70142,11/28/2022 0:00,35,4,Drop In Class (PDX),1,40,0,40
+70248,1/15/2023 0:00,36,2,PDX Tank (S),1,20,20,0
+70248,11/4/2022 0:00,26,3,P&D Key Chain,1,7,7,0
+70240,11/21/2022 0:00,20,3,Kind Bar,1,3,0.9,2.1
+70199,12/13/2022 0:00,88,4,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+69977,10/25/2022 0:00,37,2,20 Class Pack (PDX),1,680,680,0
+69977,11/15/2022 0:00,13,2,Open Studio PDX (Unhosted),10,250,250,0
+69923,12/16/2022 0:00,68,3,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+70041,12/16/2022 0:00,91,1,PDX Tank (S),1,20,20,0
+70041,12/24/2022 0:00,64,2,P&D Key Chain,1,7,7,0
+70040,1/26/2023 0:00,44,3,Kind Bar,1,3,0.9,2.1
+70035,11/16/2022 0:00,95,4,P+D Classy Biker Shorts (S / M),1,25,7.5,17.5
+70035,10/15/2022 0:00,39,1,P&D Gym Bag,1,30,9,21
+69889,11/21/2022 0:00,68,3,Static Rotations,1,60,0,60
+69888,12/21/2022 0:00,63,1,Magical Mounts,1,60,0,60
+69879,12/9/2022 0:00,84,3,5 Class Pack (PDX),1,190,0,190
+69841,1/21/2023 0:00,93,3,Drop In Class (PDX),3,120,0,120
+69821,11/15/2022 0:00,94,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+69802,12/13/2022 0:00,83,3,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+69799,10/22/2022 0:00,81,2,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+69426,12/1/2022 0:00,8,3,20 Class Pack (PDX),1,680,680,0
+69426,11/2/2022 0:00,22,4,Open Studio PDX (Unhosted),10,250,250,0
+69419,1/27/2023 0:00,72,3,10 Class Pack (PDX),1,360,0,360
+69548,12/4/2022 0:00,40,4,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+69538,1/11/2023 0:00,69,2,Static Rotations,1,60,0,60
+69514,10/26/2022 0:00,42,1,Magical Mounts,1,60,0,60
+69513,1/17/2023 0:00,8,2,Static Rotations,1,60,0,60
+69504,11/14/2022 0:00,89,3,Static Rotations,1,60,0,60
+69503,12/25/2022 0:00,62,3,Better Grip (2 oz) (Regular),1,15,0,15
+69465,12/13/2022 0:00,83,1,Magical Mounts,1,60,0,60
+69190,1/27/2023 0:00,34,3,Kind Bar,1,3,0.9,2.1
+69187,1/27/2023 0:00,85,3,PoleGrip,1,15,4.5,10.5
+69175,11/24/2022 0:00,45,4,Knee Pads with Grip (Black/Medium),1,35,0,35
+69169,12/25/2022 0:00,24,1,Drop In Class (PDX),1,40,0,40
+69168,12/8/2022 0:00,79,4,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
+69159,12/2/2022 0:00,17,2,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+57026,10/10/2022 0:00,54,4,P&D Sweatpants (Mauve/L),1,45,0,49.61
+57442,11/5/2022 0:00,48,4,Handstands Series with Anna,1,175,0,175
+69127,1/25/2023 0:00,75,3,5 Class Pack (PDX),1,190,0,190
+69245,10/6/2022 0:00,37,4,$100 Gift Card,1,100,0,100
+68989,12/22/2022 0:00,26,1,P&D Key Chain,1,7,7,0
+68987,1/3/2023 0:00,21,2,5 Class Pack (PDX),1,190,0,190
+68967,12/3/2022 0:00,58,4,Kind Bar,1,3,0.9,2.1
+69059,10/30/2022 0:00,92,3,Drop In Class (PDX),1,40,0,40
+58615,11/29/2022 0:00,51,1,5 Week Intensive Training Program,1,600,0,600
+68815,12/7/2022 0:00,55,3,Drop In Class (PDX),1,40,0,40
+68810,11/30/2022 0:00,13,4,Drop In Class (PDX),1,40,0,40
+68809,1/20/2023 0:00,17,1,Static Rotations,1,60,0,60
+68908,12/21/2022 0:00,5,2,Kind Bar,1,3,0.9,2.1
+68896,12/13/2022 0:00,88,4,P+D Crew Socks,1,20,6,14
+68894,1/20/2023 0:00,58,3,Drop In Class (PDX),3,120,120,0
+68864,10/27/2022 0:00,42,2,Open Studio PDX (Unhosted),10,250,250,0
+68864,1/19/2023 0:00,100,3,20 Class Pack (PDX),1,680,680,0
+68847,10/24/2022 0:00,70,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+68464,12/10/2022 0:00,17,1,Event Balance (PDX),1,200,0,200
+58898,1/15/2023 0:00,21,1,4 Weeks Active Flex: Backbends with Shiki,1,175,0,175
+68691,11/9/2022 0:00,73,3,PoleGrip,1,15,0,15
+68691,1/7/2023 0:00,3,3,PD Retro Shorts (Medium/Baby Blue),1,25,0,25
+68543,1/6/2023 0:00,24,4,Magical Mounts,1,60,0,60
+68540,11/16/2022 0:00,57,4,Static Rotations,1,60,0,60
+68539,1/2/2023 0:00,15,1,Magical Mounts,1,60,0,60
+68687,10/3/2022 0:00,25,1,Static Rotations,1,60,0,60
+68340,11/5/2022 0:00,3,1,5 Class Pack (PDX),1,190,0,190
+68335,12/31/2022 0:00,70,1,Magical Mounts,1,60,0,60
+68377,12/17/2022 0:00,82,3,Drop In Class (PDX),1,40,0,40
+68367,10/2/2022 0:00,76,3,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+68191,10/20/2022 0:00,36,1,Magical Mounts,1,60,0,60
+68184,11/25/2022 0:00,49,2,5 Class Pack (PDX),1,190,0,190
+68181,1/24/2023 0:00,39,2,Magical Mounts,1,60,0,60
+68177,10/11/2022 0:00,70,3,Static Rotations,1,60,0,60
+68175,11/15/2022 0:00,32,1,Knee Pads with Grip (Black/Large),1,35,0,35
+68129,12/30/2022 0:00,22,4,Static Rotations,1,60,0,60
+68127,11/10/2022 0:00,59,2,Drop In Class (PDX),1,40,0,40
+68091,1/29/2023 0:00,77,3,Static Rotations,1,60,0,60
+68088,11/2/2022 0:00,65,4,Magical Mounts,1,60,0,60
+67801,12/10/2022 0:00,52,2,Open Studio PDX (Unhosted),1,25,0,25
+67784,12/15/2022 0:00,25,4,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+67775,12/13/2022 0:00,59,3,Drop In Class (PDX),1,40,0,40
+67889,11/23/2022 0:00,91,2,Drop In Class (PDX),1,40,0,40
+67887,11/25/2022 0:00,17,1,P+D Sports Bra (M),1,30,9,21
+67886,1/28/2023 0:00,6,4,PDX Tank (S),1,20,0,20
+67884,1/8/2023 0:00,46,4,Drop In Class (PDX),1,40,0,40
+67866,12/16/2022 0:00,43,3,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+67865,12/6/2022 0:00,5,3,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+67827,1/11/2023 0:00,27,1,Open Studio PDX (Unhosted),1,25,0,25
+67623,12/16/2022 0:00,11,2,Studio Access Membership (PDX),1,200,0,200
+67258,12/8/2022 0:00,84,2,PD Retro Shorts (Small/Baby Blue),1,25,0,25
+67237,10/24/2022 0:00,90,2,Drop In Class (PDX),1,40,0,40
+67292,12/15/2022 0:00,5,4,Drop In Class (PDX),1,40,0,40
+67291,1/30/2023 0:00,84,2,Drop In Class (PDX),1,40,0,40
+67289,10/8/2022 0:00,6,3,Drop In Class (PDX),1,40,0,40
+60105,10/10/2022 0:00,99,1,Drop In Class,1,40,0,40
+67161,11/20/2022 0:00,2,3,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+67159,1/23/2023 0:00,100,4,Drop In Class (PDX),1,40,40,0
+66735,12/11/2022 0:00,65,4,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+66714,11/22/2022 0:00,87,3,5 Class Pack (PDX),1,190,38,152
+66407,11/29/2022 0:00,29,3,New Student 3 Class Special - 1 Month Exp (PDX),1,80,0,80
+66101,10/31/2022 0:00,68,1,Event Balance (PDX),1,200,0,200
+65728,1/9/2023 0:00,28,3,Drop In Class (PDX),1,40,0,40
+65694,1/25/2023 0:00,1,2,Drop In Class (PDX),1,40,0,40
+65807,11/8/2022 0:00,67,2,Dew Point 2.5 oz. (Ultra),1,15,0,15
+65628,12/21/2022 0:00,62,2,New Student 3 Class Special - 1 Month Exp (PDX),1,80,16,64
+65736,11/18/2022 0:00,75,2,5 Class Pack (PDX),1,190,0,190
+65512,10/12/2022 0:00,50,3,Better Grip (2 oz) (Regular),1,15,4.5,10.5
+65512,11/18/2022 0:00,35,2,P+D Classy Biker Shorts (S / M),1,25,7.5,17.5
+65607,11/20/2022 0:00,5,2,Drop In Class (PDX),3,120,120,0
+65606,11/17/2022 0:00,68,3,Drop In Class (PDX),3,120,120,0
+65605,10/11/2022 0:00,79,2,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
+65604,1/14/2023 0:00,60,4,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
+65603,12/11/2022 0:00,30,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
+65602,1/9/2023 0:00,81,3,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
+65601,11/7/2022 0:00,66,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
+65600,1/19/2023 0:00,58,1,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
+65599,1/14/2023 0:00,33,3,New Student 3 Class Special - 1 Month Exp (PDX),1,80,80,0
+65530,12/31/2022 0:00,74,3,Drop In Class (PDX),1,40,0,40
+65527,1/13/2023 0:00,81,1,P+D Crop Tee (M),1,25,0,25
+65342,11/9/2022 0:00,89,3,P&D Sweatpants (Gray/S),1,45,13.5,31.5
+65342,10/8/2022 0:00,41,1,P&D Sweatpants (Mauve/S),1,45,13.5,31.5
+65341,10/15/2022 0:00,25,1,Studio Access Membership (PDX),1,200,0,200
+65304,11/14/2022 0:00,3,3,PD Retro Shorts (Large/Baby Blue),1,25,25,0
+65300,11/9/2022 0:00,72,2,PoleGrip,1,15,4.5,10.5
+65174,10/22/2022 0:00,41,2,Drop In Class (PDX),1,40,0,40
+65166,10/20/2022 0:00,37,2,Drop In Class (PDX),1,40,0,40
+65165,10/14/2022 0:00,56,1,Drop In Class (PDX),1,40,0,40

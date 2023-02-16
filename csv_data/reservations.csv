@@ -1,5 +1,1005 @@
-client_id,class_date,class_name,class_instructor,user_id
-39,2022-10-31 19:15:00,Pole L1.5 (Beg/Int),Yoko (@yokotaketani929), 1
-15,2022-10-31 18:0:00,Pole L3 (Int),Yoko (@yokotaketani929), 1
-98,2022-10-31 16:45:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929), 1
-25,2023-1-30 13:45:00,Pole Foundations (Intro),Marguerite Bueno, 1
+client_id,client_crm_id,class_date,class_name,class_instructor),user_id
+36,osrFNdA,1/15/2023 0:00,Pole L1.5 (Beg/Int),Yoko (@yokotaketani929),3
+80,kYJjRyh,1/24/2023 0:00,Pole L3 (Int),Yoko (@yokotaketani929),2
+45,RECYnnY,1/6/2023 0:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929),4
+94,hOndwDu,11/27/2022 0:00,Pole Foundations (Intro),Marguerite Bueno,4
+74,tAMoHRH,1/9/2023 0:00,Active Flexibility (All Levels),Marguerite Bueno,4
+82,UWqMBhE,11/29/2022 0:00,Heels Choreography (Beg/Int),Alexis Whitaker (@alexis_spins),2
+100,eGeSFuJ,1/27/2023 0:00,Pole L2 (Beg/Int),Alexis Whitaker (@alexis_spins),1
+19,saXbFrW,10/17/2022 0:00,ðŸ‘» Experimental Gremlins + Ghouls with Celia,Celia Ford (@celiadoespole),1
+57,SYtxckv,10/23/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),3
+80,XPWAwLA,11/3/2022 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),3
+56,CunvWyS,1/25/2023 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),3
+7,PgqjyJZ,1/26/2023 0:00,*Limited Time* Active Flex: Splits,Fifi Bamboo (@fifibamboo),4
+18,ANnhcHT,12/29/2022 0:00,ðŸ‘»ðŸ˜‰ BOO-bs out! with Sahra (All Levels) [shared],Sahra Aalaei (@happy__sahra),1
+33,YjbKwCl,10/8/2022 0:00,Pole Foundations (Intro),Luiza Silva,4
+49,upenwaY,10/19/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),2
+90,qNZjXxW,12/24/2022 0:00,Pole Foundations (Intro),Miyuki @miyukibee,1
+93,QHrsUor,1/14/2023 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),4
+72,XpiBlzu,12/22/2022 0:00,*Limited Time!* Pole L1.5 (Beg/Int),Sahra Aalaei (@happy__sahra),2
+43,aHwZUxY,12/5/2022 0:00,Pole Foundations (Intro),Kat Brousseau (@_katplay),4
+16,VVhBxRG,1/18/2023 0:00,Pole L3 (Int),Celia Ford (@celiadoespole),1
+68,BIkyMSB,12/5/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),2
+68,uXspWAG,10/7/2022 0:00,Pole Foundations (Intro),Ivy Hawk (@ivy_hawk),2
+79,LSzLKFC,1/8/2023 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),3
+37,nyPNWWV,10/17/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),2
+1,yVRYSkI,11/24/2022 0:00,ðŸ° Haunted Haus Foundations with Miyuki (Intro),Miyuki @miyukibee,3
+61,aVnkGlN,10/30/2022 0:00,Pole L1.5 (Beg/Int),Maggie Morgan,3
+23,mQDVTdt,12/13/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),1
+12,wQScsRf,10/31/2022 0:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929),4
+22,eqOBHuL,12/31/2022 0:00,Pole Foundations (Intro),Ashley Frey,1
+82,SdkfZUo,10/25/2022 0:00,Active Flexibility (All Levels),Shiki Wang (@flexiflowy),2
+63,pdoBhyu,12/26/2022 0:00,Heels Choreography (Beg/Int),Alexis Whitaker (@alexis_spins),1
+61,vZSlIFS,11/8/2022 0:00,Pole L2 (Beg/Int),Alexis Whitaker (@alexis_spins),3
+35,sddQgoj,11/6/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),1
+67,iGhrfVf,1/11/2023 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),4
+39,hLnQcMh,1/17/2023 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),4
+68,OJxHFAe,1/17/2023 0:00,*Limited Time* Active Flex: Splits,Fifi Bamboo (@fifibamboo),1
+48,joSZiPL,11/15/2022 0:00,Hard Heels Style Tricks (L2+) [shared] with Amy B,Amy Bond (@amysunshine007),1
+73,jhKSMKh,10/28/2022 0:00,Pole Foundations (Intro),Luiza Silva,1
+71,kvnXWsq,11/6/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),3
+36,TqtqWLW,1/13/2023 0:00,Pole Foundations (Intro),Miyuki @miyukibee,3
+90,RcEqJTZ,12/25/2022 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),2
+85,PdZwPjo,10/22/2022 0:00,*Limited Time!* Pole L1.5 (Beg/Int),Sahra Aalaei (@happy__sahra),4
+48,kNISAzh,11/12/2022 0:00,Pole Foundations (Intro),Kat Brousseau (@_katplay),1
+20,iMODEwX,1/18/2023 0:00,Pole L3 (Int),Celia Ford (@celiadoespole),1
+100,vqkiGsr,10/6/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),1
+77,KetghSg,1/12/2023 0:00,Pole Foundations (Intro),Miyuki @miyukibee,2
+81,YwrOmKW,12/31/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),3
+85,ILGnzQW,10/31/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),1
+57,CcLryNP,12/31/2022 0:00,Pole L1.5 (Beg/Int),Maggie Morgan,1
+52,unzZOnD,1/7/2023 0:00,Pole L3 (Int),Yoko (@yokotaketani929),4
+93,MeQImaQ,12/4/2022 0:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929),4
+98,nBpVslD,1/6/2023 0:00,Pole Foundations (Intro),Marguerite Bueno,3
+61,BvAmQAo,10/29/2022 0:00,Active Flexibility (All Levels),Marguerite Bueno,4
+50,pmlnJIX,12/31/2022 0:00,Heels Choreography (Beg/Int),Alexis Whitaker (@alexis_spins),1
+19,ElNXDNp,10/10/2022 0:00,Pole L2 (Beg/Int),Alexis Whitaker (@alexis_spins),2
+97,MhGgfMk,10/22/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),4
+98,zRpwRLC,10/31/2022 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),2
+42,sHncxor,10/28/2022 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),4
+25,hIybsZZ,11/23/2022 0:00,*Limited Time* Active Flex: Splits,Fifi Bamboo (@fifibamboo),1
+14,EpXldRC,12/18/2022 0:00,Pole Foundations (Intro),Luiza Silva,4
+87,YartXkQ,10/25/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),3
+89,GehaOHP,11/11/2022 0:00,Pole Foundations (Intro),Miyuki @miyukibee,2
+18,MiysKYG,1/26/2023 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),2
+38,TYOUTrC,1/5/2023 0:00,*Limited Time!* Pole L1.5 (Beg/Int),Sahra Aalaei (@happy__sahra),2
+82,aYixcws,10/22/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+40,KRpQKbe,1/6/2023 0:00,Pole Foundations (Intro),Ashley Frey,1
+30,bXNsNHH,12/26/2022 0:00,Pole L3 (Int),Celia Ford (@celiadoespole),2
+26,RSdeHXn,11/25/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),1
+57,wGPTaHG,10/19/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+95,oExGRPT,11/22/2022 0:00,Pole Foundations (Intro),Ivy Hawk (@ivy_hawk),3
+61,XScNhHU,11/2/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),4
+57,MZHtzOv,1/21/2023 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),3
+54,IWfVeCX,11/25/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+45,BHYJOwW,10/16/2022 0:00,Pole L1.5 (Beg/Int),Maggie Morgan,4
+66,WhOvDyW,10/17/2022 0:00,Pole L3 (Int),Celia Ford (@celiadoespole),3
+31,vSifDNl,12/16/2022 0:00,Heels Choreography (Int/Adv),Keeva Shae (@keevashae),1
+46,fZQJfsy,12/19/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+1,BEobozd,11/12/2022 0:00,Handstands + Inversions with Elizabeth [shared],Elizabeth Blanchard,2
+44,ioZuVfs,11/28/2022 0:00,Spin Pole Combos with Elizabeth [shared],Elizabeth Blanchard,4
+82,YjdKNEe,12/10/2022 0:00,Pole Tricks Clinic (L2+) with Elizabeth [shared],Elizabeth Blanchard,4
+11,EIcRvLr,10/4/2022 0:00,Pole Handspring Clinic (L2+) w/ Elizabeth [shared],Elizabeth Blanchard,4
+22,YKhAFXd,10/8/2022 0:00,Pole L4 (Int/Adv) with Elizabeth [shared],Elizabeth Blanchard,1
+16,WXKKBIb,10/1/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),2
+55,VTthTfD,10/3/2022 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),1
+91,CmwwYnA,10/24/2022 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),3
+34,yxSYzJt,10/18/2022 0:00,*Limited Time* Active Flex: Splits,Fifi Bamboo (@fifibamboo),1
+40,XdpDZWU,11/28/2022 0:00,Shoulder Balancing + Rolls with Fifi (All Levels),Fifi Bamboo (@fifibamboo),3
+58,PqHKRmw,10/7/2022 0:00,Pole Foundations (Intro),Luiza Silva,4
+15,awskJGn,12/14/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),2
+88,bVoeBri,12/8/2022 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),4
+29,pdIREJF,12/16/2022 0:00,*Limited Time!* Pole L1.5 (Beg/Int),Sahra Aalaei (@happy__sahra),4
+48,PcTUyMH,10/8/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+10,uFlQvwq,12/23/2022 0:00,Pole Foundations (Intro),Kat Brousseau (@_katplay),2
+80,QbuuDna,1/3/2023 0:00,Pole L3 (Int),Celia Ford (@celiadoespole),4
+95,UCufbMX,11/15/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),2
+74,zscqbiL,12/2/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+71,OFWwSxK,11/25/2022 0:00,Pole Foundations (Intro),Ivy Hawk (@ivy_hawk),3
+4,khnlOjI,1/26/2023 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),3
+93,FbfTeIr,10/9/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),3
+96,abkZYzL,10/5/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+85,VBwCqZP,10/8/2022 0:00,Pole L1.5 (Beg/Int),Maggie Morgan,4
+56,ZhNyYia,11/21/2022 0:00,Pole L3 (Int),Remi (@velveetaqueen),3
+58,ZVjKOiK,11/19/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+76,NdTXKeq,1/22/2023 0:00,Pole Foundations (Intro),Marguerite Bueno,2
+48,trGAGdg,10/16/2022 0:00,Active Flexibility (All Levels),Marguerite Bueno,3
+19,ghHYgWK,12/7/2022 0:00,Heels Choreography (Beg/Int),Alexis Whitaker (@alexis_spins),4
+50,nSeixrc,10/16/2022 0:00,Pole L2 (Beg/Int),Alexis Whitaker (@alexis_spins),2
+6,QUMKNPr,11/8/2022 0:00,Pole Foundations (Intro),Crystal Cheung,3
+29,eaFIqIE,11/15/2022 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),4
+29,fhKnNlE,12/3/2022 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),2
+36,KLghRHp,1/27/2023 0:00,*Limited Time* Active Flex: Splits,Fifi Bamboo (@fifibamboo),1
+71,mcgweqY,12/31/2022 0:00,Let's get wavy baby w/ Fifi (All Levels) [shared],Fifi Bamboo (@fifibamboo),1
+11,ZfggyXd,10/15/2022 0:00,Pole Foundations (Intro),Luiza Silva,2
+71,xacKuJH,11/14/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),3
+67,gCZuiQJ,1/1/2023 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),3
+43,cBfLAmR,10/31/2022 0:00,*Limited Time!* Pole L1.5 (Beg/Int),Sahra Aalaei (@happy__sahra),4
+1,GJnSnuu,10/2/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+30,uHxKLnP,1/26/2023 0:00,Pole Foundations (Intro),Kat Brousseau (@_katplay),3
+26,fXSvsis,11/26/2022 0:00,Pole L3 (Int),Celia Ford (@celiadoespole),2
+65,lVuiwBI,12/19/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),2
+3,jhUtuTd,12/19/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+58,qNgAmox,12/12/2022 0:00,Pole Foundations (Intro),Ivy Hawk (@ivy_hawk),4
+23,BSdlgxB,12/28/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),2
+4,coDJvpY,1/31/2023 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),1
+32,jESExiW,10/1/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+42,nRRUeRD,12/5/2022 0:00,Pole Foundations (Intro),Maggie Morgan,4
+55,hpSITHe,11/19/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),4
+82,BujHvqP,10/28/2022 0:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929),4
+97,DnCfnUb,10/23/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+21,wKaIaSl,10/10/2022 0:00,Pole Foundations (Intro),Marguerite Bueno,3
+56,OzBVsyR,10/22/2022 0:00,Active Flexibility (All Levels),Marguerite Bueno,2
+66,igCBfUK,12/4/2022 0:00,Heels Choreography (Beg/Int),Alexis Whitaker (@alexis_spins),1
+74,qsKXqUH,11/23/2022 0:00,Pole L2 (Beg/Int),Alexis Whitaker (@alexis_spins),4
+70,RqPLsTv,1/5/2023 0:00,Pole Foundations (Intro),Amelia (@how_polite),3
+54,xkiIyQC,1/30/2023 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),3
+74,IFKdYoD,11/26/2022 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),2
+96,zcLNWaU,11/22/2022 0:00,Pole Foundations (Intro),Luiza Silva,4
+14,qSevIKp,1/13/2023 0:00,Pole Foundations (Intro),Cela (@cela.stial),1
+96,JWZhDne,11/4/2022 0:00,*Pop-Up!* Pole Foundations (Intro),Miyuki @miyukibee,1
+46,pSAoZoc,11/24/2022 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),2
+93,dCDGGdj,11/30/2022 0:00,*Limited Time!* Pole L1.5 (Beg/Int),Sahra Aalaei (@happy__sahra),3
+26,ToTcNQo,12/11/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+15,qddXcOI,10/12/2022 0:00,Pole Foundations (Intro),Kat Brousseau (@_katplay),4
+9,CncnSZo,11/17/2022 0:00,Pole L3 (Int),Celia Ford (@celiadoespole),4
+58,qxTrUjG,1/8/2023 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),4
+35,jyyKhaN,12/5/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+81,ArMXbTm,10/27/2022 0:00,Pole Foundations (Intro),Ivy Hawk (@ivy_hawk),2
+56,VtyJRHI,12/11/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),3
+60,hqnDPsA,12/25/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),4
+77,xtGEYiP,11/6/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+35,oEwDvYP,11/27/2022 0:00,Pole Foundations (Intro),Maggie Morgan,4
+86,fxnoEtG,11/7/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),3
+74,imIuMCH,12/22/2022 0:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929),1
+64,XMSQLUx,10/11/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+14,vbEHTOZ,10/19/2022 0:00,Spin Pole Combos with Elizabeth,Elizabeth Blanchard,1
+49,WNVBccB,11/2/2022 0:00,Handstands + Inversions with Elizabeth,Elizabeth Blanchard,1
+20,VjayHaT,11/3/2022 0:00,Pole Tricks Clinic (L2+) with Elizabeth,Elizabeth Blanchard,3
+41,UkAKhJL,11/3/2022 0:00,Pole Handspring Clinic (L2+) with Elizabeth,Elizabeth Blanchard,4
+29,MwaEZyE,11/17/2022 0:00,Pole L4 (Int/Adv) with Elizabeth,Elizabeth Blanchard,4
+41,scPogYc,11/12/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),4
+28,SwiHeYX,1/12/2023 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),3
+19,uqOVzrR,11/22/2022 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),4
+30,WaDQkGI,1/27/2023 0:00,*Limited Time!* Pole L1.5 (Beg/Int),Fifi Bamboo (@fifibamboo),4
+75,ncpjMJJ,1/18/2023 0:00,Gooey Transitions (All Levels) with Celia,Celia Ford (@celiadoespole),3
+38,toqnpOp,12/31/2022 0:00,Pole Foundations (Intro),Luiza Silva,4
+34,UshjbTA,1/25/2023 0:00,Pole Foundations (Intro),Cela (@cela.stial),2
+71,naRaZzS,11/9/2022 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),3
+22,vwQgbmd,11/12/2022 0:00,*Limited Time!* Pole L1.5 (Beg/Int),Sahra Aalaei (@happy__sahra),3
+3,gvkfzkT,10/20/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+24,vCfBMwx,12/16/2022 0:00,Pole Foundations (Intro),Kat Brousseau (@_katplay),4
+68,sDYHbag,1/22/2023 0:00,Pole L3 (Int),Celia Ford (@celiadoespole),3
+3,Sufarqm,10/25/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),2
+43,ClUBeDI,10/27/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+2,afklqEM,1/24/2023 0:00,Pole Foundations (Intro),Miyuki @miyukibee,3
+100,uWDBxTm,10/11/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),4
+44,adwEMbJ,11/2/2022 0:00,Pole L2 (Beg/Int),Maggie Morgan,2
+37,nJfufwq,10/14/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+70,VVqytfG,1/7/2023 0:00,Pole Foundations (Intro),Maggie Morgan,3
+61,DYXFHEE,11/30/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),3
+75,VOMEbju,10/30/2022 0:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929),3
+35,JontVga,1/21/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+82,RnyvUyQ,1/14/2023 0:00,Pole Foundations (Intro),Marguerite Bueno,4
+91,mkAOuQB,1/3/2023 0:00,Active Flexibility (All Levels),Marguerite Bueno,1
+74,PTPCsqH,12/27/2022 0:00,Heels Choreography (Beg/Int),Alexis Whitaker (@alexis_spins),2
+22,qOVwWfl,1/7/2023 0:00,Pole L2 (Beg/Int),Alexis Whitaker (@alexis_spins),2
+78,wilgSaQ,10/9/2022 0:00,Tits Out! (QT-centered space) with Sahra [shared],Sahra Aalaei (@happy__sahra),3
+6,dlsHplk,1/27/2023 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),4
+2,EHFwtyl,10/10/2022 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),3
+24,CMyHqxF,1/29/2023 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),2
+93,AtGCAeK,12/24/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+82,TjavsTd,11/1/2022 0:00,Shoulder Balancing + Rolls with Fifi (All Levels),Fifi Bamboo (@fifibamboo),4
+87,QidEIyW,10/25/2022 0:00,Pole Foundations (Intro),Luiza Silva,2
+4,QmdWtVF,1/6/2023 0:00,Pole Foundations (Intro),Cela (@cela.stial),3
+29,nnxggUO,1/23/2023 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),1
+70,FUJxICY,12/26/2022 0:00,*Limited Time!* Pole L1.5 (Beg/Int),Sahra Aalaei (@happy__sahra),2
+14,olfrYSw,12/14/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+100,alVtwpP,12/2/2022 0:00,Pole Foundations (Intro),Kat Brousseau (@_katplay),3
+35,QuPRuOh,1/30/2023 0:00,Pole L3 (Int),Celia Ford (@celiadoespole),4
+10,MCfyzvT,10/25/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),3
+100,MQqhXOZ,10/22/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+35,JPjlOee,12/5/2022 0:00,Pole Foundations (Intro),Miyuki @miyukibee,1
+6,MaGBHnN,10/12/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),2
+37,KBQLPVU,10/12/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),2
+16,zEisEaV,10/17/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+68,ZxGqFow,11/20/2022 0:00,Pole L3 (Int),Amy Bond (@amysunshine007),4
+51,riHsCka,11/5/2022 0:00,Pole Foundations (Intro),Maggie Morgan,1
+1,IKaSZIX,1/8/2023 0:00,Pole L3 (Int),Yoko (@yokotaketani929),2
+76,ImkGkjq,10/14/2022 0:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929),2
+76,rIDVqyL,11/25/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+51,quJVmzB,12/19/2022 0:00,Pole Foundations (Intro),Marguerite Bueno,1
+6,QFIQqxu,12/1/2022 0:00,Heels Choreography (Beg/Int),Amy Bond (@amysunshine007),2
+36,uRPqLMO,12/12/2022 0:00,Active Flexibility (All Levels),Anna Kaye,3
+98,cFTjTjJ,12/11/2022 0:00,Pole L2 (Beg/Int),Maggie Morgan,1
+90,AJpjJmQ,11/13/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),1
+89,AeLtNyN,12/18/2022 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),4
+50,qcMUDyI,10/7/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),3
+61,szcUqQo,10/2/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+62,bLHoiJc,1/21/2023 0:00,Pole Foundations (Intro),Luiza Silva,3
+2,kdqiDTj,1/18/2023 0:00,Pole Foundations (Intro),Cela (@cela.stial),3
+39,gyfCbEL,11/11/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+59,hjLloSY,11/15/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+60,NOvDsyE,11/7/2022 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),2
+4,YclFOvn,11/25/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+26,gIKymUe,11/22/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),3
+64,GQwCEsK,10/15/2022 0:00,Pole Foundations (Intro),Kat Brousseau (@_katplay),1
+53,mRzYEvS,12/11/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),3
+53,gXBRYRJ,1/16/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+59,HtWBVBp,10/27/2022 0:00,Pole Foundations (Intro),Miyuki @miyukibee,1
+60,YNnnURk,11/28/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),1
+72,LkXEdxZ,12/24/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),4
+23,PehFegq,12/27/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+48,vFFWcQq,10/7/2022 0:00,Pole Foundations (Intro),Yoko (@yokotaketani929),4
+23,ZVmWbjF,1/6/2023 0:00,Pole L3 (Int),Yoko (@yokotaketani929),3
+64,EnKWyrE,1/15/2023 0:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929),3
+42,iGkfVPv,11/2/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+76,icOTmHA,10/16/2022 0:00,Pole Foundations (Intro),Sasha Pronko,4
+89,DYsKhTI,12/14/2022 0:00,Heels Choreography (Beg/Int),Alexis Whitaker (@alexis_spins),4
+10,lvitMLz,1/30/2023 0:00,Active Flexibility (All Levels),Anna Kaye,4
+69,SXaaNjy,11/12/2022 0:00,Pole L2 (Beg/Int),Maggie Morgan,3
+32,VFvywAj,12/23/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),1
+33,eYJjnmV,10/6/2022 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),1
+99,swjaOHp,1/1/2023 0:00,Pole Foundations (Intro),Luiza Silva,4
+48,Rxhwqlh,12/2/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),3
+22,DxdMtzu,11/8/2022 0:00,Active Flexibility (All Levels),Mae Mae (@maesweetmae),4
+49,boJbcTo,12/17/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),3
+71,DUkwBfB,10/26/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+35,dtAKQYN,12/29/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),1
+15,McsVkFB,11/15/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),3
+97,DkPobnJ,11/2/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+22,HLAbotU,12/22/2022 0:00,Pole Foundations (Intro),Miyuki @miyukibee,4
+25,TkwammP,12/14/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),4
+14,cXCXoMU,10/21/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),4
+18,aseCXRR,10/9/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+72,gjcthZp,11/27/2022 0:00,Pole L3 (Int),Amy Bond (@amysunshine007),1
+31,mIqAEQs,10/19/2022 0:00,Pole Foundations (Intro),Maggie Morgan,4
+81,QhPiLuN,12/29/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),2
+90,YpVjoUt,12/10/2022 0:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929),2
+45,IgwqJIT,10/11/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+83,rXCWfqG,10/27/2022 0:00,Spin Pole Combos with Elizabeth,Elizabeth Blanchard,1
+35,iHcDwHL,10/24/2022 0:00,Handstands + Inversions with Elizabeth,Elizabeth Blanchard,4
+82,fCTUato,10/8/2022 0:00,Pole Tricks Clinic (L2+) with Elizabeth,Elizabeth Blanchard,3
+13,ePcRTmG,1/11/2023 0:00,Pole Handspring Clinic (L2+) with Elizabeth,Elizabeth Blanchard,1
+6,EjxGJVD,10/28/2022 0:00,Pole L4 (Int/Adv) with Elizabeth,Elizabeth Blanchard,4
+38,qSVJMci,12/18/2022 0:00,Pole Foundations (Intro),Crystal Cheung,1
+96,bPLhsYN,10/2/2022 0:00,Pole L2 (Beg/Int),Sasha Pronko,1
+77,gosNjdB,1/13/2023 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),4
+78,qaWdFtL,10/25/2022 0:00,Intro to Heels Edgework (Beg/Int) with Amy,Amy Bond (@amysunshine007),4
+16,hGYPrTW,12/2/2022 0:00,Pole Foundations (Intro),Luiza Silva,2
+27,NiSjwaU,10/29/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),3
+37,BehRius,12/24/2022 0:00,Active Flexibility (All Levels),Shiki Wang (@flexiflowy),4
+81,RSHknGW,1/9/2023 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),2
+69,wrqQLHc,10/11/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+11,jRoYSNI,12/6/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),4
+29,kExDyIj,11/10/2022 0:00,Pole Foundations (Intro),Kat Brousseau (@_katplay),2
+25,eCduBNs,1/12/2023 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),4
+91,CAApPXg,1/25/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+71,cyRRAxd,10/15/2022 0:00,Pole Foundations (Intro),Miyuki @miyukibee,4
+33,LsWnyAy,11/28/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),4
+99,WeqbTCd,12/21/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),1
+86,JqtSTrA,10/29/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+19,VoWgJMU,10/3/2022 0:00,Pole L3 (Int),Amy Bond (@amysunshine007),1
+91,OkjKnfp,12/25/2022 0:00,Pole Foundations (Intro),Maggie Morgan,3
+73,EgVquKa,11/3/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),1
+14,IEHlwiN,12/28/2022 0:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929),2
+100,RcxKEIr,1/22/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+71,lSGKdsZ,12/14/2022 0:00,Pole Foundations (Intro),Marguerite Bueno,2
+79,vLDmRZZ,12/24/2022 0:00,Heels Choreography (Beg/Int),Yoko (@yokotaketani929),2
+54,kFppdJF,1/5/2023 0:00,Active Flexibility (All Levels),Anna Kaye,1
+85,QjQANSH,1/20/2023 0:00,Pole L2 (Beg/Int),Maggie Morgan,2
+24,LglxUpC,1/6/2023 0:00,Pole Foundations (Intro),Cela (@cela.stial),3
+29,IziCduO,10/13/2022 0:00,Pole L2 (Beg/Int),Anne Baptiste,4
+89,xowMlhG,10/8/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),1
+12,wkmkwym,1/31/2023 0:00,Pole L1.5 (Beg/Int),Celia Ford (@celiadoespole),3
+71,jGFjjgl,1/6/2023 0:00,Pole Foundations (Intro),Cela (@cela.stial),1
+26,LlhwaJR,12/14/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+72,nihLBdP,11/16/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),2
+32,EnMmvtR,10/27/2022 0:00,Pole Foundations (Intro),Kat Brousseau (@_katplay),4
+35,nfbJUns,12/3/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),2
+14,DneVbiz,10/22/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+22,abbNutw,12/1/2022 0:00,Pole Foundations (Intro),Kat Brousseau (@_katplay),2
+98,cbMUaLM,10/13/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),3
+29,bkTBbMY,10/24/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),2
+37,TeEFZRF,11/23/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+10,CdgKWAu,11/17/2022 0:00,Pole Foundations (Intro),Maggie Morgan,4
+88,iHGETdB,1/20/2023 0:00,Pole L3 (Int),Yoko (@yokotaketani929),2
+26,kjxREas,12/16/2022 0:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929),1
+74,YpJPKxM,1/11/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+10,hgXOBMC,12/13/2022 0:00,Pole Foundations (Intro),Marguerite Bueno,3
+5,OgpAsrb,11/25/2022 0:00,Heels Choreography (Beg/Int),Alexis Whitaker (@alexis_spins),3
+69,JMPCrUq,10/4/2022 0:00,Active Flexibility (All Levels),Anna Kaye,1
+6,wYKWzbf,1/27/2023 0:00,Pole L2 (Beg/Int),Maggie Morgan,3
+56,jOXCKsI,12/14/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),2
+15,MBuubfF,1/22/2023 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),3
+35,WGVSGfP,11/23/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),4
+91,Dinwuxc,11/11/2022 0:00,Pole Foundations (Intro),Luiza Silva,1
+36,ATglMmT,10/26/2022 0:00,Pole Foundations (Intro),Maggie Morgan,1
+69,XqsUSMZ,10/18/2022 0:00,Heels Choreography (Beg/Int),Mae Mae (@maesweetmae),4
+88,pPbJyqx,12/23/2022 0:00,Active Flexibility (All Levels),Mae Mae (@maesweetmae),4
+16,uTThxxB,10/31/2022 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),1
+24,igshMQp,11/29/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+70,boRHOQP,11/15/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),3
+15,xugHIjX,1/8/2023 0:00,Pole Foundations (Intro),Kat Brousseau (@_katplay),2
+78,yZZUyYW,10/19/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),1
+4,oniXGfR,12/30/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+14,UrXyUCp,11/4/2022 0:00,Pole Foundations (Intro),Yoko (@yokotaketani929),3
+6,bOlHtTI,11/8/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),2
+67,UqEYRvr,1/5/2023 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),2
+5,xGOJVGx,10/3/2022 0:00,Pole Foundations (Intro),Lucy,2
+41,TMXBDEG,12/21/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),4
+13,KaBnsPu,11/12/2022 0:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929),1
+24,QILutxO,11/8/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+72,ZDZWtyZ,1/17/2023 0:00,Pole Foundations (Intro),Marguerite Bueno,2
+38,gejdASB,10/17/2022 0:00,Heels Choreography (Beg/Int),Alexis Whitaker (@alexis_spins),2
+48,qtrHyLP,12/12/2022 0:00,Active Flexibility (All Levels),Andrea Brewer,3
+93,KPPOLjA,1/14/2023 0:00,Pole L2 (Beg/Int),Sasha Pronko,1
+91,pfeCuTT,11/18/2022 0:00,Tits Out! (QT-centered pole space) with Sahra,Sahra Aalaei (@happy__sahra),1
+82,cNlKDfg,12/15/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),4
+45,nXDKHHm,12/28/2022 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),1
+49,GTyNajv,10/11/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),4
+35,tOetmKS,1/18/2023 0:00,Pole Foundations (Intro),Luiza Silva,4
+54,WrzkIif,10/2/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),1
+17,GiFkjOr,10/2/2022 0:00,Heels Choreography (Beg/Int),Mae Mae (@maesweetmae),4
+43,PVerFMu,10/18/2022 0:00,Active Flexibility (All Levels),Mae Mae (@maesweetmae),3
+81,fecqOZq,1/28/2023 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),1
+20,ZjzxGoX,1/3/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+85,cBOcMDx,12/9/2022 0:00,*Pop-Up!* Pole L2 (Beg/Int),Alexis Whitaker (@alexis_spins),2
+75,QReQzqA,12/8/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),1
+83,oWiFRgp,10/26/2022 0:00,Pole Foundations (Intro),Kat Brousseau (@_katplay),3
+42,wZOthZr,12/18/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),3
+35,HStUqAf,1/30/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+48,XKCiuin,1/10/2023 0:00,Pole Foundations (Intro),Ivy Hawk (@ivy_hawk),2
+56,OaTLitN,11/11/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),2
+8,GFKCjzw,11/28/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),4
+8,LoOUtBt,11/22/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+14,BdwSnSp,10/8/2022 0:00,Pole Foundations (Intro),Lucy,2
+32,edSwFVa,10/17/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),4
+34,YsWPnBy,11/14/2022 0:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929),4
+57,OfWmQou,12/12/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+4,BicjHBV,11/29/2022 0:00,Pole Foundations (Intro),Marguerite Bueno,4
+95,Xjsgpmt,11/20/2022 0:00,*Limited time only!* Hard Heels Choreo (Int/Adv),Amy Bond (@amysunshine007),4
+72,PoKIefM,11/27/2022 0:00,Active Flexibility (All Levels),Anna Kaye,2
+59,jMtYRpv,12/6/2022 0:00,Pole L2 (Beg/Int),Karina (@femmepole),3
+55,gmycFHE,11/10/2022 0:00,Playful Pole with Sahra,Sahra Aalaei (@happy__sahra),2
+5,YnalFvq,1/21/2023 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),2
+45,zpfYPAZ,11/19/2022 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),1
+86,NrMZQzt,12/15/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),1
+13,OzMiDci,12/25/2022 0:00,Gooey Transitions (All Levels) with Celia,Celia Ford (@celiadoespole),3
+45,JBQUpFG,1/2/2023 0:00,Pole Foundations (Intro),Luiza Silva,4
+40,eyuqvLj,1/29/2023 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),1
+32,nmrrNIb,12/5/2022 0:00,Heels Choreography (Beg/Int),Alexis Whitaker (@alexis_spins),2
+70,ydRRPmB,1/20/2023 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),3
+2,swSzhDp,10/31/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+9,QkxtUHn,1/20/2023 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),1
+52,bsGmlEs,12/1/2022 0:00,Pole Foundations (Intro),Kat Brousseau (@_katplay),1
+93,TYVPJZK,10/15/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),2
+87,flUsdyX,1/2/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+76,OJAXzgi,12/26/2022 0:00,Pole Foundations (Intro),Ivy Hawk (@ivy_hawk),4
+88,slCQJmp,11/8/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),1
+93,tSHAXog,11/7/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),1
+96,LNPjIuX,10/25/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+93,nDLUfnn,12/19/2022 0:00,Pole Foundations (Intro),Maggie Morgan,4
+28,cVWiAAp,10/17/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),3
+41,uhwQSDy,11/16/2022 0:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929),4
+50,BypbEcn,10/26/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+55,SuQzEGH,10/5/2022 0:00,Spin Pole Combos with Elizabeth,Elizabeth Blanchard,3
+46,ecWHQbr,1/4/2023 0:00,Handstands + Inversions with Elizabeth,Elizabeth Blanchard,2
+31,qyVCTnn,12/26/2022 0:00,Pole Tricks Clinic (L2+) with Elizabeth,Elizabeth Blanchard,2
+47,UngtjyE,10/6/2022 0:00,Pole Handspring Clinic (L2+) with Elizabeth,Elizabeth Blanchard,2
+95,swBXNCG,12/5/2022 0:00,Pole L4 (Int/Adv) with Elizabeth,Elizabeth Blanchard,3
+90,IViMJkp,12/10/2022 0:00,Pole Foundations (Intro),Marguerite Bueno,2
+95,DettqVq,10/25/2022 0:00,Pole L2 (Beg/Int),Karina (@femmepole),2
+72,YJUMVse,11/26/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),4
+37,cVMBsBk,11/22/2022 0:00,Intro to Heels Edgework (Beg/Int) with Amy,Amy Bond (@amysunshine007),2
+18,FfrDHRH,10/1/2022 0:00,Pole Foundations (Intro),Luiza Silva,4
+10,tePMcOH,11/15/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),3
+1,rDrWeXI,12/2/2022 0:00,Heels Choreography (Beg/Int),Mae Mae (@maesweetmae),3
+51,KBMQgvY,11/5/2022 0:00,Active Flexibility (All Levels),Mae Mae (@maesweetmae),2
+45,SPUiJAi,11/5/2022 0:00,Pole L2 (Beg/Int),Roz (@roz.glows),3
+47,VXYYigL,11/17/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+5,KyMGKQp,11/5/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),3
+43,SxCjmXr,1/13/2023 0:00,Pole Foundations (Intro),Kat Brousseau (@_katplay),1
+80,ZiZWkZZ,10/16/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),4
+87,WpNZoLw,10/10/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+44,JpsQzjd,11/12/2022 0:00,Pole Foundations (Intro),Ivy Hawk (@ivy_hawk),2
+99,drCgUzL,10/7/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),2
+1,KUvXLHf,11/25/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),1
+99,pHlAVxn,1/7/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+10,BLsOQCD,1/26/2023 0:00,Pole L3 (Int),Amy Bond (@amysunshine007),2
+31,INAPruM,12/23/2022 0:00,Pole Foundations (Intro),Judy (TT) Maggie Morgan,3
+95,vZHENHl,10/7/2022 0:00,Pole L3 (Int),Celia Ford (@celiadoespole),4
+41,VXFAsUU,10/9/2022 0:00,Heels Choreography (Int/Adv),Mae Mae (@maesweetmae),2
+2,HPrvspf,11/14/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+85,fftEUPx,12/15/2022 0:00,Pole Foundations (Intro),Marguerite Bueno,2
+34,gCcfvDT,11/1/2022 0:00,*Limited time only!* Hard Heels Choreo (Int/Adv),Mae Mae (@maesweetmae),4
+57,LqfDvxK,11/10/2022 0:00,Active Flexibility (All Levels),Anna Kaye,2
+5,toFmcVI,10/30/2022 0:00,Pole L2 (Beg/Int),Maggie Morgan,4
+29,wsvvDZK,11/18/2022 0:00,Experimental Pole with Celia,Celia Ford (@celiadoespole),1
+37,jDarbBV,12/27/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),3
+59,izcGtIX,11/28/2022 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),4
+29,hJxHPSh,10/26/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),2
+5,iwmRkaO,12/18/2022 0:00,Pole Foundations (Intro),Luiza Silva,1
+78,rgFRVul,12/3/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),3
+9,AQJlPNO,11/30/2022 0:00,Heels Choreography (Beg/Int),Mae Mae (@maesweetmae),4
+42,yINZnFA,11/24/2022 0:00,Active Flexibility (All Levels),Mae Mae (@maesweetmae),4
+72,PGOmvEg,10/10/2022 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),3
+71,OmMfUAg,12/4/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+69,brhZgtx,10/28/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),3
+3,xyLvfEU,12/14/2022 0:00,Pole Foundations (Intro),Kat Brousseau (@_katplay),1
+17,aVYiSvB,10/6/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),4
+49,kvhGpkD,1/5/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+35,xiQcxyF,10/30/2022 0:00,Pole Foundations (Intro),Ivy Hawk (@ivy_hawk),3
+32,ljzDrbw,12/5/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),3
+48,xjnJvGL,11/30/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),1
+97,hpuniGa,10/25/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+74,gYAyGWU,1/4/2023 0:00,Pole L3 (Int),Amy Bond (@amysunshine007),4
+41,uXPaxiL,1/12/2023 0:00,Pole Foundations (Intro),Maggie Morgan,1
+72,rlEIHTg,11/24/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),1
+84,FnRHVxj,1/16/2023 0:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929),4
+43,HXykveR,10/2/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+55,RRwszKm,1/31/2023 0:00,Pole Foundations (Intro),Marguerite Bueno,2
+55,nMsYJiF,10/21/2022 0:00,Active Flexibility (All Levels),Anna Kaye,2
+62,xJCHQku,10/16/2022 0:00,Pole L2 (Beg/Int),Maggie Morgan,1
+13,bVKljik,11/2/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),4
+94,JjplLRl,12/15/2022 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),3
+33,QiTuRgN,11/4/2022 0:00,Heels Choreography (Beg/Int),Alexis Whitaker (@alexis_spins),1
+42,PmcVLLY,12/10/2022 0:00,Pole Foundations (Intro),Luiza Silva,2
+22,nCApJRR,10/25/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),4
+11,faNMmAa,10/12/2022 0:00,Heels Choreography (Beg/Int),Mae Mae (@maesweetmae),3
+16,gOrURmO,10/2/2022 0:00,Active Flexibility (All Levels),Mae Mae (@maesweetmae),4
+92,NAAinNl,1/31/2023 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),1
+25,uUPNmlb,1/19/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+74,KJgtnxs,12/26/2022 0:00,Heels Choreography (Beg/Int),Alexis Whitaker (@alexis_spins),1
+100,EruVbyg,1/30/2023 0:00,Pole Foundations (Intro),Alexis Whitaker (@alexis_spins),4
+4,yAMMIcm,1/7/2023 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),2
+72,IcAGmBK,11/28/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+6,wtFsAtK,11/30/2022 0:00,Pole Foundations (Intro),Ivy Hawk (@ivy_hawk),1
+16,UloXPbX,10/11/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),3
+6,vhWkDnI,11/5/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),1
+18,hGBYbUG,12/25/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+52,cnqoyJO,1/23/2023 0:00,Pole Foundations (Intro),Maggie Morgan,4
+57,ZqppDRi,12/1/2022 0:00,Pole L3 (Int),Celia Ford (@celiadoespole),2
+77,yfqcUkN,12/3/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+39,WOGTkuO,12/31/2022 0:00,Pole Foundations (Intro),Lucy,2
+73,XOVhhtT,12/12/2022 0:00,Active Flexibility (All Levels),Shiki Wang (@flexiflowy),2
+49,kqypZFH,12/27/2022 0:00,Pole L2 (Beg/Int),Maggie Morgan,2
+11,cORzqiW,1/20/2023 0:00,Tits Out! (QT-centered pole space) with Sahra,Sahra Aalaei (@happy__sahra),2
+55,BXnlhTm,1/10/2023 0:00,Pole Foundations (Intro),Miyuki @miyukibee Sahra Aalaei (@happy__sahra),2
+88,XyVwxyj,11/15/2022 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),4
+95,tICjvrM,12/31/2022 0:00,Heels Choreography (Beg/Int),Yoko (@yokotaketani929),2
+79,sEUpATA,11/3/2022 0:00,Pole Foundations (Intro),Luiza Silva,2
+60,FkfEpbC,12/14/2022 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),1
+79,cjDHjqw,1/19/2023 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),4
+80,vBAFcJp,10/17/2022 0:00,Pole Foundations (Intro),Celia Ford (@celiadoespole),3
+81,pwmWPyk,1/28/2023 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),3
+5,NUSVYXf,11/3/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+25,vsQdhBz,1/22/2023 0:00,Pole Foundations (Intro),Ivy Hawk (@ivy_hawk),2
+84,omTaCYM,10/6/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),3
+59,oaLWTCB,10/11/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),2
+18,vOiJdyu,12/11/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+63,PECWCES,11/10/2022 0:00,Pole L3 (Int),Amy Bond (@amysunshine007),3
+86,ErfCtuc,10/21/2022 0:00,Pole Foundations (Intro),Maggie Morgan,3
+85,yxqmVxQ,12/21/2022 0:00,Pole L3 (Int),Celia Ford (@celiadoespole),4
+32,cTFBSlP,11/30/2022 0:00,Heels Choreography (Int/Adv),Mae Mae (@maesweetmae),3
+26,pKHNkKW,12/6/2022 0:00,Spin Pole Combos with Elizabeth,Elizabeth Blanchard,1
+9,cIPFfzR,12/5/2022 0:00,Handstands + Inversions with Elizabeth,Elizabeth Blanchard,4
+88,ZmIwLdp,1/29/2023 0:00,Pole Tricks Clinic (L2+) with Elizabeth,Elizabeth Blanchard,3
+38,pnZJLPS,12/9/2022 0:00,Pole Handspring Clinic (L2+) with Elizabeth,Elizabeth Blanchard,4
+7,RErVvbs,11/14/2022 0:00,Pole L4 (Int/Adv) with Elizabeth,Elizabeth Blanchard,4
+14,APdtDAA,1/1/2023 0:00,Playful Pole with Sahra,Sahra Aalaei (@happy__sahra),4
+12,eaOgTvl,12/9/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),1
+19,kTTRsHv,11/7/2022 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),3
+48,JhEcdHW,1/10/2023 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),2
+80,OklqoWx,10/7/2022 0:00,Pole Freestyle (All Levels),Sahra Aalaei (@happy__sahra),1
+22,JjdpnUF,12/10/2022 0:00,Pole Foundations (Intro),Luiza Silva,2
+90,NzUXoOP,10/18/2022 0:00,Pole Foundations (Intro),Celia Ford (@celiadoespole),4
+37,qtuhfNk,10/25/2022 0:00,Heels Choreography (Beg/Int),Mae Mae (@maesweetmae),4
+58,pFjavSQ,11/6/2022 0:00,Active Flexibility (All Levels),Mae Mae (@maesweetmae),3
+92,REgkgfB,1/13/2023 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),3
+41,GxQRdFb,10/24/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+91,BLtkoOC,1/4/2023 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),2
+80,pNmpVIB,10/9/2022 0:00,Pole Foundations (Intro),Celia Ford (@celiadoespole),1
+12,fQniYMI,11/13/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),3
+74,jBnLZEt,1/9/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+8,gXIKDqX,12/20/2022 0:00,Pole Foundations (Intro),Ivy Hawk (@ivy_hawk),4
+71,uaElGti,10/28/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),2
+40,RsgGcmJ,11/23/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),1
+39,suXCByS,12/27/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+42,DoFkYzH,1/8/2023 0:00,Pole L3 (Int),Amy Bond (@amysunshine007),1
+27,XjqqmLw,12/15/2022 0:00,Pole Foundations (Intro),Maggie Morgan,3
+34,sfFtBOH,12/12/2022 0:00,Pole L3 (Int),Celia Ford (@celiadoespole),1
+98,QwOHRLd,11/12/2022 0:00,Heels Choreography (Int/Adv),Amy Bond (@amysunshine007),2
+11,jeBUQli,10/25/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+50,QaeYFiT,10/5/2022 0:00,Pole Foundations (Intro),Marguerite Bueno,2
+45,UhOmvZh,12/27/2022 0:00,Heels Choreography (Beg/Int),Amy Bond (@amysunshine007),1
+66,yTHWtZS,1/10/2023 0:00,Active Flexibility (All Levels),Amy Bond (@amysunshine007),1
+31,rzkgxka,11/30/2022 0:00,Pole L2 (Beg/Int),Maggie Morgan,1
+42,uTtNrLI,11/7/2022 0:00,Pole Foundations (Intro),Marguerite Bueno,4
+41,eIaOVIV,10/15/2022 0:00,Pole L2 (Beg/Int),Anne Baptiste,3
+86,pKDCsQd,12/2/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),3
+8,EiZDoEM,11/24/2022 0:00,Pole Foundations (Intro),Luiza Silva,4
+48,OGcKeEN,1/20/2023 0:00,Pole Foundations (Intro),Mae Mae (@maesweetmae),3
+92,ePwbJvt,12/20/2022 0:00,Heels Choreography (Beg/Int),Mae Mae (@maesweetmae),3
+92,JuzmqjW,10/21/2022 0:00,Active Flexibility (All Levels),Mae Mae (@maesweetmae),3
+46,GUPqKfq,11/26/2022 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),3
+60,NHorCoN,1/20/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+72,pAvlamJ,11/5/2022 0:00,Heels Choreography (Beg/Int),Alexis Whitaker (@alexis_spins),4
+72,WXUKqhE,11/2/2022 0:00,Pole Foundations (Intro),Alexis Whitaker (@alexis_spins),1
+1,snoPmZj,10/10/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+23,VWhmkny,12/15/2022 0:00,Pole Foundations (Intro),Ivy Hawk (@ivy_hawk),3
+2,GGrLRzr,11/16/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),3
+100,GyMAELK,12/19/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),3
+83,AvKBrwf,12/9/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+39,nKuCcRw,10/2/2022 0:00,Pole L3 (Int),Amy Bond (@amysunshine007),2
+72,xUfbBcu,1/20/2023 0:00,Pole Foundations (Intro),Maggie Morgan,2
+51,rOvypgy,1/25/2023 0:00,Pole L3 (Int),Celia Ford (@celiadoespole),1
+66,UbbJoQS,1/17/2023 0:00,Heels Choreography (Int/Adv),Mae Mae (@maesweetmae),2
+18,DyIQXlX,10/26/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+99,tiVVOnw,11/13/2022 0:00,Pole Foundations (Intro),Marguerite Bueno,1
+15,yJSogJm,1/30/2023 0:00,Pole L2 (Beg/Int),Maggie Morgan,4
+34,IIpNXiW,10/25/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),2
+26,fEZMjQw,1/9/2023 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),4
+2,xIfcWxC,1/23/2023 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),2
+26,XuBnRYa,10/4/2022 0:00,Pole Foundations (Intro),Luiza Silva,3
+16,grBXwbQ,12/3/2022 0:00,Pole Foundations (Intro),Mae Mae (@maesweetmae),4
+26,ceOGHYa,1/21/2023 0:00,Heels Choreography (Beg/Int),Mae Mae (@maesweetmae),3
+61,WDcfJkv,1/29/2023 0:00,Active Flexibility (All Levels),Mae Mae (@maesweetmae),4
+30,giVILRp,1/18/2023 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),4
+23,WNCGaue,10/31/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+5,dqwaShg,10/8/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),4
+42,IyzNzCM,11/8/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),3
+46,tNEuePR,12/15/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),2
+86,yRHkRUG,10/5/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+94,DGQvfay,1/28/2023 0:00,Pole Foundations (Intro),Ivy Hawk (@ivy_hawk),4
+16,TUvIVYK,10/22/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),4
+34,mhWLsPt,10/20/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),4
+63,neTxDGe,10/31/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+39,hhKdOOT,12/9/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),2
+27,aIcrfSf,10/18/2022 0:00,Pole L3 (Int),Amy Bond (@amysunshine007),1
+23,GKVYqAa,12/9/2022 0:00,Pole Foundations (Intro),Maggie Morgan,3
+38,LeVbyAI,11/24/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),2
+62,CEwmcfc,12/4/2022 0:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929),2
+71,ivtGuZK,10/15/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+58,dIbTDjr,1/9/2023 0:00,Pole Foundations (Intro),Marguerite Bueno,4
+75,XpLlhoJ,12/24/2022 0:00,Pole L2 (Beg/Int),Maggie Morgan,4
+57,aPAiXaz,1/31/2023 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),4
+54,VSbRgJY,10/5/2022 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),1
+94,JUGXEYN,10/25/2022 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),4
+38,AjIgstw,12/23/2022 0:00,Pole L3 (Int),Fifi Bamboo (@fifibamboo),1
+53,BcPkDLf,12/30/2022 0:00,Boss Babe Energy with Alexis,Alexis Whitaker (@alexis_spins),4
+100,GtFdzUA,11/23/2022 0:00,Heels Choreography (Beg/Int),Alexis Whitaker (@alexis_spins),2
+85,mKnsFhf,10/8/2022 0:00,Pole Foundations (Intro),Luiza Silva,4
+6,nxxyIAa,11/22/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),4
+75,ZopLfhg,1/4/2023 0:00,Heels Choreography (Beg/Int),Mae Mae (@maesweetmae),4
+56,uvMwrhZ,11/30/2022 0:00,Active Flexibility (All Levels),Mae Mae (@maesweetmae),2
+48,TSFJICv,12/13/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),4
+52,cfxzfPY,1/18/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+46,naRPRQN,1/4/2023 0:00,Heels Choreography (Beg/Int),Alexis Whitaker (@alexis_spins),3
+28,ILzhaTb,11/8/2022 0:00,Pole Foundations (Intro),Alexis Whitaker (@alexis_spins),4
+98,DeYjUWW,12/28/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),2
+31,NVVXTPX,12/31/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+41,MGKlhfK,11/2/2022 0:00,Pole Foundations (Intro),Ivy Hawk (@ivy_hawk),3
+40,kNgDGGw,12/3/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),4
+42,kxcSivD,10/31/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),1
+57,znVUjlG,1/14/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+100,DltSzRT,11/6/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),3
+81,ZSUUzOm,11/23/2022 0:00,Pole L3 (Int),Tiffany Rose Mockler (@tiffanyrosepoledancer),3
+53,YOZDtUd,11/12/2022 0:00,Pole Foundations (Intro),Maggie Morgan,2
+19,DmRlird,12/2/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),4
+39,milLLZj,12/11/2022 0:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929),1
+25,LipuOjA,1/14/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+65,WhVSUOi,11/29/2022 0:00,Absolute Beginnerâ€™s Intro to Heels,Cela (@cela.stial) Joshuah Aurora Ciafardone,1
+73,daWBDbX,1/21/2023 0:00,Pole Foundations (Intro),Marguerite Bueno,1
+22,zolDCYR,12/6/2022 0:00,Heels Choreography (Beg/Int),Amy Bond (@amysunshine007),4
+95,BQsdPlh,12/31/2022 0:00,Active Flexibility (All Levels),Amy Bond (@amysunshine007),2
+9,CsRZOSK,11/11/2022 0:00,Pole L2 (Beg/Int),Maggie Morgan,1
+22,wWxyLnG,11/26/2022 0:00,Playful Pole with Sahra,Sahra Aalaei (@happy__sahra),1
+98,luqGORA,1/5/2023 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),2
+19,OFBSoyi,12/11/2022 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),1
+42,fTeUbtG,1/8/2023 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),2
+58,rPrBKHC,1/8/2023 0:00,Pole L3 (Int),Fifi Bamboo (@fifibamboo),4
+91,sDRvKMP,10/31/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),4
+95,eYrjvPT,11/9/2022 0:00,Pole Foundations (Intro),Luiza Silva,1
+54,baKBeBg,12/3/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),1
+86,YMWrAFw,12/3/2022 0:00,Heels Choreography (Beg/Int),Mae Mae (@maesweetmae),3
+86,XivijbR,10/27/2022 0:00,Active Flexibility (All Levels),Mae Mae (@maesweetmae),1
+44,BpHsahI,1/26/2023 0:00,Pole Foundations (Intro),Cela (@cela.stial),1
+76,ssZDtjn,11/10/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+16,Pmpztla,10/23/2022 0:00,Heels Choreography (Beg/Int),Alexis Whitaker (@alexis_spins),1
+71,UrszfLf,10/2/2022 0:00,Pole Foundations (Intro),Alexis Whitaker (@alexis_spins),4
+100,tLgSaad,1/27/2023 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),3
+98,RHeADns,10/24/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+9,BGYyFdf,1/2/2023 0:00,Pole Foundations (Intro),Ivy Hawk (@ivy_hawk),4
+90,bgiwpkX,10/25/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),3
+84,IUrTQHF,12/17/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),1
+65,dOkVzjh,12/18/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+24,rNoYJEK,1/4/2023 0:00,Pole Foundations (Intro),Cela (@cela.stial),4
+92,XQPCViP,12/30/2022 0:00,Pole L3 (Int),Amy Bond (@amysunshine007),1
+8,zAMdPGT,10/27/2022 0:00,Pole Foundations (Intro),Maggie Morgan,2
+32,wZbrvtp,12/18/2022 0:00,Pole L3 (Int),Celia Ford (@celiadoespole),3
+4,Cwmbhdd,11/19/2022 0:00,Heels Choreography (Int/Adv),Amy Bond (@amysunshine007),4
+13,axeQqCs,12/5/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+4,zeGHRLU,1/6/2023 0:00,Pole L2 (Beg/Int),Elizabeth Blanchard,3
+57,zTHJuLw,1/25/2023 0:00,Handstands + Inversions with Elizabeth,Elizabeth Blanchard,4
+63,wVMbbkq,12/4/2022 0:00,Pole Tricks Clinic (L2+) with Elizabeth,Elizabeth Blanchard,2
+70,hzwvvIM,10/26/2022 0:00,Pole Handspring Clinic (L2+) with Elizabeth,Elizabeth Blanchard,1
+60,OGXqHon,1/29/2023 0:00,Pole L4 (Int/Adv) with Elizabeth,Elizabeth Blanchard,3
+65,TVDMYSa,11/14/2022 0:00,Experimental Pole with Celia,Celia Ford (@celiadoespole),2
+19,ykDZeEi,1/12/2023 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),1
+31,BKfBrYm,11/9/2022 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),1
+91,fbwVAZG,1/8/2023 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),3
+14,bLWFItE,11/26/2022 0:00,Pole L3 (Int),Fifi Bamboo (@fifibamboo),3
+16,wztbwye,10/5/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),2
+2,ifZKyal,10/27/2022 0:00,Pole Foundations (Intro),Luiza Silva,2
+3,yftrVfr,1/21/2023 0:00,Pole Foundations (Intro),Cela (@cela.stial),1
+4,EJrzhaW,1/7/2023 0:00,Active Flexibility (All Levels),Mae Mae (@maesweetmae),1
+45,rlroXTZ,1/4/2023 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),2
+97,lkUoPeb,10/14/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+94,XKzOBbJ,11/2/2022 0:00,Heels Choreography (Beg/Int),Alexis Whitaker (@alexis_spins),4
+9,FFDAEVV,10/6/2022 0:00,Pole Foundations (Intro),Alexis Whitaker (@alexis_spins),2
+74,FuzPazv,10/23/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),1
+50,eiztxIz,11/30/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+84,vZDucBG,10/30/2022 0:00,Pole Foundations (Intro),Marguerite Bueno,2
+19,xOuknBi,10/22/2022 0:00,Heels Choreography (Beg/Int),Amy Bond (@amysunshine007),4
+99,SElsGpi,1/7/2023 0:00,Active Flexibility (All Levels),Amy Bond (@amysunshine007),2
+86,KSeNFmm,11/23/2022 0:00,Pole L2 (Beg/Int),Maggie Morgan,4
+74,zypvLVi,1/1/2023 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),1
+75,HhoqMWm,1/8/2023 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),4
+49,SbcsWPD,1/15/2023 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),2
+5,gjTIwhX,11/28/2022 0:00,Pole L3 (Int),Fifi Bamboo (@fifibamboo),1
+60,tLRacgo,12/29/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),1
+16,wXdLnGs,12/23/2022 0:00,Pole Foundations (Intro),Luiza Silva,2
+60,CdeASFy,10/8/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),2
+14,vaSokic,10/31/2022 0:00,Heels Choreography (Beg/Int),Mae Mae (@maesweetmae),3
+89,TmTyOfH,12/10/2022 0:00,Active Flexibility (All Levels),Mae Mae (@maesweetmae),1
+74,jkVUHtN,11/2/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),4
+98,kAXUGRT,10/9/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+1,gauHbJQ,1/2/2023 0:00,Heels Choreography (Beg/Int),Fatima,2
+97,JPwDwAG,1/25/2023 0:00,Pole Foundations (Intro),Fatima,1
+26,kiGmGye,11/6/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),4
+22,BgmhdXV,1/20/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+79,oSrzmWe,12/30/2022 0:00,Pole Foundations (Intro),Alexis Whitaker (@alexis_spins),1
+66,eImzoir,11/7/2022 0:00,Pole L2 (Beg/Int),Maggie Morgan,2
+64,YpqVhnw,1/17/2023 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),1
+96,SLjiqHw,1/6/2023 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),4
+99,uNduYzK,12/10/2022 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),4
+92,ikzkuBw,10/2/2022 0:00,Pole L3 (Int),Fifi Bamboo (@fifibamboo),1
+49,KLEoYIp,1/8/2023 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),4
+54,QaVtGli,12/8/2022 0:00,Pole Foundations (Intro),Luiza Silva,1
+100,WpVELKw,12/6/2022 0:00,Pole Foundations (Intro),Maggie Morgan,1
+52,DbUrQYv,1/21/2023 0:00,Heels Choreography (Beg/Int),Mae Mae (@maesweetmae),4
+74,rWQxIAt,12/3/2022 0:00,Active Flexibility (All Levels),Mae Mae (@maesweetmae),2
+24,ZktNWan,12/13/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),3
+83,LzflKwS,1/3/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+50,fwXxIsq,11/20/2022 0:00,Heels Choreography (Beg/Int),Remi (@velveetaqueen),1
+41,hVcsEGi,1/11/2023 0:00,Pole Foundations (Intro),Remi (@velveetaqueen),1
+6,LHVtICO,10/23/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),1
+63,nrNRqDU,12/3/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+40,BgRKLTs,1/5/2023 0:00,Pole Foundations (Intro),Roz (@roz.glows),4
+17,CUjAAIt,1/21/2023 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),3
+53,uJRcIge,12/21/2022 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),1
+37,qVquMWw,10/17/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+85,AwesIPq,1/7/2023 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),2
+29,KNVyhwo,10/5/2022 0:00,Pole L3 (Int),Amy Bond (@amysunshine007),3
+3,PAlNkPZ,10/6/2022 0:00,Pole Foundations (Intro),Maggie Morgan,4
+91,UzZIBAA,11/11/2022 0:00,Pole L3 (Int),Remi (@velveetaqueen),3
+96,xTvDcVu,1/23/2023 0:00,Heels Choreography (Int/Adv),Remi (@velveetaqueen),1
+10,PziAbvk,10/15/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+34,DeNTjba,12/23/2022 0:00,Pole L2 (Beg/Int),Elizabeth Blanchard,1
+75,XLXGlaf,1/31/2023 0:00,Active Flexibility (All Levels),Elizabeth Blanchard,1
+49,LfzYcGp,12/17/2022 0:00,Pole Tricks Clinic (L2+),Elizabeth Blanchard,4
+68,qPbqFGA,12/31/2022 0:00,Pole Handspring Clinic (L2+),Elizabeth Blanchard,1
+90,RWjLPjL,12/9/2022 0:00,Pole L4 (Int/Adv),Elizabeth Blanchard,2
+100,KKRfEBk,12/23/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),2
+57,YwEuxwz,10/29/2022 0:00,Pole L2 (Beg/Int),Sahra Aalaei (@happy__sahra),4
+67,QQebWaA,12/29/2022 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),3
+36,kGGVNBQ,10/10/2022 0:00,Pole L3 (Int),Fifi Bamboo (@fifibamboo),2
+59,vjGqcqS,11/26/2022 0:00,Moody Booty with Alexis,Alexis Whitaker (@alexis_spins),4
+84,eIvqlGs,10/13/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),3
+3,uBNkcxO,12/18/2022 0:00,Pole Foundations (Intro),Luiza Silva,1
+53,GnZVkNc,11/6/2022 0:00,Pole Foundations (Intro),Alexis Whitaker (@alexis_spins),2
+7,WLUnmWL,1/8/2023 0:00,Heels Choreography (Beg/Int),Alexis Whitaker (@alexis_spins),1
+63,XbSdXpy,11/22/2022 0:00,Active Flexibility (All Levels),Shiki Wang (@flexiflowy),2
+88,DKxExrU,10/26/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),1
+93,Lthveff,10/26/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+31,mLBlliT,12/23/2022 0:00,Heels Choreography (Beg/Int),Fatima,2
+66,LEplwIE,1/16/2023 0:00,Pole Foundations (Intro),Fatima,4
+95,fpasqza,11/3/2022 0:00,Pole Inversions Conditioning (All Levels),Joshuah Aurora Ciafardone,2
+13,tzaxnjF,11/18/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+3,ggkLlES,1/13/2023 0:00,Pole Foundations (Intro),Roz (@roz.glows),2
+42,QjvjmSf,10/28/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),4
+72,CcCfXBi,12/23/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),3
+38,ldsyHdl,12/19/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+29,ROwySbD,10/11/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),1
+87,yXMcStB,11/13/2022 0:00,Pole Foundations (Intro),Maggie Morgan,3
+6,yqYrySx,12/13/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),3
+53,MMqbBpL,10/2/2022 0:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929),3
+12,KJdobGP,1/18/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+69,GpRiAIX,1/13/2023 0:00,Pole L2 (Beg/Int),Maggie Morgan,4
+6,kFLAKjM,1/26/2023 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),1
+45,QgVKcpO,12/22/2022 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),3
+79,lfOjULG,11/24/2022 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),1
+76,dqmujVK,12/20/2022 0:00,Pole Foundations (Intro),Fifi Bamboo (@fifibamboo),3
+70,iSgtoOo,12/31/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),1
+59,VPWyHtf,12/6/2022 0:00,Pole Foundations (Intro),Luiza Silva,2
+88,AQuSiTM,1/14/2023 0:00,Pole Foundations (Intro),Cela (@cela.stial),3
+57,BLJaFXy,12/25/2022 0:00,Heels Choreography (Beg/Int),Mae Mae (@maesweetmae),4
+28,wicZUIL,12/31/2022 0:00,Active Flexibility (All Levels),Mae Mae (@maesweetmae),2
+13,XAxYhOM,12/9/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),4
+64,jwFMTMQ,10/16/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+86,ifkkkVu,11/29/2022 0:00,Heels Choreography (Beg/Int),Remi (@velveetaqueen),1
+90,dOQQRBX,12/16/2022 0:00,Pole Foundations (Intro),Remi (@velveetaqueen),1
+62,JRujkvQ,1/10/2023 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),3
+26,sFlhsun,1/7/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+61,npHeLLE,10/11/2022 0:00,Pole Foundations (Intro),Roz (@roz.glows),2
+56,KPIosth,10/20/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),3
+48,lXkfzGu,11/12/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),3
+29,KdIDzhH,10/7/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+66,tsZoyao,12/5/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),4
+42,AWBxeCT,11/10/2022 0:00,Pole Foundations (Intro),Maggie Morgan,1
+7,PpdUctJ,12/29/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),3
+93,UjKNrIT,1/18/2023 0:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929),1
+4,IOZwiOy,10/30/2022 0:00,Pole Foundations (Intro),Marguerite Bueno,3
+29,puckeKV,10/21/2022 0:00,Pole Foundations (Intro),Crystal Cheung,2
+33,csXZFyv,10/4/2022 0:00,Pole L2 (Beg/Int),Maggie Morgan,4
+72,iOOXLox,10/6/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),2
+15,GcwjrRx,10/19/2022 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),1
+61,kqNxvkU,10/30/2022 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),4
+5,cCMNGfy,12/14/2022 0:00,Pole Foundations (Intro),Fifi Bamboo (@fifibamboo),4
+5,WSwwNpw,11/29/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),1
+40,kHdcUiL,1/23/2023 0:00,Pole Foundations (Intro),Fifi Bamboo (@fifibamboo),1
+6,csupobQ,12/1/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),4
+5,waDnCtU,12/9/2022 0:00,Heels Choreography (Beg/Int),Mae Mae (@maesweetmae),2
+15,OkwcKKk,1/1/2023 0:00,Active Flexibility (All Levels),Mae Mae (@maesweetmae),1
+80,SscDjsZ,11/16/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),4
+51,FdkQoQb,10/29/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+36,uxvUfgl,12/16/2022 0:00,Heels Choreography (Beg/Int),Fatima,3
+99,iuDbeIX,1/15/2023 0:00,Pole Foundations (Intro),Fatima,3
+30,wenvFll,11/28/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+19,TxZGapr,10/12/2022 0:00,Pole Foundations (Intro),Roz (@roz.glows),4
+56,XJLToWz,10/1/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),4
+71,aYDrlcS,10/26/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),4
+45,KvnaWDt,12/14/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+61,kTxmtqa,12/19/2022 0:00,Pole Foundations (Intro),Marguerite Bueno,3
+99,FXudFGc,1/19/2023 0:00,Pole Foundations (Intro),Maggie Morgan,3
+75,TlUDwlH,12/13/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),1
+95,kENowzD,1/26/2023 0:00,Heels Choreography (Int/Adv),Yoko (@yokotaketani929),4
+81,nWlCGdX,10/28/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+43,vWfmcgV,12/11/2022 0:00,Pole Foundations (Intro),Marguerite Bueno,2
+46,BuHMSpt,1/1/2023 0:00,Heels Choreography (Beg/Int),Amy Bond (@amysunshine007),4
+31,vfJeQzV,11/28/2022 0:00,Pole Foundations (Intro),Crystal Cheung,2
+80,PCzEhIG,12/31/2022 0:00,Pole L2 (Beg/Int),Maggie Morgan,4
+43,bwHBRvq,10/10/2022 0:00,Experimental Pole,Celia Ford (@celiadoespole),3
+20,wOJIHzj,12/14/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),3
+60,zfxQSjc,1/24/2023 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),3
+82,urXUPru,1/9/2023 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),2
+74,qJbmLiC,1/3/2023 0:00,Pole Foundations (Intro),Fifi Bamboo (@fifibamboo),3
+34,GuQNuLJ,1/19/2023 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),3
+85,TIbCXkG,12/28/2022 0:00,Pole Foundations (Intro),Luiza Silva,3
+71,qEkrGvq,12/28/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),1
+16,XIYxdUm,12/20/2022 0:00,Heels Choreography (Beg/Int),Mae Mae (@maesweetmae),3
+34,QkTaLHC,11/22/2022 0:00,Active Flexibility (All Levels),Mae Mae (@maesweetmae),2
+10,gwjwmCg,10/3/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),3
+32,RvkEAmh,12/11/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+89,sHPTtmc,11/27/2022 0:00,Heels Choreography (Beg/Int),Fatima,4
+6,UTDlKOB,11/9/2022 0:00,Pole Foundations (Intro),Fatima,2
+50,OwdNFsd,10/11/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),2
+47,eRLzdai,1/6/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+16,YXLSiik,10/16/2022 0:00,Pole Foundations (Intro),Roz (@roz.glows),1
+3,AhLHXKx,10/24/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),1
+26,LyuatrL,1/24/2023 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),4
+36,aszUcTF,10/4/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+77,OaJjUKw,1/15/2023 0:00,Pole Foundations (Intro),Cela (@cela.stial),4
+100,gZSAbWd,10/15/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),1
+31,SaGLmcA,12/17/2022 0:00,Pole Foundations (Intro),Maggie Morgan,3
+49,AQqieoz,12/21/2022 0:00,Pole L3 (Int),Fifi Bamboo (@fifibamboo),1
+34,zWDnhcm,10/2/2022 0:00,Heels Choreography (Int/Adv),Fifi Bamboo (@fifibamboo),3
+11,PBirwaA,11/12/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+73,VtQVtEL,10/17/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),1
+6,ZjIvUqU,12/2/2022 0:00,Pole Foundations (Intro),Tiffany Rose Mockler (@tiffanyrosepoledancer),3
+84,NYatxeJ,12/24/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),1
+49,FoBbKFW,1/27/2023 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),2
+3,UUjmRzJ,1/13/2023 0:00,Active Flexibility (All Levels),Fifi Bamboo (@fifibamboo),1
+77,qyztwaz,11/22/2022 0:00,Pole Foundations (Intro),Erin Minus Fifi Bamboo (@fifibamboo),3
+19,JhpWUOG,10/14/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+84,dwInlCF,10/13/2022 0:00,Heels Choreography (Beg/Int),Fatima,3
+36,ObFgyDt,1/29/2023 0:00,Pole Foundations (Intro),Fatima,1
+52,hOwJGBT,12/21/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),1
+93,LwRGVJU,1/10/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+18,iiFeoeD,1/6/2023 0:00,Pole Foundations (Intro),Roz (@roz.glows),4
+22,kGcTwEz,12/11/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),4
+93,NCMKtAS,1/16/2023 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),3
+14,lZDJJFF,12/8/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+91,QOpMdQI,10/28/2022 0:00,Pole Foundations (Intro),Alexis Whitaker (@alexis_spins),2
+60,dPRykbD,10/8/2022 0:00,Pole L2 (Beg/Int),Amy Bond (@amysunshine007),3
+93,mIbqUyn,10/27/2022 0:00,Pole Foundations (Intro),Maggie Morgan,2
+4,BjYqCtW,12/16/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),1
+40,UVfXFwV,10/29/2022 0:00,Heels Choreography (Beg/Int),Yoko (@yokotaketani929),4
+41,TsdZcvX,12/13/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+99,OiYhlzB,12/15/2022 0:00,Pole L2 (Beg/Int),Elizabeth Blanchard,3
+30,vlINtCi,12/18/2022 0:00,Active Flexibility (All Levels),Elizabeth Blanchard,2
+62,UnotDpO,12/7/2022 0:00,Pole Tricks Clinic (L2+),Elizabeth Blanchard,2
+23,iSAQVDS,10/27/2022 0:00,Pole Handspring Clinic (L2+),Elizabeth Blanchard,4
+87,lbATNmw,1/2/2023 0:00,Pole L4 (Int/Adv),Elizabeth Blanchard,1
+38,kfpiVza,10/28/2022 0:00,Pole Foundations (Intro),Marguerite Bueno,4
+56,tUiThXE,1/8/2023 0:00,Pole L2 (Beg/Int),Remi (@velveetaqueen),4
+42,cXcriRv,11/8/2022 0:00,Heels Choreography (Beg/Int),Remi (@velveetaqueen),2
+43,fKjMqxX,11/28/2022 0:00,Pole Foundations (Intro),Remi (@velveetaqueen),4
+66,YqoWkjI,11/22/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),3
+92,pdOIYIE,11/14/2022 0:00,Pole Foundations (Intro),Luiza Silva,1
+32,VhbRmsl,10/27/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),3
+84,DpbTYOb,10/2/2022 0:00,Heels Choreography (Beg/Int),Lucy,2
+19,hZeXkcT,1/9/2023 0:00,Active Flexibility (All Levels),Amy Bond (@amysunshine007),1
+7,CnBsbaj,12/23/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),4
+25,ZeyiImv,10/7/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+27,acBzOEn,10/16/2022 0:00,Heels Choreography (Beg/Int),Fatima,1
+91,qGVBwts,12/12/2022 0:00,Pole Foundations (Intro),Fatima,1
+34,NSGatEt,12/12/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),1
+50,ymAqxXU,11/13/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+36,lfCSwev,1/15/2023 0:00,Pole Foundations (Intro),Roz (@roz.glows),3
+48,eQEiVwY,12/20/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),4
+42,uYALmHJ,11/26/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),2
+29,DieZVzM,12/29/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+99,Mkzxpzm,1/30/2023 0:00,Pole Foundations (Intro),Cela (@cela.stial),1
+44,CMDrZdI,1/31/2023 0:00,Pole L2 (Beg/Int),Amy Bond (@amysunshine007),4
+19,SxWLmEj,11/13/2022 0:00,Pole Foundations (Intro),Maggie Morgan,4
+86,MHlafBP,11/1/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),2
+7,INpGwkL,1/23/2023 0:00,Heels Choreography (Beg/Int),Yoko (@yokotaketani929),4
+46,KjhdOVF,10/27/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+26,VSTgQWu,11/13/2022 0:00,Pole Foundations (Intro),Marguerite Bueno,4
+74,AAUDClI,1/28/2023 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),3
+72,NaNLBah,12/26/2022 0:00,Pole Foundations (Intro),Marguerite Bueno,1
+15,SSFNHrf,1/30/2023 0:00,Pole L2 (Beg/Int),Maggie Morgan,1
+33,VQTXfhi,11/22/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),1
+88,lTPAjeR,12/21/2022 0:00,Pole L2 (Beg/Int),Remi (@velveetaqueen),4
+99,GdGLXce,12/9/2022 0:00,Heels Choreography (Beg/Int),Remi (@velveetaqueen),3
+29,FdDWaLj,1/18/2023 0:00,Pole Foundations (Intro),Judy (TT) Remi (@velveetaqueen),4
+71,XnulzYi,12/25/2022 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),3
+34,SjNcPDw,10/8/2022 0:00,Pole Foundations (Intro),Luiza Silva,1
+89,LEezdpd,1/3/2023 0:00,Pole Foundations (Intro),Cela (@cela.stial),3
+25,EAfrudS,11/25/2022 0:00,Heels Choreography (Beg/Int),Mae Mae (@maesweetmae),2
+57,CSCCfTZ,12/2/2022 0:00,Active Flexibility (All Levels),Mae Mae (@maesweetmae),2
+39,XVBIdKG,10/8/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),2
+66,PnvpWwa,12/20/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+58,NwUYZPO,1/30/2023 0:00,Heels Choreography (Beg/Int),Fatima,3
+17,nxfonRD,12/1/2022 0:00,Pole Foundations (Intro),Fatima,3
+99,uDakJfU,10/13/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),1
+30,BgMFEYv,10/30/2022 0:00,Pole Foundations (Intro),Roz (@roz.glows),4
+1,WSkRBip,1/28/2023 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),3
+39,oRcWuUF,12/4/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),3
+45,VBVgudU,11/23/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+75,oGEVZHb,11/24/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),4
+69,PEkBCsX,10/2/2022 0:00,Pole L2 (Beg/Int),Amy Bond (@amysunshine007),3
+43,qGqfnjh,1/7/2023 0:00,Pole Foundations (Intro),Maggie Morgan,1
+80,NPQYOsU,11/10/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),4
+41,tuZhxPX,11/29/2022 0:00,Heels Choreography (Beg/Int),Yoko (@yokotaketani929),3
+26,BETPFPw,1/10/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+56,VMVsjko,10/28/2022 0:00,Pole Foundations (Intro),Marguerite Bueno,3
+56,TSXlPss,11/17/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),1
+60,wXHLLfs,11/6/2022 0:00,Pole Foundations (Intro),Autumn (@sexy.angsty.flow),2
+75,ZNBCUsw,11/30/2022 0:00,Pole L2 (Beg/Int),Maggie Morgan,4
+82,ZTujmcx,1/3/2023 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),2
+56,QkUxFwO,12/13/2022 0:00,Pole L2 (Beg/Int),Remi (@velveetaqueen),1
+4,LozxjDN,11/14/2022 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),4
+8,NjvSJJO,12/1/2022 0:00,Pole Foundations (Intro),Fifi Bamboo (@fifibamboo),4
+93,EJBfLRH,1/16/2023 0:00,Heels Choreography (Beg/Int),Kat Brousseau (@_katplay),4
+74,zdGidIK,12/4/2022 0:00,Pole Foundations (Intro),Luiza Silva,1
+55,gWfwrdp,10/26/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),1
+86,sfYIyto,1/7/2023 0:00,Heels Choreography (Beg/Int),Keeva Shae (@keevashae),1
+69,BgHqKCx,1/16/2023 0:00,Active Flexibility (All Levels),Andrea Brewer,2
+78,YgztmKH,11/7/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),3
+15,OvdokiT,11/21/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+96,jBjGOWw,10/3/2022 0:00,Heels Choreography (Beg/Int),Remi (@velveetaqueen),4
+38,VOiKYEN,1/9/2023 0:00,Pole Foundations (Intro),Remi (@velveetaqueen),2
+11,EDUYHok,1/9/2023 0:00,Pole Inversions Conditioning (All Levels),Remi (@velveetaqueen),4
+15,nCnRruP,11/18/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+13,AWVEdCJ,1/1/2023 0:00,Pole Foundations (Intro),Roz (@roz.glows),2
+47,LQftoOn,12/18/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),2
+77,mXMTqiS,11/7/2022 0:00,Pole L2 (Beg/Int),Maggie Morgan,3
+4,yTVpZxq,1/22/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+36,mfcccto,11/6/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),3
+73,TJGYHUJ,10/10/2022 0:00,Pole L2 (Beg/Int),Amy Bond (@amysunshine007),2
+34,mrMOCfS,11/9/2022 0:00,Pole Foundations (Intro),Maggie Morgan,4
+58,jVkDMwo,11/5/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),3
+31,mjsNpdK,1/25/2023 0:00,Heels Choreography (Beg/Int),Yoko (@yokotaketani929),2
+6,bfugjuP,12/28/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+38,xroplqd,12/26/2022 0:00,Pole Foundations (Intro),Marguerite Bueno,3
+36,tUPOFHt,1/10/2023 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),4
+48,ZwNceeQ,10/31/2022 0:00,Pole Foundations (Intro),Autumn (@sexy.angsty.flow),1
+8,npDJyqs,11/22/2022 0:00,Pole L2 (Beg/Int),Maggie Morgan,1
+96,fwcsfvY,11/30/2022 0:00,Pole Foundations (Intro),Fifi Bamboo (@fifibamboo),1
+82,BzCRJzr,1/5/2023 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),2
+20,IOvGrIy,10/8/2022 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),3
+46,oSsdshI,11/17/2022 0:00,Pole Foundations (Intro),Fifi Bamboo (@fifibamboo),2
+35,DkQnznI,11/23/2022 0:00,Heels Choreography (Beg/Int),Amy Bond (@amysunshine007) Fifi Bamboo (@fifibamboo),4
+74,EkXHwHH,1/24/2023 0:00,Pole Foundations (Intro),Luiza Silva,1
+66,wZVIxhI,11/24/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),3
+90,WXoaOIM,12/11/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),1
+27,CyvwmOH,1/15/2023 0:00,Active Flexibility (All Levels),Andrea Brewer,4
+53,JqJxZma,12/5/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),2
+23,QkXjhQy,12/20/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+62,SCAwSTD,12/11/2022 0:00,Heels Choreography (Beg/Int),Remi (@velveetaqueen),3
+41,cVURaLM,10/5/2022 0:00,Pole Foundations (Intro),Remi (@velveetaqueen),4
+82,kznIckw,10/3/2022 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),2
+70,rgksxUI,11/26/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+88,gHLzUNH,11/9/2022 0:00,Pole Foundations (Intro),Roz (@roz.glows),3
+59,XtcVuGv,10/13/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),1
+54,xKWutVt,12/27/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),1
+65,DtQtmcR,10/19/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+13,dHFKmiu,10/25/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),3
+72,cgXADXT,10/20/2022 0:00,Pole L2 (Beg/Int),Amy Bond (@amysunshine007),3
+10,crsYEOv,11/24/2022 0:00,Pole Foundations (Intro),Maggie Morgan,1
+9,nLapdId,11/1/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),4
+30,XhwXPwK,1/3/2023 0:00,Heels Choreography (Beg/Int),Yoko (@yokotaketani929),1
+85,tzYgFMU,11/15/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,4
+38,KpYDwqY,11/22/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),3
+50,jVPzDfe,10/4/2022 0:00,Heels Choreography (Beg/Int),Remi (@velveetaqueen),4
+24,SFWIqqN,10/28/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),4
+2,zgUfAtZ,12/4/2022 0:00,Pole L2 (Beg/Int),Maggie Morgan,2
+82,LMjRqEa,12/21/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),4
+76,avkWzhz,10/28/2022 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),4
+43,gsZTbvS,10/29/2022 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),1
+96,xHMoKPc,12/23/2022 0:00,Pole Foundations (Intro),Fifi Bamboo (@fifibamboo),3
+51,JfFFKMv,1/6/2023 0:00,Heels Choreography (Beg/Int),Amy Bond (@amysunshine007) Fifi Bamboo (@fifibamboo),2
+14,jaawawy,11/25/2022 0:00,Pole Foundations (Intro),Luiza Silva,3
+14,LGaiyyu,1/17/2023 0:00,Pole Foundations (Intro),Cela (@cela.stial),1
+71,gBNBmJe,12/7/2022 0:00,Heels Choreography (Beg/Int),Mae Mae (@maesweetmae),2
+93,MoYjqmj,1/3/2023 0:00,Active Flexibility (All Levels),Mae Mae (@maesweetmae),4
+11,PLlAgoU,1/5/2023 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),3
+24,NuxhciI,10/20/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+35,WufKFNx,1/6/2023 0:00,Heels Choreography (Beg/Int),Remi (@velveetaqueen),3
+91,ZhIYmCa,11/15/2022 0:00,Pole Foundations (Intro),Alexis Whitaker (@alexis_spins),1
+92,HOlPQnJ,1/8/2023 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),4
+66,FZJnBkT,1/21/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,2
+93,naTIAoX,12/29/2022 0:00,Pole Foundations (Intro),Roz (@roz.glows),2
+61,wQfudOz,12/21/2022 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),1
+25,QYpOvfM,12/7/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),2
+44,wvYtIaJ,10/24/2022 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,3
+62,LOetTSQ,12/10/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),2
+24,AHyyElO,11/3/2022 0:00,Pole L2 (Beg/Int),Amy Bond (@amysunshine007),1
+58,gkCXNSo,1/22/2023 0:00,Pole Foundations (Intro),Alexis Whitaker (@alexis_spins),3
+81,qYshedk,12/24/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),4
+93,fEoutDP,12/1/2022 0:00,Heels Choreography (Beg/Int),Yoko (@yokotaketani929),2
+14,KKvryjs,1/2/2023 0:00,POLE SPACE - Open Studio,Pole + Dance Studios,1
+69,gMJpMmM,12/11/2022 0:00,Pole L2 (Beg/Int),Elizabeth Blanchard,1
+66,mQIBwOu,11/22/2022 0:00,Active Flexibility (All Levels),Elizabeth Blanchard,2
+19,sVAsPxm,1/31/2023 0:00,Pole Tricks Clinic (L2+),Elizabeth Blanchard,4
+84,dlKhoGv,12/2/2022 0:00,Pole Handspring Clinic (L2+),Elizabeth Blanchard,2
+12,LhTaObv,1/22/2023 0:00,Pole L4 (Int/Adv),Elizabeth Blanchard,1
+72,aVevhNl,12/29/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),4
+68,ukSNyzt,11/6/2022 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),2
+96,RIpIKPg,11/4/2022 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),2
+96,OntoLsq,10/21/2022 0:00,Pole Foundations (Intro),Fifi Bamboo (@fifibamboo),4
+14,sdogNnV,11/7/2022 0:00,Heels Choreography (Beg/Int),Amy Bond (@amysunshine007) Fifi Bamboo (@fifibamboo),2
+47,hmcMddb,11/7/2022 0:00,Pole Foundations (Intro),Luiza Silva,4
+22,fxdcQKb,10/3/2022 0:00,Pole Foundations (Intro),Cela (@cela.stial),3
+38,ZraalKk,1/29/2023 0:00,Heels Choreography (Beg/Int),Mae Mae (@maesweetmae),1
+98,kahGolU,1/6/2023 0:00,Active Flexibility (All Levels),Mae Mae (@maesweetmae),4
+40,radueFy,1/20/2023 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),4
+24,GKaVNPF,11/20/2022 0:00,Pole Inversions Conditioning (All Levels),Mae Mae (@maesweetmae),2
+1,venFToG,10/19/2022 0:00,Heels Choreography (Beg/Int),Fatima,4
+48,OpkoOwy,12/22/2022 0:00,Pole Foundations (Intro),Fatima,1
+88,EYGmLGA,1/11/2023 0:00,Pole Inversions Conditioning (All Levels),Celia Ford (@celiadoespole),1
+75,EuhUgWf,12/17/2022 0:00,Pole Foundations (Intro),Mae Mae (@maesweetmae),4
+71,tvqPIGA,11/20/2022 0:00,Pole Foundations (Intro),Roz (@roz.glows),2
+43,tkiNHMC,1/1/2023 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),2
+34,exiyVTY,11/13/2022 0:00,Pole L2 (Beg/Int),Celia Ford (@celiadoespole),1
+29,mDCngtH,1/26/2023 0:00,Pole Foundations (Intro),Cela (@cela.stial),2
+21,ZPbxwwP,1/7/2023 0:00,Pole L2 (Beg/Int),Amy Bond (@amysunshine007),4
+11,OpbNFqz,10/12/2022 0:00,Pole Foundations (Intro),Sahra Aalaei (@happy__sahra),3
+64,dbrOHsX,12/15/2022 0:00,Pole L3 (Int),Yoko (@yokotaketani929),2
+81,tJJJVaW,1/21/2023 0:00,Heels Choreography (Beg/Int),Yoko (@yokotaketani929),2
+12,vAdGlWv,1/27/2023 0:00,Pole L2 (Beg/Int),Elizabeth Blanchard,2
+84,AziUseK,1/7/2023 0:00,Pole Foundations (Intro),Joanna Animal (@joannaanimal),1
+9,YyBaCUj,1/21/2023 0:00,Heels Choreography (Beg/Int),Autumn (@sexy.angsty.flow),3
+65,QSKLelj,11/19/2022 0:00,Pole Foundations (Intro),Autumn (@sexy.angsty.flow),1
+31,BfIyreh,12/17/2022 0:00,Pole L2 (Beg/Int),Maggie Morgan,3
+59,yfjbrAc,11/13/2022 0:00,Pole Foundations (Intro),Fifi Bamboo (@fifibamboo),3
+43,RikHIGg,1/5/2023 0:00,Pole L2 (Beg/Int),Fifi Bamboo (@fifibamboo),2
+51,NMDzifY,12/10/2022 0:00,Heels Choreography (Beg/Int),Fifi Bamboo (@fifibamboo),4
+13,MxTCGGv,10/15/2022 0:00,Pole Foundations (Intro),Liz Epp (@lizepplynn),3
+17,OSfrzlC,12/19/2022 0:00,Pole Foundations (Intro),Exotickat (@lunallenapoledancepdx),3
+30,mXfGxST,10/8/2022 0:00,Heels Choreography (Beg/Int),Exotickat (@lunallenapoledancepdx),4
+75,jbTTYDw,10/28/2022 0:00,Pole Foundations (Intro),Iris Sparrow (@iris.sparrow),2
+75,cqzcwuO,1/11/2023 0:00,Pole L2 (Beg/Int),Milla Dean,3

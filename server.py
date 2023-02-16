@@ -189,24 +189,24 @@ def get_date_range():
     crud.push_bookings_data(crm_bookings_data, user_id)
 
     #Update KPI table based on date range filter
-    net_sales_per_class = crud.calc_net_sales_per_class(start_date, end_date)
-    expenses_per_class = crud.calc_expenses_per_class(start_date, end_date)
-    payroll_per_class = crud.calc_payroll_per_class(start_date, end_date)
-    discounts_percentage = crud.calc_total_discounts(start_date, end_date)
-    profit_per_class = crud.calc_profit_per_class(start_date, end_date)
-    profit_margin = crud.calc_profit_margin(start_date, end_date)
-    occupancy_rate = crud.calc_occupancy_rate(start_date, end_date)
-    average_bookings = crud.calc_average_bookings(start_date, end_date)
-    break_even_bookings = crud.calc_break_even_bookings(start_date, end_date)
-    MOM_sales_growth = crud.calc_MOM_net_sales(start_date, end_date)
-    MOM_expense_growth = crud.calc_MOM_expense_growth(start_date, end_date)
+    net_sales_per_class = crud.calc_net_sales_per_class(start_date, end_date, user_id)
+    expenses_per_class = crud.calc_expenses_per_class(start_date, end_date, user_id)
+    payroll_per_class = crud.calc_payroll_per_class(start_date, end_date, user_id)
+    discounts_percentage = crud.calc_total_discounts(start_date, end_date, user_id)
+    profit_per_class = crud.calc_profit_per_class(start_date, end_date, user_id)
+    profit_margin = crud.calc_profit_margin(start_date, end_date, user_id)
+    occupancy_rate = crud.calc_occupancy_rate(start_date, end_date, user_id)
+    average_bookings = crud.calc_average_bookings(start_date, end_date, user_id)
+    break_even_bookings = crud.calc_break_even_bookings(start_date, end_date, user_id)
+    MOM_sales_growth = crud.calc_MOM_net_sales(start_date, end_date, user_id)
+    MOM_expense_growth = crud.calc_MOM_expense_growth(start_date, end_date, user_id)
     new_students = crud.calc_new_students(start_date, end_date)
     retention = crud.calc_retention(start_date, end_date)
-    total_revenue = crud.query_total_revenue(start_date, end_date)
-    class_count = crud.query_count_of_classes_in_period(start_date, end_date)
+    total_revenue = crud.query_total_revenue(start_date, end_date, user_id)
+    class_count = crud.query_count_of_classes_in_period(start_date, end_date, user_id)
 
     #Prepare data for profit margins chart
-    profit_margin_query = crud.query_for_profit_margins_chart()
+    profit_margin_query = crud.query_for_profit_margins_chart(user_id)
 
     profit_margins = []
 
@@ -215,7 +215,7 @@ def get_date_range():
                                 'profit_margin': margin})
     
     #Prepare revenue data for revenue and expense bar chart
-    revenue_chart_query = crud.query_revenue_for_revexp_chart()
+    revenue_chart_query = crud.query_revenue_for_revexp_chart(user_id)
 
     revenues = []
 
@@ -224,7 +224,7 @@ def get_date_range():
                         'revenue': revenue})
 
     #Prepare expense data for revenue and expense bar chart
-    expense_chart_query = crud.query_expenses_for_revexp_chart()
+    expense_chart_query = crud.query_expenses_for_revexp_chart(user_id)
 
     expenses = []
 

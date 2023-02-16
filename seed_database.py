@@ -89,8 +89,9 @@ with open("csv_data/reservations.csv", newline='') as csv_file:
     # Create profit and loss records, store them in a list
     reservations_in_db = []
     for reservation in csvreader:
-        client_id, class_date, class_name, class_instructor,user_id = (
+        client_id, client_crm_id, class_date, class_name, class_instructor,user_id = (
             reservation["client_id"],
+            reservation["client_crm_id"],
             reservation["class_date"],
             reservation["class_name"],
             reservation["class_instructor"],
@@ -98,7 +99,7 @@ with open("csv_data/reservations.csv", newline='') as csv_file:
         )
 
         db_reservation = crud.create_reservation(
-            client_id, class_date, class_name, class_instructor, user_id)
+            client_id, client_crm_id,class_date, class_name, class_instructor, user_id)
         reservations_in_db.append(db_reservation)
 
 model.db.session.add_all(reservations_in_db)
@@ -112,18 +113,19 @@ with open("csv_data/sales_orders.csv", newline='') as csv_file:
     # Create profit and loss records, store them in a list
     orders_in_db = []
     for order in csvreader:
-        order_date, client_id, item_name, quantity, gross_sale, discount, net_sale = (
+        order_date, client_id, item_name, quantity, gross_sale, discount, net_sale, user_id = (
             order["order_date"],
             order["client_id"],
             order["item_name"],
             order["quantity"],
             order["gross_sale"],
             order["discount"],
-            order["net_sale"]
+            order["net_sale"],
+            order["user_id"]
         )
 
         db_order = crud.create_sales_order(
-            order_date, client_id, item_name, quantity, gross_sale, discount, net_sale)
+            order_date, client_id, item_name, quantity, gross_sale, discount, net_sale, user_id)
         orders_in_db.append(db_order)
 
 model.db.session.add_all(orders_in_db)

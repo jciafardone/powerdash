@@ -97,6 +97,7 @@ class SalesOrder(db.Model):
     order_id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     order_date = db.Column(db.DateTime)
     client_id = db.Column(db.Integer, db.ForeignKey('clients.client_id'))
+    user_id = db.Column(db.Integer)
     item_name = db.Column(db.String)
     quantity = db.Column(db.Integer)
     gross_sale = db.Column(db.Float)
