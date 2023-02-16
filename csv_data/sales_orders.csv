@@ -1,4 +1,4 @@
-order_id,order_date,client_id,user_id,item_name,quantity,gross_sales,discount,net_sales
+order_id,order_date,client_id,user_id,item_name,quantity,gross_sale,discount,net_sale
 118830,12/24/2022 0:00,79,1,New Student 3 Pack (1 month expiration),1,80,0,80
 118670,1/17/2023 0:00,21,4,Open Studio (Unhosted),1,25,0,25
 118362,10/11/2022 0:00,18,3,Drop In Class,1,40,0,40
