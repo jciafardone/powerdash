@@ -11,7 +11,7 @@ from base64 import b64encode
 app = Flask(__name__)
 
 #Session configuration
-app.secret_key = "dev"
+app.secret_key = f'os.environ["SECRET_KEY"]'
 app.jinja_env.undefined = StrictUndefined
 
 #CSV Upload folders
@@ -29,6 +29,7 @@ crm_bookings_data = None
 accounting_realm_id = None
 accounting_access_token = None
 crm_access_token = None
+logged_in_email = None
 
 
 """Routes and functions to render pages and user flow"""
@@ -78,6 +79,7 @@ def register_user():
 @app.route("/login", methods=["POST"])
 def process_login():
     """Process user login."""
+
     email = request.form.get("email")
     password = request.form.get("password")
 
@@ -145,7 +147,8 @@ def get_date_range():
     end_date = request.json.get('endDate')
 
     #Get and store session information on the user
-    logged_in_email = session.get("user_email")
+    global logged_in_email
+    logged_in_email = session["user_email"]
     if logged_in_email is None:
         user_id = 1
     else:
@@ -154,13 +157,13 @@ def get_date_range():
     #Accounting API GET request and push to database
     global accounting_data
     accounting_data = requests.get((f'https://sandbox-quickbooks.api.intuit.com/v3/company/{accounting_realm_id}/reports/ProfitAndLoss'
-        '?start_date={start_date}&end_date={end_date}'),
+        f'?start_date={start_date}&end_date={end_date}'),
         headers={
             'Authorization': f'Bearer {accounting_access_token}',
             })
 
     accounting_data = accounting_data.json()
-    crud.push_accounting_data(accounting_data, user_id)
+    crud.push_accounting_data(accounting_data, user_id, start_date, end_date)
 
     #CRM API GET request for customers and push to database
     global crm_customer_data
@@ -176,14 +179,14 @@ def get_date_range():
 
     #CRM API GET request for bookings and push to database
     global crm_bookings_data
-    crm_bookings_data = requests.get('https://connect.squareup.com/v2/bookings', 
+    crm_bookings_data = requests.get(f'https://connect.squareup.com/v2/bookings?start_at_min={start_date}T00:00:00Z&start_at_max={end_date}T23:59:59Z', 
         headers = {
             'Square-Version': '2023-01-19',
             'Authorization': f'Bearer {crm_access_token}',
             'Content-Type': 'application/json',
         })
     crm_bookings_data = crm_bookings_data.json()
-    crud.push_bookings_data(crm_bookings_data, start_date, end_date, user_id)
+    crud.push_bookings_data(crm_bookings_data, user_id)
 
     #Update KPI table based on date range filter
     net_sales_per_class = crud.calc_net_sales_per_class(start_date, end_date)
@@ -258,7 +261,7 @@ def get_date_range():
 def get_wave_data():
     """Redirects to accounting API OAuth"""
     return redirect(('https://appcenter.intuit.com/connect/oauth2'
-        '?client_id=ABqvERIi2PV5RFCrmU19uJZPQ3dvTRxpmhEkWmAD3CusCCl8hC'
+        f'?client_id={os.environ["QBCLIENT_ID"]}'
         '&response_type=code'
         '&scope=com.intuit.quickbooks.accounting'
         '&redirect_uri=http://localhost:5000/authorize'
@@ -273,7 +276,7 @@ def authorize():
     global accounting_realm_id
     accounting_realm_id = request.args['realmId']
 
-    client = 'ABqvERIi2PV5RFCrmU19uJZPQ3dvTRxpmhEkWmAD3CusCCl8hC:mXbnjKc4fhLHS6ZB3S8VS741ZOyTy8zU1b1hEIvK'.encode("utf-8")
+    client = f'{os.environ["QBCLIENT_ID"]}:{os.environ["QBCLIENT_SECRET"]}'.encode("utf-8")
     client = b64encode(client)
     client = client.decode("utf-8")
 
@@ -302,8 +305,8 @@ def get_crm_data():
     """redirect to Square OAuth authorization; will automatically redirect to /crm_authorize route"""
 
     return redirect(('https://connect.squareup.com/oauth2/authorize'
-        '?client_id=sq0idp-oFiVzZcWnbGU4Z0iPhvwNA'
-        '&scope=CUSTOMERS_READ+APPOINTMENTS_READ+ORDERS_READ'
+        f'?client_id={os.environ["SQCLIENT_ID"]}'
+        '&scope=CUSTOMERS_READ+APPOINTMENTS_READ+APPOINTMENTS_ALL_READ+ORDERS_READ'
         '&session=False'
         '&state=82201dd8d83d23cc8a48caf52b'
         'redirect_uri=http://localhost:5000/crm_authorize'
@@ -324,8 +327,8 @@ def crm_authorize():
      }
 
     json_data = {
-        'client_id': 'sq0idp-oFiVzZcWnbGU4Z0iPhvwNA',
-        'client_secret': 'sq0csp-Eu05X81ztEMDh9-2k_rFG-ax_XHVagdWvA_YiJqCdb8',
+        f'client_id': f'{os.environ["SQCLIENT_ID"]}',
+        f'client_secret': f'{os.environ["SQCLIENT_SECRET"]}',
         'code': code,
         'grant_type': 'authorization_code',
     }
@@ -364,5 +367,5 @@ def get_csv_crm_data():
 
 
 if __name__ == "__main__":
-    connect_to_db(app)
+    connect_to_db(app, echo=False)
     app.run(host="0.0.0.0", debug=True)

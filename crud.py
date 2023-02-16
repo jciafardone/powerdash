@@ -1,20 +1,36 @@
 from model import db, User, Client, ProfitLoss, Reservation, SalesOrder, connect_to_db 
 from sqlalchemy.sql import func
-from flask_sqlalchemy import SQLAlchemy
-import requests
-import datetime
+from dateutil.relativedelta import *
+from dateutil.parser import parse
 import csv
+from datetime import datetime
 
 
-"""Database seed functions."""
+"""
+
+Database seed functions. 
+
+These functions are used to create new records in the database tables.
+
+Most of these functions are used below in the API and CSV functions.
+create_user is used in server.py in the /users route.
+
+"""
 
 def create_user(email, password):
+    """
+    Creates a new Powerdash user. Used with 'Create Account' on homepage. 
+    In server.py this is the /users route.
+    """
+
     user = User(email=email, password=password)
 
     return user
 
 
 def create_client(client_email, client_fname, client_lname, client_crm_id, user_id):
+    """Creates a new Powerdash users' client/customer."""
+
     client = Client(
         client_email = client_email,
         client_fname = client_fname,
@@ -27,8 +43,9 @@ def create_client(client_email, client_fname, client_lname, client_crm_id, user_
 
 
 def create_profit_loss(
-    user_id, period_start, period_end, total_revenue, total_expenses, payroll_expenses
+    user_id=0, period_start=0, period_end=0, total_revenue=0, total_expenses=0, payroll_expenses=0
 ):
+    #Create a new profit and loss record for a Powerdash users' business.
     profit_loss = ProfitLoss(
         user_id = user_id,
         period_start = period_start,
@@ -41,9 +58,11 @@ def create_profit_loss(
     return profit_loss
 
 
-def create_reservation(client_id, class_date, class_name, class_instructor, user_id):
+def create_reservation(client_id, client_crm_id, class_date, class_name, class_instructor, user_id):
+    #Create a new reservation record for a Powerdash users' client.
     reservation = Reservation(
         client_id = client_id,
+        client_crm_id = client_crm_id,
         class_date = class_date,
         class_name = class_name,
         class_instructor = class_instructor,
@@ -56,6 +75,7 @@ def create_reservation(client_id, class_date, class_name, class_instructor, user
 def create_sales_order(
     order_date, client_id, item_name, quantity, gross_sale, discount, net_sale
 ):
+    #Create a new sales order record of a Powerdash users' client.
     sales_order = SalesOrder(
         order_date = order_date,
         client_id = client_id,
@@ -70,52 +90,72 @@ def create_sales_order(
 
 
 
-"""Query Functions"""
+"""
+Database query functions.
+
+These functions query data from database tables. They are used in the KPI
+calculation functions below.
+
+"""
 
 def get_user_by_email(email):
-    """Return a user by email."""
+    """Returns a user by email. Used in the /login route in server.py."""
 
     return User.query.filter(User.email == email).first()
 
 
 def get_user_id_by_email(email):
-    """Return a user by email."""
-
-    user = User.query.filter(User.email == email).first()
-    id = user.user_id
-    return id
+    """
+    Returns a user's id using their email as a lookup. 
+    
+    Used in the /date route in server.py. 
+    Used when a session is active to match database entries to
+    the correct user id. 
+    
+    """
+    try:
+        user = User.query.filter(User.email == email).first()
+        id = user.user_id
+        return id
+    except:
+        pass
 
 
 def query_total_revenue(start_date, end_date):
-    """Queries total revenue for a period"""
+    """Queries total revenue for a period."""
+
     return db.session.query(ProfitLoss.total_revenue).filter(
         ProfitLoss.period_start == start_date, 
         ProfitLoss.period_end == end_date).first()[0]
 
 
 def query_total_expenses(start_date, end_date):
-    """Queries total expenses for a period"""
+    """Queries total expenses for a period."""
+
     return db.session.query(ProfitLoss.total_expenses).filter(
         ProfitLoss.period_start == start_date, 
         ProfitLoss.period_end == end_date).first()[0]
 
 
 def query_payroll_expenses(start_date, end_date):
-    """Queries total payroll expenses for period"""
+    """Queries total payroll expenses for period."""
+
     return db.session.query(ProfitLoss.payroll_expenses).filter(
         ProfitLoss.period_start == start_date, 
         ProfitLoss.period_end == end_date).first()[0]
 
 
 def query_discounts(start_date, end_date):
-    """Queries total discount amount for period"""
+    """Queries total discount amount on sales orders for period."""
+
     return db.session.query(func.sum(SalesOrder.discount).filter(
         SalesOrder.order_date >= start_date, 
         SalesOrder.order_date <= end_date)).all()[0][0]
 
 
 def query_count_of_classes_in_period(start_date, end_date):
-    """Queries number of unique classes in a period"""
+    """Queries number of unique classes in a period."""
+
     return db.session.query(Reservation).filter(
         Reservation.class_date.between(start_date, end_date)).distinct(
         Reservation.class_name, 
@@ -124,22 +164,29 @@ def query_count_of_classes_in_period(start_date, end_date):
 
 
 def query_total_slots_in_period(start_date, end_date, max_slots_per_class=8):
-    """Queries total possible client slots in period"""
+    """Queries total possible client slots in period."""
+
     class_count = query_count_of_classes_in_period(start_date, end_date)
     
     return class_count * max_slots_per_class
 
 
 def query_attended_slots(start_date, end_date):
-    """Queries total attended slots in period"""
+    """Queries total attended slots in period."""
+
     return db.session.query(Reservation.reservation_id).filter(
         Reservation.class_date >= start_date, 
         Reservation.class_date <= end_date).count()
 
 
 def query_for_profit_margins_chart():
-    """Queries and returns three lists of tuples that contain 
-        the period start date and the profit margin, revenue, or expense for that period."""
+    """
+    Queries and returns a list of tuples where each tuple 
+    contains the period start date and the profit margin
+    for that period.
+
+    Used to generate profit margin line chart in chart.js.
+    """
 
     profit_margins = []
 
@@ -157,8 +204,13 @@ def query_for_profit_margins_chart():
 
 
 def query_revenue_for_revexp_chart():
-    """Queries and returns three lists of tuples that contain 
-        the period start date and the profit margin, revenue, or expense for that period."""
+    """
+    Queries and returns a list of tuples that contains 
+    the period start date and total revenue for that
+    period.
+
+    Used to generate rev and expense bar chart in chart.js.
+    """
 
     revenues = []
 
@@ -174,8 +226,13 @@ def query_revenue_for_revexp_chart():
 
 
 def query_expenses_for_revexp_chart():
-    """Queries and returns three lists of tuples that contain 
-        the period start date and the profit margin, revenue, or expense for that period."""
+    """
+    Queries and returns a list of tuples that contains 
+    the period start date and total expenses for that
+    period.
+    
+    Used to generate rev and expense bar chart in chart.js.
+    """
 
     expenses = []
 
@@ -190,10 +247,22 @@ def query_expenses_for_revexp_chart():
     return expenses
 
 
-"""KPI Calculation Functions"""
+
+"""
+KPI Calculation Functions.
+
+These functions use the above query functions to calculate
+metrics for the KPI table in the report that is generated
+using Powerdash users' business information.
+
+These are used in /date route in server.py where start_date
+and end_date are pulled in via an AJAX request.
+
+"""
 
 def calc_net_sales_per_class(start_date, end_date):
     """Calculate net sales per class in selected period"""
+
     total_revenue = query_total_revenue(start_date, end_date)
     class_count = query_count_of_classes_in_period(start_date, end_date)
     
@@ -202,6 +271,7 @@ def calc_net_sales_per_class(start_date, end_date):
 
 def calc_expenses_per_class(start_date, end_date):
     """Calculcate expenses per class in selected period"""
+
     total_expenses = query_total_expenses(start_date, end_date)
     class_count = query_count_of_classes_in_period(start_date, end_date)
 
@@ -210,6 +280,7 @@ def calc_expenses_per_class(start_date, end_date):
 
 def calc_payroll_per_class(start_date, end_date):
     """Calculate payroll expenses per class in selected period"""
+
     payroll_expenses = query_payroll_expenses(start_date, end_date)
     class_count = query_count_of_classes_in_period(start_date, end_date)
 
@@ -218,6 +289,7 @@ def calc_payroll_per_class(start_date, end_date):
 
 def calc_total_discounts(start_date, end_date):
     """Calculate total discount % selected period"""
+
     total_discounts = query_discounts(start_date, end_date)
     total_revenue = query_total_revenue(start_date, end_date)
     
@@ -226,6 +298,7 @@ def calc_total_discounts(start_date, end_date):
 
 def calc_profit_per_class(start_date, end_date):
     """Calculate profit per class for period"""
+
     total_revenue = query_total_revenue(start_date, end_date)
     total_expenses = query_total_expenses(start_date, end_date)
     class_count = query_count_of_classes_in_period(start_date, end_date)
@@ -236,6 +309,7 @@ def calc_profit_per_class(start_date, end_date):
 
 def calc_profit_margin(start_date, end_date):
     """Calculate profit margin for period"""
+
     total_revenue = query_total_revenue(start_date, end_date)
     total_expenses = query_total_expenses(start_date, end_date)
     
@@ -244,6 +318,7 @@ def calc_profit_margin(start_date, end_date):
 
 def calc_occupancy_rate(start_date, end_date):
     """Calculate occupancy rate for period"""
+
     total_slots_in_period = query_total_slots_in_period(start_date, end_date, max_slots_per_class=8)
     attended_slots_in_period = query_attended_slots(start_date, end_date)
     
@@ -252,6 +327,7 @@ def calc_occupancy_rate(start_date, end_date):
 
 def calc_average_bookings(start_date, end_date):
     """Calculate average bookings for period"""
+
     attended_slots_in_period = query_attended_slots(start_date, end_date)
     class_count = query_count_of_classes_in_period(start_date, end_date)
     
@@ -260,6 +336,7 @@ def calc_average_bookings(start_date, end_date):
 
 def calc_break_even_bookings(start_date, end_date):
     """Calculate break even bookings for period"""
+
     total_expenses = query_total_expenses(start_date, end_date)
     class_count = query_count_of_classes_in_period(start_date, end_date)
     average_revenue_per_slot = 20 #hardcoded for now, need to figure out how to calculate this from crm api
@@ -269,8 +346,9 @@ def calc_break_even_bookings(start_date, end_date):
 
 def calc_MOM_net_sales(start_date, end_date):
     """Calculate net sales growth compared to previous period"""
-    previous_start = '2022-12-01 00:00:00'
-    previous_end = '2022-12-31 00:00:00'
+
+    previous_start = parse(start_date) - relativedelta(month=1)
+    previous_end = parse(end_date) - relativedelta(month=1)
 
     total_revenue = query_total_revenue(start_date, end_date)
     previous_period_revenue = query_total_revenue(previous_start, previous_end)
@@ -280,8 +358,9 @@ def calc_MOM_net_sales(start_date, end_date):
 
 def calc_MOM_expense_growth(start_date, end_date):
     """Calculate expense growth compared to previous period"""
-    previous_start = '2022-12-01 00:00:00'
-    previous_end = '2022-12-31 00:00:00'
+
+    previous_start = parse(start_date) - relativedelta(month=1)
+    previous_end = parse(end_date) - relativedelta(month=1)
 
     total_expenses = query_total_expenses(start_date, end_date)
     previous_period_expenses = query_total_expenses(previous_start, previous_end)
@@ -291,6 +370,7 @@ def calc_MOM_expense_growth(start_date, end_date):
 
 def calc_new_students(start_date, end_date):
     """Calculcate new students in current period."""
+
     all_clients = Client.query.all()
     all_previous_reservations = Reservation.query.filter(
         Reservation.class_date < start_date)
@@ -309,6 +389,7 @@ def calc_new_students(start_date, end_date):
 
 def calc_retention(start_date, end_date):
     """Calculate 90 day retention rate of clients."""
+
     clients_at_end_of_period = db.session.query(Reservation).distinct(
         Reservation.client_id).filter( 
             Reservation.class_date <= end_date).count()
@@ -322,18 +403,28 @@ def calc_retention(start_date, end_date):
     return f"{((clients_at_end_of_period - new_clients) / clients_at_start_of_period) * 100:.0f}%"
 
 
-"""API Functions"""
-def push_accounting_data(data, user_id):
+"""
+API Functions.
+
+These functions translate data from API pulls to match 
+the format of database tables. Then the newly created
+rows are added and committed to the database.
+"""
+
+def push_accounting_data(data, user_id, start_date, end_date):
+    """
+    Takes in Acconting API data and creates new profit and loss records in the 
+    profit_and_loss table.
+    """
+    
     try:
-        period_start, period_end, total_revenue, total_expenses, payroll_expenses = (
-            data['Header']['StartPeriod'],
-            data['Header']['EndPeriod'],
+        total_revenue, total_expenses, payroll_expenses = (
             data['Rows']['Row'][0]['Summary']['ColData'][1]['value'],
             data['Rows']['Row'][3]['Summary']['ColData'][1]['value'],
             data['Rows']['Row'][3]['Rows']['Row'][7]['ColData'][1]['value'])
 
         profit_loss_record = create_profit_loss(
-            user_id, period_start, period_end, total_revenue, total_expenses, payroll_expenses)
+            user_id, start_date, end_date, total_revenue, total_expenses, payroll_expenses)
 
         db.session.add(profit_loss_record)
         db.session.commit()
@@ -342,6 +433,10 @@ def push_accounting_data(data, user_id):
 
 
 def push_customer_data(data, user_id):
+    """
+    Takes in CRM API data and creates new client records in the clients table.
+    """
+
     try: 
         for customer in data['customers']:
             client_fname, client_lname, client_email, client_crm_id = (
@@ -351,32 +446,68 @@ def push_customer_data(data, user_id):
                 customer['id']
                 )
 
-            customer_record = create_client(client_fname, client_lname, client_email, client_crm_id, user_id)
+            customer_record = create_client(
+                client_fname, client_lname, client_email, client_crm_id, user_id)
             db.session.add(customer_record)
             db.session.commit()
     except:
         pass
 
 
-def push_bookings_data(data, start_date, end_date, user_id):
+def push_bookings_data(data, user_id):
+    """
+    Takes in CRM API data and creates new reservation records in the 
+    reservation_data table.
+    """
+
+    # try:
+    #     for booking in data['bookings']:
+    #         client_id, class_date, class_name, class_instructor = (
+    #             booking["customer_id"],
+    #             booking["start_at"],
+    #             booking["appointment_segments"]["service_variation_id"],
+    #             booking["appointment_segments"]["team_member_id"]
+    #             )
+
+    #         booking_record = create_reservation(
+    #             client_id, class_date, class_name, class_instructor, user_id)
+
+    #         db.session.add(booking_record)
+    #         db.session.commit()
+    # except:
+    #     print('can\'t add to database')
     for booking in data['bookings']:
-        if booking['start_at'] >= start_date and booking['start_at'] <= end_date:
-            client_id, class_date, class_name, class_instructor, user_id = (
-                booking["customer_id"],
-                booking["start_at"],
-                booking["appointment_segments"]["service_variation_id"],
-                booking["appointment_segments"]["team_member_id"]
-                )
+        user_id_tuple = db.session.query(Client.client_id).filter_by(client_crm_id=booking["customer_id"]).first()
+        
+        client_id,client_crm_id, class_date, class_name, class_instructor = (
+            user_id_tuple[0],
+            booking["customer_id"],
+            booking["start_at"],
+            booking["appointment_segments"][0]["service_variation_id"],
+            booking["appointment_segments"][0]["team_member_id"]
+            )
 
-            booking_record = create_reservation(
-                client_id, class_date, class_name, class_instructor, user_id)
+        booking_record = create_reservation(
+            client_id,client_crm_id, class_date, class_name, class_instructor, user_id)
 
-            db.session.add(booking_record)
-            db.session.commit()
+        db.session.add(booking_record)
+        db.session.commit()
 
 
-"""CSV CRUD Functions"""
+"""
+CSV CRUD Functions.
+
+These functions translate data from CSV uploads to match the format of database 
+tables. Then the newly created rows are added and committed to the database.
+
+"""
+
 def pull_reservation_data_from_csv(crm_csv):
+    """
+    Takes in a CSV and creates new reservation records in the 
+    reservation_data table.
+    """
+    
     with open(crm_csv, newline='') as csv_file:
         csvreader = csv.DictReader(csv_file, quotechar='"')
 
@@ -398,7 +529,12 @@ def pull_reservation_data_from_csv(crm_csv):
 
 
 def pull_pl_data_from_csv(accounting_csv):
-    with open("csv_data/profit_loss.csv", newline='') as csv_file:
+    """
+    Takes in a CSV and creates new profit and loss records in the 
+    profit_and_loss table.
+    """
+
+    with open(accounting_csv, newline='') as csv_file:
         csvreader = csv.DictReader(csv_file, quotechar='"')
 
         # Create profit and loss records, store them in a list
@@ -431,7 +567,7 @@ if __name__ == "__main__":
     # too annoying; this will tell SQLAlchemy not to print out every
     # query it executes.
 
-    connect_to_db(app)
+    connect_to_db(app, echo=False)
 
 
 

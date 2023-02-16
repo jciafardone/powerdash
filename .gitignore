@@ -1,5 +1,6 @@
 env/
-secrets.sh
-test.py
+*secrets.*
 static/files
 csv_data/
+.DS_Store
+*.pyc

@@ -89,15 +89,16 @@ with open("csv_data/reservations.csv", newline='') as csv_file:
     # Create profit and loss records, store them in a list
     reservations_in_db = []
     for reservation in csvreader:
-        client_id, class_date, class_name, class_instructor = (
+        client_id, class_date, class_name, class_instructor,user_id = (
             reservation["client_id"],
             reservation["class_date"],
             reservation["class_name"],
             reservation["class_instructor"],
+            reservation["user_id"]
         )
 
         db_reservation = crud.create_reservation(
-            client_id, class_date, class_name, class_instructor)
+            client_id, class_date, class_name, class_instructor, user_id)
         reservations_in_db.append(db_reservation)
 
 model.db.session.add_all(reservations_in_db)
