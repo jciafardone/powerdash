@@ -28,6 +28,12 @@ def create_user(email, password):
     return user
 
 
+def create_guest_user(user_id):
+    user = User(user_id=user_id, email=None, password=None)
+
+    return user
+
+
 def create_client(client_email, client_fname, client_lname, client_crm_id, user_id):
     """Creates a new Powerdash users' client/customer."""
 
@@ -426,6 +432,9 @@ def push_accounting_data(data, user_id, start_date, end_date):
     Takes in Acconting API data and creates new profit and loss records in the 
     profit_and_loss table.
     """
+
+    profit_loss_query = db.session.query(ProfitLoss).filter(
+        ProfitLoss.user_id == user_id).all()
     
     try:
         total_revenue, total_expenses, payroll_expenses = (
@@ -436,8 +445,25 @@ def push_accounting_data(data, user_id, start_date, end_date):
         profit_loss_record = create_profit_loss(
             user_id, start_date, end_date, total_revenue, total_expenses, payroll_expenses)
 
-        db.session.add(profit_loss_record)
-        db.session.commit()
+        in_database = False
+
+        if profit_loss_query == []:
+            db.session.add(profit_loss_record)
+            db.session.commit()
+
+        for row in profit_loss_query:
+            if (
+                row.start_date == profit_loss_record.start_date 
+                and row.end_date == profit_loss_record.end_date 
+                and row.total_revenue == profit_loss_record.total_revenue 
+                and row.total_expenses == profit_loss_record.total_expenses 
+                and row.payroll_expenses == profit_loss_record.payroll_expenses
+              ):
+                in_database = True
+            
+            if in_database == False:
+                db.session.add(profit_loss_record)
+                db.session.commit()
     except:
         pass
 
@@ -447,6 +473,9 @@ def push_customer_data(data, user_id):
     Takes in CRM API data and creates new client records in the clients table.
     """
 
+    client_query = db.session.query(Client).filter(
+        Client.user_id == user_id).all()
+
     try: 
         for customer in data['customers']:
             client_fname, client_lname, client_email, client_crm_id = (
@@ -455,11 +484,28 @@ def push_customer_data(data, user_id):
                 customer['email_address'],
                 customer['id']
                 )
-
+            
             customer_record = create_client(
-                client_fname, client_lname, client_email, client_crm_id, user_id)
-            db.session.add(customer_record)
-            db.session.commit()
+                client_email, client_fname, client_lname, client_crm_id, user_id)
+
+            if client_query == []:
+                db.session.add(customer_record)
+                db.session.commit()
+
+            in_database = False
+
+            for row in client_query:
+                if (
+                    row.client_fname == customer_record.client_fname
+                    and row.client_lname == customer_record.client_lname 
+                    and row.client_email == customer_record.client_email 
+                    and row.client_crm_id == customer_record.client_crm_id
+                ):
+                    in_database = True
+                
+            if in_database == False:
+                db.session.add(customer_record)
+                db.session.commit()
     except:
         pass
 
@@ -469,6 +515,9 @@ def push_bookings_data(data, user_id):
     Takes in CRM API data and creates new reservation records in the 
     reservation_data table.
     """
+
+    reservation_query = db.session.query(Reservation).filter(
+        Reservation.user_id == user_id).all()
 
     try:
         for booking in data['bookings']:
@@ -484,9 +533,29 @@ def push_bookings_data(data, user_id):
 
             booking_record = create_reservation(
                 client_id,client_crm_id, class_date, class_name, class_instructor, user_id)
+            
+            if reservation_query == []:
+                db.session.add(booking_record)
+                db.session.commit()
+            
+            in_database = False
 
-            db.session.add(booking_record)
-            db.session.commit()
+            #need to correct for difference in datetime formats
+            booking_record_date = str(booking_record.class_date)[:10]+' '+str(booking_record.class_date)[11:-1]
+
+            for row in reservation_query:
+                if (
+                    row.client_id == booking_record.client_id
+                    and row.client_crm_id == booking_record.client_crm_id
+                    and str(row.class_date) == booking_record_date
+                    and row.class_name == booking_record.class_name
+                    and row.class_instructor == booking_record.class_instructor
+                ):
+                    in_database = True
+
+            if in_database == False:
+                db.session.add(booking_record)
+                db.session.commit()
     except:
         pass
 
@@ -551,6 +620,16 @@ def pull_pl_data_from_csv(accounting_csv):
             pl_in_db.append(db_pl_record)
 
     db.session.add_all(pl_in_db)
+    db.session.commit()
+
+
+"""Delete function for guest users."""
+def delete_guest_info(user_id):
+    Client.query.filter(Client.user_id == user_id).delete()
+    Reservation.query.filter(Reservation.user_id == user_id).delete()
+    SalesOrder.query.filter(SalesOrder.user_id == user_id).delete()
+    ProfitLoss.query.filter(ProfitLoss.user_id == user_id).delete()
+    User.query.filter(User.user_id == user_id).delete()
     db.session.commit()
 
 

@@ -6,6 +6,8 @@ import requests
 import json
 import os
 from base64 import b64encode
+from random import randint
+from sqlalchemy.sql import func
 
 #App configuration
 app = Flask(__name__)
@@ -148,9 +150,13 @@ def get_date_range():
 
     #Get and store session information on the user
     global logged_in_email
-    logged_in_email = session["user_email"]
+    logged_in_email = session.get("user_email",None)
     if logged_in_email is None:
-        user_id = 1
+        max_user_id = db.session.query(func.max(User.user_id)).first()[0]
+        user_id = randint(max_user_id+1, max_user_id+100)
+        user = crud.create_guest_user(user_id)
+        db.session.add(user)
+        db.session.commit()
     else:
         user_id = crud.get_user_id_by_email(logged_in_email)
 
@@ -231,6 +237,9 @@ def get_date_range():
     for date, expense in expense_chart_query:
         expenses.append({'date': date,
                         'expense': expense})
+
+    if logged_in_email is None:
+        crud.delete_guest_info(user_id)
 
 
     return jsonify({'startDate': start_date,
