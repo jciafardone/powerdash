@@ -445,11 +445,11 @@ def push_accounting_data(data, user_id, start_date, end_date):
         profit_loss_record = create_profit_loss(
             user_id, start_date, end_date, total_revenue, total_expenses, payroll_expenses)
 
-        in_database = False
-
         if profit_loss_query == []:
             db.session.add(profit_loss_record)
             db.session.commit()
+
+        in_database = False
 
         for row in profit_loss_query:
             if (
@@ -461,9 +461,9 @@ def push_accounting_data(data, user_id, start_date, end_date):
               ):
                 in_database = True
             
-            if in_database == False:
-                db.session.add(profit_loss_record)
-                db.session.commit()
+        if in_database == False:
+            db.session.add(profit_loss_record)
+            db.session.commit()
     except:
         pass
 
@@ -568,59 +568,100 @@ tables. Then the newly created rows are added and committed to the database.
 
 """
 
-def pull_reservation_data_from_csv(crm_csv):
+def pull_reservation_data_from_csv(crm_csv, user_id):
     """
     Takes in a CSV and creates new reservation records in the 
     reservation_data table.
     """
-    
-    with open(crm_csv, newline='') as csv_file:
-        csvreader = csv.DictReader(csv_file, quotechar='"')
+    try: 
+        reservation_query = db.session.query(Reservation).filter(
+            Reservation.user_id == user_id).all()
 
-        reservations_in_db = []
-        for reservation in csvreader:
-            client_id, class_date, class_name, class_instructor = (
-                reservation["client_id"],
-                reservation["class_date"],
-                reservation["class_name"],
-                reservation["class_instructor"],
-            )
+        with open(crm_csv, newline='') as csv_file:
+            
+            csvreader = csv.DictReader(csv_file, quotechar='"')
 
-            db_reservation = create_reservation(
-                client_id, class_date, class_name, class_instructor)
-            reservations_in_db.append(db_reservation)
+            for reservation in csvreader:
+                client_id,client_crm_id, class_date, class_name, class_instructor = (
+                    reservation["client_id"],
+                    reservation["client_crm_id"],
+                    reservation["class_date"],
+                    reservation["class_name"],
+                    reservation["class_instructor"],
+                )
 
-        db.session.add_all(reservations_in_db)
-        db.session.commit()
+                booking_record = create_reservation(
+                    client_id,client_crm_id, class_date, class_name, class_instructor, user_id)
+
+                if reservation_query == []:
+                    db.session.add(booking_record)
+                    db.session.commit()
+                
+                in_database = False
+
+                for row in reservation_query:
+                    if (
+                        row.client_id == booking_record.client_id
+                        and row.client_crm_id == booking_record.client_crm_id
+                        and str(row.class_date) == str(booking_record.date)
+                        and row.class_name == booking_record.class_name
+                        and row.class_instructor == booking_record.class_instructor
+                    ):
+                        in_database = True
+
+                if in_database == False:
+                    db.session.add(booking_record)
+                    db.session.commit()
+    except:
+        pass
 
 
-def pull_pl_data_from_csv(accounting_csv):
+def pull_pl_data_from_csv(accounting_csv, user_id):
     """
     Takes in a CSV and creates new profit and loss records in the 
     profit_and_loss table.
     """
+    try: 
+        profit_loss_query = db.session.query(ProfitLoss).filter(
+            ProfitLoss.user_id == user_id).all()
 
-    with open(accounting_csv, newline='') as csv_file:
-        csvreader = csv.DictReader(csv_file, quotechar='"')
+        with open(accounting_csv, newline='') as csv_file:
 
-        # Create profit and loss records, store them in a list
-        pl_in_db = []
-        for pl_record in csvreader:
-            user_id, period_start, period_end, total_revenue, total_expenses, payroll_expenses = (
-                pl_record["user_id"],
-                pl_record["period_start"],
-                pl_record["period_end"],
-                pl_record["total_revenue"],
-                pl_record["total_expenses"],
-                pl_record["payroll_expenses"]
-            )
+            csvreader = csv.DictReader(csv_file, quotechar='"')
 
-            db_pl_record = create_profit_loss(
-                user_id, period_start, period_end, total_revenue, total_expenses, payroll_expenses)
-            pl_in_db.append(db_pl_record)
+            for pl_record in csvreader:
+                period_start, period_end, total_revenue, total_expenses, payroll_expenses = (
+                    pl_record["period_start"],
+                    pl_record["period_end"],
+                    pl_record["total_revenue"],
+                    pl_record["total_expenses"],
+                    pl_record["payroll_expenses"]
+                )
 
-    db.session.add_all(pl_in_db)
-    db.session.commit()
+                profit_loss_record = create_profit_loss(
+                    user_id, period_start, period_end, total_revenue, total_expenses, payroll_expenses)
+
+                if profit_loss_query == []:
+                    db.session.add(profit_loss_record)
+                    db.session.commit()
+
+                in_database = False
+
+                for row in profit_loss_query:
+                    if (
+                        row.start_date == profit_loss_record.start_date 
+                        and row.end_date == profit_loss_record.end_date 
+                        and row.total_revenue == profit_loss_record.total_revenue 
+                        and row.total_expenses == profit_loss_record.total_expenses 
+                        and row.payroll_expenses == profit_loss_record.payroll_expenses
+                    ):
+                        in_database = True
+                    
+                if in_database == False:
+                    db.session.add(profit_loss_record)
+                    db.session.commit()
+    except:
+        pass
 
 
 """Delete function for guest users."""

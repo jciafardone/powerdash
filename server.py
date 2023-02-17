@@ -33,6 +33,7 @@ accounting_realm_id = None
 accounting_access_token = None
 crm_access_token = None
 logged_in_email = None
+user_id = None
 
 
 """Routes and functions to render pages and user flow"""
@@ -154,13 +155,16 @@ def get_date_range():
 
     #Get and store session information on the user
     global logged_in_email
+    global user_id
     logged_in_email = session.get("user_email",None)
-    if logged_in_email is None:
+    if user_id is None and logged_in_email is None:
         max_user_id = db.session.query(func.max(User.user_id)).first()[0]
         user_id = randint(max_user_id+1, max_user_id+100)
         user = crud.create_guest_user(user_id)
         db.session.add(user)
         db.session.commit()
+    elif user_id and logged_in_email is None:
+        pass
     else:
         user_id = crud.get_user_id_by_email(logged_in_email)
 
@@ -360,19 +364,33 @@ def crm_authorize():
 """Routes for CSV uploads"""
 @app.route("/csv_accounting_upload", methods=['POST'])
 def get_csv_accounting_data():
+    global logged_in_email
+    global user_id
+
+    logged_in_email = session.get("user_email", None)
+    if logged_in_email is None:
+        max_user_id = db.session.query(func.max(User.user_id)).first()[0]
+        user_id = randint(max_user_id+1, max_user_id+100)
+        user = crud.create_guest_user(user_id)
+        db.session.add(user)
+        db.session.commit()
+    else:
+        user_id = crud.get_user_id_by_email(logged_in_email)
+
     uploaded_file = request.files['accounting_file']
     file_path = os.path.join(app.config['ACCOUNTING_UPLOAD_FOLDER'],uploaded_file.filename)
     uploaded_file.save(file_path)
-    crud.pull_pl_data_from_csv(file_path)
+    crud.pull_pl_data_from_csv(file_path, user_id)
     return redirect('/csv')
 
 
 @app.route("/csv_crm_upload", methods=['POST'])
 def get_csv_crm_data():
+    global user_id
     uploaded_file = request.files['crm_file']
     file_path = os.path.join(app.config['CRM_UPLOAD_FOLDER'],uploaded_file.filename)
     uploaded_file.save(file_path)
-    crud.pull_reservation_data_from_csv(file_path)
+    crud.pull_reservation_data_from_csv(file_path, user_id)
     return redirect('/report')
 
 
