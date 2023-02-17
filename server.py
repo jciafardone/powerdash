@@ -8,6 +8,7 @@ import os
 from base64 import b64encode
 from random import randint
 from sqlalchemy.sql import func
+from passlib.hash import argon2
 
 #App configuration
 app = Flask(__name__)
@@ -66,11 +67,14 @@ def register_user():
     email = request.form.get("email")
     password = request.form.get("password")
 
+    hashed_password = argon2.hash(password)
+    del password
+
     user = crud.get_user_by_email(email)
     if user:
         flash("Cannot create an account with that email. Try again.")
     else:
-        user = crud.create_user(email, password)
+        user = crud.create_user(email, hashed_password)
         db.session.add(user)
         db.session.commit()
         flash("Account created! Please log in.")
@@ -86,7 +90,7 @@ def process_login():
     password = request.form.get("password")
 
     user = crud.get_user_by_email(email)
-    if not user or user.password != password:
+    if not user or argon2.verify(password, user.password):
         flash("The email or password you entered was incorrect.")
     else:
         # Log in user by storing the user's email in session

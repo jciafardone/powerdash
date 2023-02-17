@@ -9,6 +9,8 @@ import model
 import crud
 import server
 
+from passlib.hash import argon2
+
 os.system("dropdb powerdash")
 os.system("createdb powerdash")
 
@@ -25,7 +27,7 @@ with open("csv_data/users.csv", newline='') as csv_file:
     for user in csvreader:
         email,password = (
             user["email"],
-            user["password"]
+            argon2.hash(user["password"])
         )
         # release_date = datetime.strptime(movie["release_date"], "%Y-%m-%d")
 
