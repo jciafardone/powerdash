@@ -97,8 +97,9 @@ def process_login():
         # Log in user by storing the user's email in session
         session["user_email"] = user.email
         flash(f"Welcome back, {user.email}!")
+        user = session["user_email"]
 
-    return redirect("/")
+    return render_template("index.html", user=user)
 
 
 @app.route("/logout")

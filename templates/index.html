@@ -2,17 +2,20 @@
 {% block title %}Powerdash Home{% endblock %}
 
 {% block body %}
-<div class="container">
-    <h1>Welcome to Powerdash!</h1>
-
-    <h3>Generate powerful key performance indicator reports with data visualizations for your business.</h3>
-</div>
-<div class="container">
-    <p>
-        <a class='button' href="/accounting">Begin with Quickbooks and Square</a>
-    </p>
-    <p>
-        <a class='button' href="/csv">Begin with CSV Upload</a>
-    </p>
+<div class="container m-3">
+    <div class="row p-3">
+        <div class="col-sm-4 p-2">
+            <h2>Generate executive reports with key performance indicators and data visualizations for your business.</h2>
+            <p class="pt-3 pb-1">
+                <a class="btn btn-outline-success" href="/accounting">Begin with Quickbooks and Square</a>
+            </p>
+            <p class="pt-1 pb-3">
+                <a class="btn btn-outline-success" href="/csv">Begin with CSV Upload</a>
+            </p>
+        </div>
+        <div class="col-sm-8 p-2">
+            <img class="img-fluid float-right border border-2 border-dark" src="/static/pexels-alexander-suhorucov-6457515.jpg">
+        </div>
+    </div>
 </div>
 {% endblock %}
