@@ -91,5 +91,3 @@ function renderTable(responseJson) {
     document.querySelector('#retention').innerHTML = 
         responseJson.retention;
 }
-
-

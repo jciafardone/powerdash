@@ -23,6 +23,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     {% block head %}{% endblock %}
+
   </head>
 
   <nav class="navbar container-fluid bg-dark">
@@ -66,7 +67,38 @@
     {% endfor %}
 
     {% block body %}{% endblock %}
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+    {% block scripts %}{% endblock %}
   </body>
 
   <script src="/static/static.js"></script>
+
+  <!-- <script type="text/javascript">
+    $(function () {
+        $("#TestBtn").click(function () {
+            opendialog("http://localhost:5000/wave_login");
+        });
+
+        function opendialog(page) {
+            var $dialog = $('#testDiv')
+                .html(`<iframe style="border: 0px;" src="${page}" width="100%" height="100%"></iframe>`)
+                .dialog({
+                    title: "Page",
+                    autoOpen: false,
+                    dialogClass: 'dialog_fixed,ui-widget-header',
+                    modal: true,
+                    height: 500,
+                    minWidth: 400,
+                    minHeight: 400,
+                    draggable: true
+                });
+            $dialog.dialog('open');
+        }
+    });
+  </script>
+   -->
 </html>

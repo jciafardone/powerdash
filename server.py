@@ -9,9 +9,11 @@ from base64 import b64encode
 from random import randint
 from sqlalchemy.sql import func
 from passlib.hash import argon2
+from flask_modals import Modal, render_template_modal
 
 #App configuration
 app = Flask(__name__)
+modal = Modal(app)
 
 #Session configuration
 app.secret_key = f'os.environ["SECRET_KEY"]'
@@ -41,14 +43,21 @@ user_id = None
 @app.route("/")
 def homepage():
     """View homepage."""
+    api = (('https://appcenter.intuit.com/connect/oauth2'
+        f'?client_id={os.environ["QBCLIENT_ID"]}'
+        '&response_type=code'
+        '&scope=com.intuit.quickbooks.accounting'
+        '&redirect_uri=http://localhost:5000/authorize'
+        '&state=abcde'))
     return render_template(
-        "index.html")
+        "index.html", api=api)
 
 
 @app.route('/accounting')
 def render_accounting():
     """Render accounting API login page"""
-    return render_template('accounting.html')
+    modal = 'exampleModal'
+    return render_template_modal('accounting.html', modal=modal)
 
 
 @app.route('/crm')

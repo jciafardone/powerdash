@@ -1,10 +1,14 @@
 {% extends 'base.html' %}
 {% block title %}Powerdash Home{% endblock %}
+{% block headercontent %} Content-Security-Policy: frame-ancestors 'self' {% endblock %}
 
 {% block body %}
 <div class="container">
     <div class="column">
         <a class='button' href="/wave_login">Quickbooks Login</a>
     </div>
+</div>
+<div>
+    <iframe src="/wave_login" title="description"></iframe>
 </div>
 {% endblock %}
