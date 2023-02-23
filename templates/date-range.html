@@ -3,85 +3,85 @@
 {% block head %}<script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>{% endblock %}
 
 {% block body %}
-<div id="date-filter">
+<div id="date-filter" class="container pt-4 pb-4">
     <form action="/date" method="POST">
-        <label for="start">Start date:</label>
+        <label for="start">Period start:</label>
         <input type="date" id="start-date" name="start-date">
-        <label for="end">End date:</label>
+        <label for="end">Period end:</label>
         <input type="date" id="end-date" name="end-date">
         <input type="submit" value="Submit"></form>
     </form>
 </div>
    
 <div class="container">
-    <h1>KPIs</h1>
-    <h2 id="date-header"></h2>
-    <table>
-        <tr>
-            <td>Net Sales per Class</td>
-            <td id="net-sales">{{ net_sales_per_class }}</td>
-        </tr>
-        <tr>
-            <td>Expenses per Class</td>
-            <td id="expenses-per-class">{{ expenses_per_class }}</td>
-        </tr>
-        <tr>
-            <td>Payroll per Class</td>
-            <td id="payroll-per-class">{{ payroll_per_class }}</td>
-        </tr>
-        <tr>
-            <td>Total discount %</td>
-            <td id="total-discounts">{{ discounts_percentage }}</td>
-        </tr>
-        <tr>
-            <td>Profit per Class</td>
-            <td id="profit-per-class">{{ profit_per_class }}</td>
-        </tr>
-        <tr>
-            <td>Profit Margin</td>
-            <td id="profit-margin">{{ profit_margin }}</td>
-        </tr>
-        <tr>
-            <td>Occupancy Rate</td>
-            <td id="occupancy-rate">{{ occupancy_rate }}</td>
-        </tr>
-        <tr>
-            <td>Average Bookings</td>
-            <td id="average-bookings">{{ average_bookings }}</td>
-        </tr>
-        <tr>
-            <td>Break even Bookings</td>
-            <td id="break-even-bookings">{{ break_even_bookings }}</td>
-        </tr>
-        <tr>
-            <td>Net sales growth MOM</td>
-            <td id="net-sales-growth">{{ MOM_sales_growth }}</td>
-        </tr>
-        <tr>
-            <td>MOM expense growth</td>
-            <td id="expense-growth">{{ MOM_expense_growth }}</td>
-        </tr>
-        <tr>
-            <td>New students</td>
-            <td id="new-students">{{ new_students }}</td>
-        </tr>
-        <tr>
-            <td>90 day retention rate</td>
-            <td id="retention">{{ retention }} </td>
-        </tr>
-    </table>
+    <h1>Executive Report</h1>
+    <h3 id="date-header"></h3>
+    <div class="row">
+        <div class="col-md-3">
+            <table class="table table-bordered table-striped w-auto pr-0">
+                <tr>
+                    <td>Net Sales per Class</td>
+                    <td id="net-sales">{{ net_sales_per_class }}</td>
+                </tr>
+                <tr>
+                    <td>Expenses per Class</td>
+                    <td id="expenses-per-class">{{ expenses_per_class }}</td>
+                </tr>
+                <tr>
+                    <td>Payroll per Class</td>
+                    <td id="payroll-per-class">{{ payroll_per_class }}</td>
+                </tr>
+                <tr>
+                    <td>Total discount %</td>
+                    <td id="total-discounts">{{ discounts_percentage }}</td>
+                </tr>
+                <tr>
+                    <td>Profit per Class</td>
+                    <td id="profit-per-class">{{ profit_per_class }}</td>
+                </tr>
+                <tr>
+                    <td>Profit Margin</td>
+                    <td id="profit-margin">{{ profit_margin }}</td>
+                </tr>
+                <tr>
+                    <td>Occupancy Rate</td>
+                    <td id="occupancy-rate">{{ occupancy_rate }}</td>
+                </tr>
+                <tr>
+                    <td>Average Bookings</td>
+                    <td id="average-bookings">{{ average_bookings }}</td>
+                </tr>
+                <tr>
+                    <td>Break even Bookings</td>
+                    <td id="break-even-bookings">{{ break_even_bookings }}</td>
+                </tr>
+                <tr>
+                    <td>Net sales growth MOM</td>
+                    <td id="net-sales-growth">{{ MOM_sales_growth }}</td>
+                </tr>
+                <tr>
+                    <td>MOM expense growth</td>
+                    <td id="expense-growth">{{ MOM_expense_growth }}</td>
+                </tr>
+                <tr>
+                    <td>New students</td>
+                    <td id="new-students">{{ new_students }}</td>
+                </tr>
+                <tr>
+                    <td>90 day retention rate</td>
+                    <td id="retention">{{ retention }} </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-9">
+            <canvas id="profit-margin-chart" class="m-0 py-2"></canvas>
+            <canvas id="revenue-expense-chart" class="m-0 py-2"></canvas>
+        </div>
+    </div>
 </div>
 
-<div class="container">
-    <canvas id="profit-margin-chart"></canvas>
-</div>
+{% endblock %}
 
-<div class="container">
-    <canvas id="revenue-expense-chart"></canvas>
-</div>
-
-<div class="container">
-    <canvas id="expenses-chart"></canvas>
-</div>
-
+{% block scripts %}
+<script src="/static/report.js"></script>
 {% endblock %}

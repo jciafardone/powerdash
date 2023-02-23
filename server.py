@@ -10,6 +10,8 @@ from random import randint
 from sqlalchemy.sql import func
 from passlib.hash import argon2
 from flask_modals import Modal, render_template_modal
+from datetime import datetime
+import calendar
 
 #App configuration
 app = Flask(__name__)
@@ -37,20 +39,22 @@ crm_access_token = None
 logged_in_email = None
 user_id = None
 
+"""Convert date helper function"""
+def convert_date(date):
+    date = datetime.fromisoformat(date)
+    month = date.month
+    year = date.year
+    month = calendar.month_name[month]
+    return str(month) + ' ' + str(year)
+
 
 """Routes and functions to render pages and user flow"""
 
 @app.route("/")
 def homepage():
     """View homepage."""
-    api = (('https://appcenter.intuit.com/connect/oauth2'
-        f'?client_id={os.environ["QBCLIENT_ID"]}'
-        '&response_type=code'
-        '&scope=com.intuit.quickbooks.accounting'
-        '&redirect_uri=http://localhost:5000/authorize'
-        '&state=abcde'))
     return render_template(
-        "index.html", api=api)
+        "index.html")
 
 
 @app.route('/accounting')
@@ -235,7 +239,7 @@ def get_date_range():
     profit_margins = []
 
     for date, margin in profit_margin_query:
-        profit_margins.append({'date': date,
+        profit_margins.append({'date': convert_date(date),
                                 'profit_margin': margin})
     
     #Prepare revenue data for revenue and expense bar chart
@@ -244,7 +248,7 @@ def get_date_range():
     revenues = []
 
     for date, revenue in revenue_chart_query:
-        revenues.append({'date': date,
+        revenues.append({'date': convert_date(date),
                         'revenue': revenue})
 
     #Prepare expense data for revenue and expense bar chart
@@ -253,12 +257,11 @@ def get_date_range():
     expenses = []
 
     for date, expense in expense_chart_query:
-        expenses.append({'date': date,
+        expenses.append({'date': convert_date(date),
                         'expense': expense})
-
+    
     if logged_in_email is None:
         crud.delete_guest_info(user_id)
-
 
     return jsonify({'startDate': start_date,
         'endDate': end_date,
@@ -324,13 +327,12 @@ def authorize():
     global accounting_access_token
     accounting_access_token = token_info['access_token']
 
-    return render_template('crm.html')
+    return redirect("/crm_login")
 
 
 @app.route('/crm_login')
 def get_crm_data():
     """redirect to Square OAuth authorization; will automatically redirect to /crm_authorize route"""
-
     return redirect(('https://connect.squareup.com/oauth2/authorize'
         f'?client_id={os.environ["SQCLIENT_ID"]}'
         '&scope=CUSTOMERS_READ+APPOINTMENTS_READ+APPOINTMENTS_ALL_READ+ORDERS_READ'
@@ -367,7 +369,13 @@ def crm_authorize():
     global crm_access_token
     crm_access_token = response['access_token']
     
-    return redirect('/report')
+    return redirect('/close_popup')
+
+
+@app.route('/close_popup')
+def close_popup():
+    return render_template("close_popup.html")
+
 
 
 

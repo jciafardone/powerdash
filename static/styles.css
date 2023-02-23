@@ -5,3 +5,13 @@ body{
 table, th, td {
     border: 1px solid;
 }
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: lightcyan;
+ }
+
+ /* canvas{
+    height: 300px !important;
+    width: auto !important;
+  } */
