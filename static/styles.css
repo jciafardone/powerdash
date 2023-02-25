@@ -11,6 +11,10 @@ table, th, td {
    background-color: lightcyan;
  }
 
+footer {
+  background-color: black;
+}
+
  /* canvas{
     height: 300px !important;
     width: auto !important;
